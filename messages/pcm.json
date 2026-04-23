@@ -1,0 +1,74 @@
+{
+  "nav": { "learn": "Learn", "quiz": "Quiz", "leaderboard": "Leaderboard", "startLearning": "Start Learn" },
+  "hero": {
+    "badge": "Concrete Academy — Official Education Platform",
+    "title": "Master Di Best DeFi",
+    "titleHighlight": "Yield System Wey Exist",
+    "subtitle": "Learn Concrete DeFi through organized content, test your knowledge with ranked quiz, and get answers from AI wey dem train on official Concrete docs.",
+    "ctaLearn": "Start Learn", "ctaQuiz": "Take Quiz",
+    "stat1": "6 Languages", "stat2": "2 Quiz Levels", "stat3": "4 Rank Tiers", "stat4": "Powered by Concrete Docs"
+  },
+  "features": {
+    "title": "Four Pillars of", "titleHighlight": "Concrete Protocol",
+    "modular": "Modular Architecture", "modularDesc": "Parts wey fit work together and dey updated, wey dem design for DeFi wey dey always change.",
+    "quant": "Quantitative Modeling", "quantDesc": "Data-based risk assessment and money allocation wey big institutions dey use, applied at protocol level.",
+    "risk": "Risk Management", "riskDesc": "Organized risk controls wey dem put directly inside vault strategies — not added later.",
+    "crosschain": "Cross-Chain Integration", "crosschainDesc": "One place to access yield opportunities for many different blockchains, to maximize how your money work."
+  },
+  "learning": {
+    "title": "Your", "titleHighlight": "Learning Path",
+    "step1Title": "Study Di Protocol", "step1Desc": "Read organized modules wey cover Concrete architecture, vaults, risk models, and more.",
+    "step2Title": "Test Your Knowledge", "step2Desc": "Take ranked quiz for two levels — from basic concepts to how mechanisms work.",
+    "step3Title": "Earn Your Rank", "step3Desc": "Score 81%+ to reach MASTER rank. Climb global leaderboard.",
+    "viewModules": "See All Modules", "takeQuiz": "Take Quiz"
+  },
+  "quiz": {
+    "title": "Choose Your", "titleHighlight": "Challenge",
+    "level1": "Level 1", "level1Title": "Concrete Basics",
+    "level1Desc": "15 concept questions about Concrete main mission, vaults, risk management, and ecosystem.",
+    "level1Duration": "~10 min", "level2": "Level 2", "level2Title": "Concrete Deep Mechanics",
+    "level2Desc": "12 advanced questions about cross-chain execution, quantitative models, and protocol architecture.",
+    "level2Duration": "~12 min", "recommended": "Start Here", "advanced": "Advanced",
+    "startLevel1": "Start Level 1", "startLevel2": "Start Level 2"
+  },
+  "chatbot": {
+    "bannerTitle": "Ask Concrete Analyst Anything",
+    "bannerDesc": "Our AI dem train am only with official Concrete docs. Get correct, authoritative answers for your language.",
+    "openChat": "Open Chat", "placeholder": "Ask about Concrete protocol...",
+    "sending": "Sending...", "typingIndicator": "Concrete Analyst dey think...",
+    "welcomeMessage": "How do. I be Concrete Analyst — your guide for learning Concrete protocol. I only answer from official Concrete docs. Wetin you want understand?"
+  },
+  "leaderboard": {
+    "title": "Global", "titleHighlight": "Leaderboard",
+    "level1Tab": "Level 1", "level2Tab": "Level 2",
+    "rank": "Rank", "username": "Username", "score": "Score", "language": "Language", "date": "Date",
+    "empty": "No scores yet. Be the first person!"
+  },
+  "quizEngine": {
+    "question": "Question", "of": "of",
+    "submit": "Submit Answer", "next": "Next Question", "viewResults": "See Your Result",
+    "correct": "Correct!", "incorrect": "Wrong", "explanation": "Explanation",
+    "yourScore": "Your Score", "rank": "Your Rank",
+    "submitScore": "Submit to Leaderboard", "username": "Enter username",
+    "submitting": "Submitting...", "submitted": "Score Submitted!",
+    "playAgain": "Play Again", "retake": "Retake Quiz"
+  },
+  "ranks": { "newbie": "NEWBIE", "navigator": "NAVIGATOR", "guru": "GURU", "master": "MASTER" },
+  "masterTeaser": {
+    "title": "New Level Dey Come...",
+    "subtitle": "You don master everything wey exist today. But Concrete Protocol dey grow.",
+    "body": "New challenge dey forge. Stay close.",
+    "follow": "Follow @ConcreteXYZ"
+  },
+  "footer": {
+    "tagline": "Turn every DeFi learner into Concrete Master.",
+    "disclaimer": "Concrete Academy — Education platform. No be financial advice.",
+    "links": { "docs": "Documentation", "app": "Open App", "blog": "Blog", "audit": "Security Audit", "twitter": "Twitter/X", "points": "Points Campaign" }
+  },
+  "learn": {
+    "title": "Learning", "titleHighlight": "Modules",
+    "subtitle": "Organized content wey come directly from official Concrete documentation.",
+    "readMore": "Read Module", "readTime": "min read", "backToModules": "Go Back to Modules"
+  },
+  "common": { "loading": "Loading...", "error": "Something don go wrong", "tryAgain": "Try Again" }
+}

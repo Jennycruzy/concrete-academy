@@ -1,0 +1,136 @@
+{
+  "nav": {
+    "learn": "Learn",
+    "quiz": "Quiz",
+    "leaderboard": "Leaderboard",
+    "startLearning": "Start Learning"
+  },
+  "hero": {
+    "badge": "Concrete Academy — Official Education Platform",
+    "title": "Master DeFi's Most Sophisticated",
+    "titleHighlight": "Yield Infrastructure",
+    "subtitle": "Learn Concrete DeFi through structured content, test your knowledge with ranked quizzes, and get answers from an AI trained on official documentation.",
+    "ctaLearn": "Start Learning",
+    "ctaQuiz": "Take the Quiz",
+    "stat1": "6 Languages",
+    "stat2": "2 Quiz Levels",
+    "stat3": "4 Rank Tiers",
+    "stat4": "Powered by Concrete Docs"
+  },
+  "features": {
+    "title": "Four Pillars of",
+    "titleHighlight": "Concrete Protocol",
+    "modular": "Modular Architecture",
+    "modularDesc": "Composable, upgradeable components designed for the evolving DeFi landscape. Each module serves a distinct role without compromising system integrity.",
+    "quant": "Quantitative Modeling",
+    "quantDesc": "Data-driven risk assessment and capital allocation powered by institutional-grade mathematical frameworks applied at the protocol level.",
+    "risk": "Risk Management",
+    "riskDesc": "Systematic risk controls embedded directly into vault strategies — not bolted on. Continuous monitoring and dynamic position management.",
+    "crosschain": "Cross-Chain Integration",
+    "crosschainDesc": "Unified access to yield opportunities across major blockchain ecosystems, maximizing capital efficiency without chain fragmentation."
+  },
+  "learning": {
+    "title": "Your Learning",
+    "titleHighlight": "Path",
+    "step1Title": "Study the Protocol",
+    "step1Desc": "Read structured modules covering Concrete's architecture, vaults, risk models, and more.",
+    "step2Title": "Test Your Knowledge",
+    "step2Desc": "Take ranked quizzes across two levels — conceptual foundations to mechanism mastery.",
+    "step3Title": "Earn Your Rank",
+    "step3Desc": "Score 81%+ to achieve MASTER rank. Climb the global leaderboard.",
+    "viewModules": "View All Modules",
+    "takeQuiz": "Take the Quiz"
+  },
+  "quiz": {
+    "title": "Choose Your",
+    "titleHighlight": "Challenge",
+    "level1": "Level 1",
+    "level1Title": "Concrete Foundations",
+    "level1Desc": "15 conceptual questions covering Concrete's core mission, vaults, risk management, and ecosystem.",
+    "level1Duration": "~10 min",
+    "level2": "Level 2",
+    "level2Title": "Concrete Mechanisms",
+    "level2Desc": "12 advanced questions on cross-chain execution, quantitative models, and protocol architecture.",
+    "level2Duration": "~12 min",
+    "recommended": "Start Here",
+    "advanced": "Advanced",
+    "startLevel1": "Start Level 1",
+    "startLevel2": "Start Level 2"
+  },
+  "chatbot": {
+    "bannerTitle": "Ask The Concrete Analyst Anything",
+    "bannerDesc": "Our AI is trained exclusively on official Concrete documentation. Get precise, authoritative answers in your language.",
+    "openChat": "Open Chat",
+    "placeholder": "Ask about Concrete protocol...",
+    "sending": "Sending...",
+    "typingIndicator": "The Concrete Analyst is thinking...",
+    "welcomeMessage": "Hello. I am The Concrete Analyst — your institutional-grade guide to the Concrete protocol. I answer exclusively from official Concrete documentation. What would you like to understand?"
+  },
+  "leaderboard": {
+    "title": "Global",
+    "titleHighlight": "Leaderboard",
+    "level1Tab": "Level 1",
+    "level2Tab": "Level 2",
+    "rank": "Rank",
+    "username": "Username",
+    "score": "Score",
+    "language": "Language",
+    "date": "Date",
+    "empty": "No scores yet. Be the first!"
+  },
+  "quizEngine": {
+    "question": "Question",
+    "of": "of",
+    "submit": "Submit Answer",
+    "next": "Next Question",
+    "viewResults": "View Results",
+    "correct": "Correct!",
+    "incorrect": "Incorrect",
+    "explanation": "Explanation",
+    "yourScore": "Your Score",
+    "rank": "Your Rank",
+    "submitScore": "Submit to Leaderboard",
+    "username": "Enter username",
+    "submitting": "Submitting...",
+    "submitted": "Score Submitted!",
+    "playAgain": "Play Again",
+    "retake": "Retake Quiz"
+  },
+  "ranks": {
+    "newbie": "NEWBIE",
+    "navigator": "NAVIGATOR",
+    "guru": "GURU",
+    "master": "MASTER"
+  },
+  "masterTeaser": {
+    "title": "A New Level is Coming...",
+    "subtitle": "You have mastered what exists today. But the Concrete Protocol grows.",
+    "body": "A new challenge is being forged. Stay close.",
+    "follow": "Follow @ConcreteXYZ"
+  },
+  "footer": {
+    "tagline": "Turn every DeFi learner into a Concrete Master.",
+    "disclaimer": "Concrete Academy — Educational platform. Not financial advice.",
+    "links": {
+      "docs": "Documentation",
+      "app": "Launch App",
+      "blog": "Blog",
+      "audit": "Security Audit",
+      "twitter": "Twitter/X",
+      "points": "Points Campaign"
+    }
+  },
+  "learn": {
+    "title": "Learning",
+    "titleHighlight": "Modules",
+    "subtitle": "Structured content sourced directly from official Concrete documentation.",
+    "readMore": "Read Module",
+    "readTime": "min read",
+    "backToModules": "Back to Modules"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "tryAgain": "Try Again"
+  }
+}

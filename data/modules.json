@@ -1,0 +1,279 @@
+[
+  {
+    "id": "mod_001",
+    "slug": "what-is-concrete",
+    "icon": "🏗️",
+    "readingTime": 5,
+    "title": {
+      "en": "What is Concrete DeFi?",
+      "zh": "什么是Concrete DeFi？",
+      "vi": "Concrete DeFi là gì?",
+      "id": "Apa itu Concrete DeFi?",
+      "tr": "Concrete DeFi Nedir?",
+      "pcm": "Wetin be Concrete DeFi?"
+    },
+    "description": {
+      "en": "Understand the core mission, vision, and value proposition of the Concrete protocol.",
+      "zh": "了解Concrete协议的核心使命、愿景和价值主张。",
+      "vi": "Hiểu sứ mệnh cốt lõi, tầm nhìn và đề xuất giá trị của giao thức Concrete.",
+      "id": "Pahami misi inti, visi, dan proposisi nilai protokol Concrete.",
+      "tr": "Concrete protokolünün temel misyonunu, vizyonunu ve değer önerisini anlayın.",
+      "pcm": "Understand di main mission, vision and value of Concrete protocol."
+    },
+    "content": {
+      "en": [
+        {
+          "type": "heading",
+          "text": "The Full-Stack Yield Infrastructure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Concrete is a DeFi protocol purpose-built to deliver institutional-grade yield infrastructure. Unlike simple aggregators or single-strategy vaults, Concrete provides an end-to-end system encompassing strategy design, quantitative risk modeling, execution, and cross-chain deployment."
+        },
+        {
+          "type": "heading",
+          "text": "Four Core Pillars"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Modular Architecture: Composable components that evolve with the DeFi landscape",
+            "Quantitative Modeling: Data-driven risk assessment and capital allocation",
+            "Risk Management: Systematic controls embedded at the protocol level",
+            "Cross-Chain Integration: Unified access to yield across multiple blockchains"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Who is Concrete For?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Concrete targets institutional-grade depositors — sophisticated participants who prioritize transparency, systematic risk management, and sustainable yield over speculative high-APY opportunities."
+        },
+        {
+          "type": "link",
+          "text": "Read the full documentation",
+          "url": "https://docs.concrete.xyz/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mod_002",
+    "slug": "vaults-explained",
+    "icon": "🔐",
+    "readingTime": 6,
+    "title": {
+      "en": "Vaults Explained",
+      "zh": "金库详解",
+      "vi": "Giải thích về Vault",
+      "id": "Vault Dijelaskan",
+      "tr": "Vault'lar Açıklandı",
+      "pcm": "Vault Explained"
+    },
+    "description": {
+      "en": "Deep dive into how Concrete Vaults work, from capital deployment to yield distribution.",
+      "zh": "深入了解Concrete金库的工作原理，从资本部署到收益分配。",
+      "vi": "Đi sâu vào cách Vault Concrete hoạt động, từ triển khai vốn đến phân phối yield.",
+      "id": "Pendalaman cara kerja Vault Concrete, dari penempatan modal hingga distribusi yield.",
+      "tr": "Concrete Vault'larının sermaye dağıtımından getiri dağıtımına kadar nasıl çalıştığını derinlemesine inceleyin.",
+      "pcm": "Go deep inside how Concrete Vaults dey work, from putting money to sharing profit."
+    },
+    "content": {
+      "en": [
+        {
+          "type": "heading",
+          "text": "What is a Vault?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A Vault in the Concrete protocol is an automated, risk-managed strategy that accepts deposited capital and deploys it across yield-generating DeFi protocols. Vaults apply quantitative risk models continuously to manage exposure and optimize returns."
+        },
+        {
+          "type": "heading",
+          "text": "The Vault Lifecycle"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Deposit: User deposits capital into the vault",
+            "Deployment: Capital is allocated across DeFi protocols per the quantitative model",
+            "Monitoring: Risk metrics are continuously tracked and evaluated",
+            "Rebalancing: Positions are adjusted when conditions breach defined thresholds",
+            "Yield Accrual: Returns are collected and attributed to depositors",
+            "Withdrawal: Users can redeem their proportional share of vault assets"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mod_003",
+    "slug": "quantitative-risk",
+    "icon": "📊",
+    "readingTime": 7,
+    "title": {
+      "en": "Quantitative Risk Modeling",
+      "zh": "量化风险建模",
+      "vi": "Mô hình Rủi ro Định lượng",
+      "id": "Pemodelan Risiko Kuantitatif",
+      "tr": "Nicel Risk Modellemesi",
+      "pcm": "Quantitative Risk Modeling"
+    },
+    "description": {
+      "en": "Explore the mathematical and statistical frameworks that power Concrete's risk management.",
+      "zh": "探索支撑Concrete风险管理的数学和统计框架。",
+      "vi": "Khám phá các khung toán học và thống kê cung cấp năng lực cho quản lý rủi ro của Concrete.",
+      "id": "Jelajahi kerangka matematika dan statistik yang mendukung manajemen risiko Concrete.",
+      "tr": "Concrete'nin risk yönetimini destekleyen matematiksel ve istatistiksel çerçeveleri keşfedin.",
+      "pcm": "Explore the mathematics and statistics wey power Concrete risk management."
+    },
+    "content": {
+      "en": [
+        {
+          "type": "heading",
+          "text": "Why Quantitative Modeling?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Traditional DeFi vaults often rely on manual curation or simple fixed strategies. Concrete's approach uses quantitative modeling — the same discipline used by institutional asset managers — to make data-driven, systematic decisions about capital allocation and risk exposure."
+        },
+        {
+          "type": "heading",
+          "text": "Key Modeling Concepts"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Risk Scoring: Assigning quantitative risk scores to assets and protocols",
+            "Position Sizing: Determining optimal allocation weights based on risk-return profiles",
+            "Correlation Analysis: Understanding how assets move relative to each other",
+            "Volatility Modeling: Quantifying and managing market volatility exposure",
+            "Drawdown Controls: Setting maximum acceptable loss thresholds"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mod_004",
+    "slug": "cross-chain",
+    "icon": "⛓️",
+    "readingTime": 5,
+    "title": {
+      "en": "Cross-Chain Infrastructure",
+      "zh": "跨链基础设施",
+      "vi": "Cơ sở hạ tầng Cross-Chain",
+      "id": "Infrastruktur Lintas-Chain",
+      "tr": "Çapraz Zincir Altyapısı",
+      "pcm": "Cross-Chain Infrastructure"
+    },
+    "description": {
+      "en": "Learn how Concrete operates seamlessly across multiple blockchain ecosystems.",
+      "zh": "了解Concrete如何在多个区块链生态系统中无缝运行。",
+      "vi": "Tìm hiểu cách Concrete hoạt động liền mạch trên nhiều hệ sinh thái blockchain.",
+      "id": "Pelajari bagaimana Concrete beroperasi dengan mulus di berbagai ekosistem blockchain.",
+      "tr": "Concrete'nin birden fazla blockchain ekosisteminde sorunsuz nasıl çalıştığını öğrenin.",
+      "pcm": "Learn how Concrete dey work smoothly for many different blockchains."
+    },
+    "content": {
+      "en": [
+        {
+          "type": "heading",
+          "text": "The Cross-Chain Opportunity"
+        },
+        {
+          "type": "paragraph",
+          "text": "DeFi yield opportunities are distributed across many blockchains. By operating cross-chain, Concrete can access a significantly wider universe of yield sources, diversify risk across ecosystems, and optimize capital deployment without constraining users to a single chain."
+        }
+      ]
+    }
+  },
+  {
+    "id": "mod_005",
+    "slug": "security-audit",
+    "icon": "🛡️",
+    "readingTime": 4,
+    "title": {
+      "en": "Security & The Halborn Audit",
+      "zh": "安全性与Halborn审计",
+      "vi": "Bảo mật & Kiểm tra Halborn",
+      "id": "Keamanan & Audit Halborn",
+      "tr": "Güvenlik & Halborn Denetimi",
+      "pcm": "Security & Halborn Audit"
+    },
+    "description": {
+      "en": "Understand the security measures and the independent Halborn audit that validates the protocol.",
+      "zh": "了解验证协议的安全措施和独立的Halborn审计。",
+      "vi": "Hiểu các biện pháp bảo mật và kiểm tra độc lập của Halborn xác nhận giao thức.",
+      "id": "Pahami langkah-langkah keamanan dan audit Halborn independen yang memvalidasi protokol.",
+      "tr": "Protokolü doğrulayan güvenlik önlemlerini ve bağımsız Halborn denetimini anlayın.",
+      "pcm": "Understand the security measures and independent Halborn audit wey validate di protocol."
+    },
+    "content": {
+      "en": [
+        {
+          "type": "heading",
+          "text": "Security-First Design"
+        },
+        {
+          "type": "paragraph",
+          "text": "Security at Concrete is not an afterthought. The protocol was built with security-first principles: modular smart contract architecture to contain risk, access controls to prevent unauthorized actions, and independent third-party audits to validate the codebase."
+        },
+        {
+          "type": "heading",
+          "text": "The Halborn Audit"
+        },
+        {
+          "type": "paragraph",
+          "text": "Halborn Security — one of the leading blockchain security firms — conducted a comprehensive audit of the Concrete (formerly Blueprint Finance) protocol. The audit covered smart contract logic, access control mechanisms, economic attack vectors, and overall security posture."
+        },
+        {
+          "type": "link",
+          "text": "View the Halborn Audit Report",
+          "url": "https://www.halborn.com/audits/blueprint-finance"
+        }
+      ]
+    }
+  },
+  {
+    "id": "mod_006",
+    "slug": "points-campaign",
+    "icon": "🎯",
+    "readingTime": 3,
+    "title": {
+      "en": "The Points Campaign",
+      "zh": "积分活动",
+      "vi": "Chương trình Điểm",
+      "id": "Kampanye Poin",
+      "tr": "Puan Kampanyası",
+      "pcm": "Di Points Campaign"
+    },
+    "description": {
+      "en": "Learn how to participate in Concrete's Points Campaign and what it means for the ecosystem.",
+      "zh": "了解如何参与Concrete的积分活动及其对生态系统的意义。",
+      "vi": "Tìm hiểu cách tham gia Chương trình Điểm của Concrete và ý nghĩa của nó.",
+      "id": "Pelajari cara berpartisipasi dalam Kampanye Poin Concrete dan artinya bagi ekosistem.",
+      "tr": "Concrete'nin Puan Kampanyasına nasıl katılacağınızı ve bunun ekosistem için ne anlama geldiğini öğrenin.",
+      "pcm": "Learn how to join Concrete Points Campaign and wetin e mean for di ecosystem."
+    },
+    "content": {
+      "en": [
+        {
+          "type": "heading",
+          "text": "What is the Points Campaign?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Concrete Points Campaign rewards early participants and community members for their engagement with the Concrete ecosystem. Points can be earned through various participation activities."
+        },
+        {
+          "type": "link",
+          "text": "Join the Points Campaign",
+          "url": "https://points.concrete.xyz/home"
+        }
+      ]
+    }
+  }
+]

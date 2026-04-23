@@ -1,0 +1,1153 @@
+{
+  "level": 1,
+  "title": {
+    "en": "Concrete Foundations",
+    "zh": "Concrete基础知识",
+    "vi": "Nền tảng Concrete",
+    "id": "Dasar-Dasar Concrete",
+    "tr": "Concrete Temelleri",
+    "pcm": "Concrete Basics"
+  },
+  "questions": [
+    {
+      "id": "l1_001",
+      "topic": "overview",
+      "text": {
+        "en": "What is Concrete's core mission in the DeFi ecosystem?",
+        "zh": "Concrete在DeFi生态系统中的核心使命是什么？",
+        "vi": "Sứ mệnh cốt lõi của Concrete trong hệ sinh thái DeFi là gì?",
+        "id": "Apa misi utama Concrete dalam ekosistem DeFi?",
+        "tr": "Concrete'nin DeFi ekosistemindeki temel misyonu nedir?",
+        "pcm": "Wetin be Concrete main mission for DeFi world?"
+      },
+      "options": {
+        "en": ["A) To operate a centralized exchange", "B) To provide full-stack, institutional-grade yield infrastructure", "C) To issue a new stablecoin", "D) To offer NFT minting services"],
+        "zh": ["A) 运营中心化交易所", "B) 提供全栈机构级收益基础设施", "C) 发行新稳定币", "D) 提供NFT铸造服务"],
+        "vi": ["A) Vận hành sàn giao dịch tập trung", "B) Cung cấp cơ sở hạ tầng yield cấp tổ chức toàn diện", "C) Phát hành stablecoin mới", "D) Cung cấp dịch vụ đúc NFT"],
+        "id": ["A) Mengoperasikan bursa terpusat", "B) Menyediakan infrastruktur yield tingkat institusi full-stack", "C) Menerbitkan stablecoin baru", "D) Menawarkan layanan pencetakan NFT"],
+        "tr": ["A) Merkezi bir borsa işletmek", "B) Kurumsal düzeyde tam yığın getiri altyapısı sağlamak", "C) Yeni bir stablecoin çıkarmak", "D) NFT basım hizmetleri sunmak"],
+        "pcm": ["A) To run exchange wey dey controlled", "B) To provide full-stack yield system wey big institutions fit use", "C) To create new stablecoin", "D) To offer NFT services"]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Concrete's core mission is to deliver full-stack yield infrastructure designed for institutional-grade depositors. The protocol focuses on automated, risk-managed strategies that provide transparent and sustainable yield across major blockchain ecosystems.",
+        "zh": "Concrete的核心使命是为机构级存款人提供全栈收益基础设施。该协议专注于自动化、风险管理策略，在主要区块链生态系统中提供透明、可持续的收益。",
+        "vi": "Sứ mệnh cốt lõi của Concrete là cung cấp cơ sở hạ tầng yield toàn diện được thiết kế cho người dùng cấp tổ chức. Giao thức tập trung vào các chiến lược tự động, quản lý rủi ro, cung cấp yield minh bạch và bền vững.",
+        "id": "Misi utama Concrete adalah menyediakan infrastruktur yield full-stack yang dirancang untuk deposan tingkat institusi. Protokol ini berfokus pada strategi otomatis dan terkelola risiko yang memberikan yield transparan dan berkelanjutan.",
+        "tr": "Concrete'nin temel misyonu, kurumsal düzeyde yatırımcılar için tasarlanmış tam yığın getiri altyapısı sunmaktır. Protokol, büyük blok zinciri ekosistemlerinde şeffaf ve sürdürülebilir getiri sağlayan otomatik, risk yönetimli stratejilere odaklanır.",
+        "pcm": "Concrete main mission na to provide full system for getting yield (profit) wey big companies and serious investors fit use. E dey work automatic and e dey manage risk well-well."
+      }
+    },
+    {
+      "id": "l1_002",
+      "topic": "vaults",
+      "text": {
+        "en": "What is the primary function of a Vault in the Concrete protocol?",
+        "zh": "在Concrete协议中，「金库（Vault）」的主要功能是什么？",
+        "vi": "Chức năng chính của Vault trong giao thức Concrete là gì?",
+        "id": "Apa fungsi utama Vault dalam protokol Concrete?",
+        "tr": "Concrete protokolünde Vault'un temel işlevi nedir?",
+        "pcm": "Wetin be di main work of Vault inside Concrete protocol?"
+      },
+      "options": {
+        "en": ["A) A token minting mechanism", "B) An automated, risk-managed strategy for capital deployment and yield generation", "C) A decentralized exchange interface", "D) A simple token staking contract"],
+        "zh": ["A) 代币铸造机制", "B) 自动化、风险可控的资本部署和收益生成策略", "C) 去中心化交易所界面", "D) 简单的代币质押合约"],
+        "vi": ["A) Cơ chế đúc token", "B) Chiến lược tự động, quản lý rủi ro cho việc triển khai vốn và tạo lợi nhuận", "C) Giao diện sàn giao dịch phi tập trung", "D) Hợp đồng staking token đơn giản"],
+        "id": ["A) Mekanisme pencetakan token", "B) Strategi otomatis dan terkelola risiko untuk penempatan modal dan generasi yield", "C) Antarmuka bursa terdesentralisasi", "D) Kontrak staking token sederhana"],
+        "tr": ["A) Bir token basım mekanizması", "B) Sermaye dağıtımı ve getiri üretimi için otomatik, risk yönetimli bir strateji", "C) Merkezi olmayan borsa arayüzü", "D) Basit bir token staking sözleşmesi"],
+        "pcm": ["A) Na token printing machine", "B) E dey work by itself to invest money and bring profit with risk control", "C) Na place to swap tokens", "D) Na simple staking contract"]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Vaults in Concrete are automated strategies that deploy capital across yield-generating protocols while applying quantitative risk models to protect depositors. They represent the core product of the Concrete ecosystem.",
+        "zh": "Concrete的金库是自动化策略，通过应用量化风险模型在收益协议中部署资本，同时保护存款人。它们是Concrete生态系统的核心产品。",
+        "vi": "Vault trong Concrete là các chiến lược tự động triển khai vốn qua các giao thức tạo lợi nhuận, đồng thời áp dụng các mô hình rủi ro định lượng để bảo vệ người gửi tiền.",
+        "id": "Vault dalam Concrete adalah strategi otomatis yang menempatkan modal di seluruh protokol penghasil yield sambil menerapkan model risiko kuantitatif untuk melindungi deposan.",
+        "tr": "Concrete'deki Vault'lar, mevduat sahiplerini korumak için nicel risk modelleri uygularken getiri sağlayan protokollere sermaye yerleştiren otomatik stratejilerdir.",
+        "pcm": "Vault for Concrete na automatic system wey dey put your money for places wey go bring profit, while e dey protect you from risk. Na di main product of Concrete."
+      }
+    },
+    {
+      "id": "l1_003",
+      "topic": "quantitative-modeling",
+      "text": {
+        "en": "What role does quantitative modeling play in the Concrete protocol?",
+        "zh": "量化建模在Concrete协议中扮演什么角色？",
+        "vi": "Mô hình định lượng đóng vai trò gì trong giao thức Concrete?",
+        "id": "Apa peran pemodelan kuantitatif dalam protokol Concrete?",
+        "tr": "Nicel modelleme, Concrete protokolünde ne rol oynar?",
+        "pcm": "Wetin quantitative modeling dey do for Concrete protocol?"
+      },
+      "options": {
+        "en": ["A) It creates new tokens for the protocol", "B) It drives risk assessment and capital allocation decisions within vaults", "C) It manages social media marketing", "D) It determines NFT pricing"],
+        "zh": ["A) 为协议创建新代币", "B) 驱动金库内的风险评估和资本配置决策", "C) 管理社交媒体营销", "D) 确定NFT定价"],
+        "vi": ["A) Tạo token mới cho giao thức", "B) Hỗ trợ đánh giá rủi ro và quyết định phân bổ vốn trong vault", "C) Quản lý marketing mạng xã hội", "D) Xác định giá NFT"],
+        "id": ["A) Membuat token baru untuk protokol", "B) Mendorong penilaian risiko dan keputusan alokasi modal dalam vault", "C) Mengelola pemasaran media sosial", "D) Menentukan harga NFT"],
+        "tr": ["A) Protokol için yeni tokenlar oluşturur", "B) Vault'lardaki risk değerlendirmesi ve sermaye tahsis kararlarını yönlendirir", "C) Sosyal medya pazarlamasını yönetir", "D) NFT fiyatlandırmasını belirler"],
+        "pcm": ["A) E dey create new tokens", "B) E dey help calculate risk and decide how to share money for vault", "C) E dey manage social media", "D) E dey set NFT price"]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Quantitative modeling is one of Concrete's four core pillars. It provides the mathematical and statistical frameworks that drive risk assessment, position sizing, and capital allocation decisions across all vault strategies.",
+        "zh": "量化建模是Concrete四大核心支柱之一。它提供数学和统计框架，驱动所有金库策略中的风险评估、头寸管理和资本配置决策。",
+        "vi": "Mô hình định lượng là một trong bốn trụ cột cốt lõi của Concrete. Nó cung cấp các khung toán học và thống kê để đánh giá rủi ro và quyết định phân bổ vốn.",
+        "id": "Pemodelan kuantitatif adalah salah satu dari empat pilar inti Concrete. Ini menyediakan kerangka matematika dan statistik untuk penilaian risiko dan keputusan alokasi modal.",
+        "tr": "Nicel modelleme, Concrete'nin dört temel sütunundan biridir. Risk değerlendirmesi ve sermaye tahsis kararlarını yönlendiren matematiksel çerçeveleri sağlar.",
+        "pcm": "Quantitative modeling na one of Concrete four main pillars. E dey use mathematics to calculate risk and decide how to put money for different places."
+      }
+    },
+    {
+      "id": "l1_004",
+      "topic": "risk-management",
+      "text": {
+        "en": "How does Concrete approach risk management for its depositors?",
+        "zh": "Concrete如何为存款人进行风险管理？",
+        "vi": "Concrete tiếp cận quản lý rủi ro cho người gửi tiền như thế nào?",
+        "id": "Bagaimana Concrete mendekati manajemen risiko untuk deposaannya?",
+        "tr": "Concrete, mevduat sahipleri için risk yönetimine nasıl yaklaşır?",
+        "pcm": "How Concrete dey manage risk for people wey put money?"
+      },
+      "options": {
+        "en": ["A) By guaranteeing fixed returns regardless of market conditions", "B) Through systematic, model-driven risk controls embedded in vault strategies", "C) By insuring all deposits with a third-party insurer", "D) By only investing in stablecoins"],
+        "zh": ["A) 无论市场条件如何都保证固定回报", "B) 通过嵌入金库策略的系统化、模型驱动风险控制", "C) 通过第三方保险公司为所有存款投保", "D) 只投资稳定币"],
+        "vi": ["A) Đảm bảo lợi nhuận cố định bất kể điều kiện thị trường", "B) Thông qua kiểm soát rủi ro có hệ thống theo mô hình tích hợp trong chiến lược vault", "C) Bảo hiểm tất cả tiền gửi với bên thứ ba", "D) Chỉ đầu tư vào stablecoin"],
+        "id": ["A) Dengan menjamin imbal hasil tetap terlepas dari kondisi pasar", "B) Melalui kontrol risiko sistematis berbasis model yang tertanam dalam strategi vault", "C) Dengan mengasuransikan semua deposito dengan perusahaan asuransi pihak ketiga", "D) Hanya berinvestasi dalam stablecoin"],
+        "tr": ["A) Piyasa koşullarından bağımsız olarak sabit getiri garantisi vererek", "B) Vault stratejilerine gömülü sistematik, model odaklı risk kontrolleri aracılığıyla", "C) Tüm mevduatları üçüncü taraf bir sigortacı ile sigortalayarak", "D) Yalnızca stablecoin'lere yatırım yaparak"],
+        "pcm": ["A) By promising fixed profit no matter wetin happen for market", "B) Through organized system with models wey dey control risk inside vault", "C) By buying insurance from another company for all money", "D) By only using stablecoins"]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Concrete integrates risk management as a core architectural component — not an afterthought. The protocol employs systematic, model-driven risk controls that are directly embedded into vault strategies, continuously monitoring and adjusting positions.",
+        "zh": "Concrete将风险管理作为核心架构组件整合——而非事后补充。该协议采用系统化、模型驱动的风险控制，直接嵌入金库策略，持续监控和调整头寸。",
+        "vi": "Concrete tích hợp quản lý rủi ro như một thành phần kiến trúc cốt lõi. Giao thức sử dụng các kiểm soát rủi ro có hệ thống theo mô hình được tích hợp trực tiếp vào chiến lược vault.",
+        "id": "Concrete mengintegrasikan manajemen risiko sebagai komponen arsitektur inti. Protokol ini menggunakan kontrol risiko sistematis berbasis model yang tertanam langsung dalam strategi vault.",
+        "tr": "Concrete, risk yönetimini temel mimari bileşen olarak entegre eder. Protokol, vault stratejilerine doğrudan yerleştirilmiş sistematik, model odaklı risk kontrolleri kullanır.",
+        "pcm": "Concrete put risk management as one main part of how e dey work. E no be something wey dem add later. E dey always watch and adjust positions to keep money safe."
+      }
+    },
+    {
+      "id": "l1_005",
+      "topic": "cross-chain",
+      "text": {
+        "en": "What is the significance of cross-chain integration in Concrete's architecture?",
+        "zh": "跨链整合在Concrete架构中有何意义？",
+        "vi": "Tích hợp cross-chain có ý nghĩa gì trong kiến trúc của Concrete?",
+        "id": "Apa pentingnya integrasi lintas-chain dalam arsitektur Concrete?",
+        "tr": "Çapraz zincir entegrasyonu Concrete mimarisinde ne anlam taşır?",
+        "pcm": "Wetin cross-chain integration mean for how Concrete dey work?"
+      },
+      "options": {
+        "en": ["A) It allows users to play blockchain games", "B) It enables yield strategies to operate across multiple blockchain ecosystems simultaneously", "C) It only supports the Ethereum mainnet", "D) It is used exclusively for token bridging fees"],
+        "zh": ["A) 允许用户玩区块链游戏", "B) 使收益策略能够同时在多个区块链生态系统中运行", "C) 仅支持以太坊主网", "D) 仅用于代币跨链费用"],
+        "vi": ["A) Cho phép người dùng chơi game blockchain", "B) Cho phép chiến lược yield hoạt động trên nhiều hệ sinh thái blockchain cùng lúc", "C) Chỉ hỗ trợ Ethereum mainnet", "D) Chỉ dùng cho phí bridging token"],
+        "id": ["A) Memungkinkan pengguna bermain game blockchain", "B) Memungkinkan strategi yield beroperasi di berbagai ekosistem blockchain secara bersamaan", "C) Hanya mendukung mainnet Ethereum", "D) Digunakan secara eksklusif untuk biaya bridging token"],
+        "tr": ["A) Kullanıcıların blockchain oyunları oynamasını sağlar", "B) Getiri stratejilerinin birden fazla blockchain ekosisteminde eş zamanlı çalışmasını sağlar", "C) Yalnızca Ethereum ana ağını destekler", "D) Yalnızca token köprüleme ücretleri için kullanılır"],
+        "pcm": ["A) E dey allow people to play blockchain games", "B) E dey allow yield strategies to work for many different blockchains at same time", "C) E only work for Ethereum", "D) E only dey used for bridge fees"]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Cross-chain integration is a foundational pillar of Concrete. By operating across multiple blockchain ecosystems, Concrete can access a wider range of yield opportunities, diversify risk, and serve users regardless of their preferred chain.",
+        "zh": "跨链整合是Concrete的基础支柱。通过在多个区块链生态系统中运行，Concrete可以获取更广泛的收益机会、分散风险，并为不同链偏好的用户提供服务。",
+        "vi": "Tích hợp cross-chain là trụ cột nền tảng của Concrete. Bằng cách hoạt động trên nhiều blockchain, Concrete có thể tiếp cận nhiều cơ hội yield hơn và phục vụ người dùng ở mọi chain.",
+        "id": "Integrasi lintas-chain adalah pilar fundamental Concrete. Dengan beroperasi di berbagai ekosistem blockchain, Concrete dapat mengakses berbagai peluang yield dan melayani pengguna di chain mana pun.",
+        "tr": "Çapraz zincir entegrasyonu, Concrete'nin temel sütunlarından biridir. Birden fazla blockchain ekosisteminde çalışarak, daha geniş getiri fırsatlarına erişir ve farklı zincirleri tercih eden kullanıcılara hizmet verir.",
+        "pcm": "Cross-chain integration na one of Concrete main foundation. Because e dey work for many blockchains, e fit find more ways to make profit and serve more people."
+      }
+    },
+    {
+      "id": "l1_006",
+      "topic": "yield-infrastructure",
+      "text": {
+        "en": "What does 'yield infrastructure' mean in the context of Concrete DeFi?",
+        "zh": "在Concrete DeFi的背景下，「收益基础设施」是什么意思？",
+        "vi": "\"Cơ sở hạ tầng yield\" có nghĩa gì trong bối cảnh Concrete DeFi?",
+        "id": "Apa yang dimaksud dengan 'infrastruktur yield' dalam konteks Concrete DeFi?",
+        "tr": "Concrete DeFi bağlamında 'getiri altyapısı' ne anlama gelir?",
+        "pcm": "Wetin 'yield infrastructure' mean for Concrete DeFi?"
+      },
+      "options": {
+        "en": ["A) Physical servers used for mining", "B) The complete set of tools, strategies, and systems that generate and manage yield at scale", "C) A yield farming aggregator only", "D) The Ethereum gas fee structure"],
+        "zh": ["A) 用于挖矿的物理服务器", "B) 大规模生成和管理收益的完整工具、策略和系统集合", "C) 仅为收益农业聚合器", "D) 以太坊Gas费结构"],
+        "vi": ["A) Máy chủ vật lý dùng để đào", "B) Bộ công cụ, chiến lược và hệ thống hoàn chỉnh để tạo và quản lý yield theo quy mô lớn", "C) Chỉ là aggregator yield farming", "D) Cấu trúc phí gas Ethereum"],
+        "id": ["A) Server fisik yang digunakan untuk penambangan", "B) Kumpulan lengkap alat, strategi, dan sistem yang menghasilkan dan mengelola yield secara besar-besaran", "C) Hanya agregator yield farming", "D) Struktur biaya gas Ethereum"],
+        "tr": ["A) Madencilik için kullanılan fiziksel sunucular", "B) Ölçekte getiri üreten ve yöneten eksiksiz araç, strateji ve sistemler", "C) Yalnızca bir yield farming toplayıcısı", "D) Ethereum gas ücret yapısı"],
+        "pcm": ["A) Physical computer wey dey do mining", "B) Complete set of tools and systems wey dey make and manage profit for large scale", "C) Only yield farming aggregator", "D) Ethereum gas fee system"]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Concrete's 'full-stack yield infrastructure' refers to a comprehensive, end-to-end system that encompasses strategy design, risk modeling, execution, and monitoring — all integrated into a single cohesive platform rather than a simple aggregator.",
+        "zh": "Concrete的「全栈收益基础设施」指的是一个全面的端到端系统，涵盖策略设计、风险建模、执行和监控——全部集成在一个统一平台中，而非简单的聚合器。",
+        "vi": "Cơ sở hạ tầng yield toàn diện của Concrete đề cập đến hệ thống end-to-end bao gồm thiết kế chiến lược, mô hình rủi ro, thực thi và giám sát — tất cả tích hợp trong một nền tảng duy nhất.",
+        "id": "Infrastruktur yield full-stack Concrete mengacu pada sistem end-to-end yang komprehensif yang mencakup desain strategi, pemodelan risiko, eksekusi, dan pemantauan — semuanya terintegrasi.",
+        "tr": "Concrete'nin 'tam yığın getiri altyapısı', strateji tasarımı, risk modellemesi, uygulama ve izlemeyi kapsayan uçtan uca kapsamlı bir sistemi ifade eder.",
+        "pcm": "Concrete 'full-stack yield infrastructure' mean say e get complete system from beginning to end — strategy planning, risk calculation, execution, and monitoring — all in one place."
+      }
+    },
+    {
+      "id": "l1_007",
+      "topic": "modularity",
+      "text": {
+        "en": "What is the benefit of Concrete's modular architecture?",
+        "zh": "Concrete模块化架构有何优势？",
+        "vi": "Lợi ích của kiến trúc module hóa của Concrete là gì?",
+        "id": "Apa manfaat arsitektur modular Concrete?",
+        "tr": "Concrete'nin modüler mimarisinin faydası nedir?",
+        "pcm": "Wetin be the benefit of Concrete modular architecture?"
+      },
+      "options": {
+        "en": ["A) It forces all strategies to use the same fixed parameters", "B) It allows components to be updated, replaced, or extended without disrupting the entire system", "C) It limits the protocol to only one blockchain", "D) It removes the need for smart contracts"],
+        "zh": ["A) 强制所有策略使用相同的固定参数", "B) 允许组件在不破坏整个系统的情况下进行更新、替换或扩展", "C) 将协议限制在只有一个区块链", "D) 消除了对智能合约的需求"],
+        "vi": ["A) Bắt tất cả chiến lược dùng các tham số cố định giống nhau", "B) Cho phép các thành phần được cập nhật, thay thế hoặc mở rộng mà không làm gián đoạn toàn bộ hệ thống", "C) Giới hạn giao thức chỉ ở một blockchain", "D) Loại bỏ nhu cầu smart contract"],
+        "id": ["A) Memaksa semua strategi menggunakan parameter tetap yang sama", "B) Memungkinkan komponen diperbarui, diganti, atau diperluas tanpa mengganggu seluruh sistem", "C) Membatasi protokol hanya pada satu blockchain", "D) Menghapus kebutuhan smart contract"],
+        "tr": ["A) Tüm stratejilerin aynı sabit parametreleri kullanmasını zorunlu kılar", "B) Tüm sistemi bozmadan bileşenlerin güncellenmesine, değiştirilmesine veya genişletilmesine izin verir", "C) Protokolü yalnızca bir blockchain ile sınırlar", "D) Akıllı sözleşmelere olan ihtiyacı ortadan kaldırır"],
+        "pcm": ["A) E dey force all strategies to use same settings", "B) E allow parts to be updated or changed without breaking the whole system", "C) E only work for one blockchain", "D) E remove need for smart contracts"]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Concrete's modular architecture is designed for adaptability and longevity. Individual components — such as risk models, execution layers, or integration adapters — can be upgraded or replaced as the DeFi landscape evolves, without requiring a full protocol redesign.",
+        "zh": "Concrete的模块化架构旨在实现适应性和持久性。各个组件——如风险模型、执行层或集成适配器——可以随着DeFi环境的演变而升级或替换，无需完全重新设计协议。",
+        "vi": "Kiến trúc module hóa của Concrete được thiết kế cho sự thích nghi và bền vững. Các thành phần riêng lẻ có thể được nâng cấp hoặc thay thế khi DeFi phát triển.",
+        "id": "Arsitektur modular Concrete dirancang untuk adaptabilitas dan keawetan. Komponen individual dapat ditingkatkan atau diganti seiring berkembangnya lanskap DeFi.",
+        "tr": "Concrete'nin modüler mimarisi, uyarlanabilirlik ve uzun ömür için tasarlanmıştır. Bireysel bileşenler, DeFi ortamı geliştikçe tüm protokol yeniden tasarlanmadan yükseltilebilir.",
+        "pcm": "Concrete modular architecture mean say each part fit be changed or updated without breaking everything else. So as DeFi change, Concrete fit adapt quick-quick."
+      }
+    },
+    {
+      "id": "l1_008",
+      "topic": "differentiation",
+      "text": {
+        "en": "How does Concrete differentiate itself from traditional DeFi yield vaults?",
+        "zh": "Concrete如何与传统DeFi收益金库区分开来？",
+        "vi": "Concrete tự phân biệt như thế nào so với các vault yield DeFi truyền thống?",
+        "id": "Bagaimana Concrete membedakan dirinya dari vault yield DeFi tradisional?",
+        "tr": "Concrete, geleneksel DeFi getiri vault'larından nasıl ayrışmaktadır?",
+        "pcm": "How Concrete different from normal DeFi yield vaults?"
+      },
+      "options": {
+        "en": ["A) By offering higher fees than competitors", "B) Through institutional-grade quantitative risk modeling integrated at the protocol level", "C) By exclusively targeting retail users", "D) By avoiding smart contract usage"],
+        "zh": ["A) 通过提供比竞争对手更高的费用", "B) 通过在协议层面集成机构级量化风险建模", "C) 专门针对散户用户", "D) 避免使用智能合约"],
+        "vi": ["A) Bằng cách cung cấp phí cao hơn đối thủ", "B) Thông qua mô hình rủi ro định lượng cấp tổ chức được tích hợp ở cấp độ giao thức", "C) Chỉ nhắm đến người dùng bán lẻ", "D) Tránh sử dụng smart contract"],
+        "id": ["A) Dengan menawarkan biaya lebih tinggi dari pesaing", "B) Melalui pemodelan risiko kuantitatif tingkat institusi yang terintegrasi di level protokol", "C) Dengan secara eksklusif menargetkan pengguna ritel", "D) Dengan menghindari penggunaan smart contract"],
+        "tr": ["A) Rakiplerden daha yüksek ücretler sunarak", "B) Protokol düzeyinde entegre edilmiş kurumsal düzeyde nicel risk modellemesi aracılığıyla", "C) Yalnızca bireysel kullanıcıları hedefleyerek", "D) Akıllı sözleşme kullanımından kaçınarak"],
+        "pcm": ["A) By charging more fees than others", "B) Through serious risk calculation system wey work at protocol level like big institutions", "C) By only targeting small users", "D) By avoiding smart contracts"]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Concrete's key differentiator is the integration of institutional-grade quantitative risk modeling at the protocol level. Unlike simple aggregators, Concrete builds risk management into the foundation of every vault strategy.",
+        "zh": "Concrete的关键差异化因素是在协议层面整合机构级量化风险建模。与简单的聚合器不同，Concrete将风险管理构建在每个金库策略的基础中。",
+        "vi": "Điểm khác biệt chính của Concrete là tích hợp mô hình rủi ro định lượng cấp tổ chức ở cấp độ giao thức. Không giống các aggregator đơn giản, Concrete xây dựng quản lý rủi ro vào nền tảng của mọi chiến lược vault.",
+        "id": "Pembeda utama Concrete adalah integrasi pemodelan risiko kuantitatif tingkat institusi di level protokol. Tidak seperti agregator sederhana, Concrete membangun manajemen risiko ke dalam fondasi setiap strategi vault.",
+        "tr": "Concrete'nin temel farkı, protokol düzeyinde kurumsal düzeyde nicel risk modellemesinin entegrasyonudur. Basit toplayıcıların aksine, her vault stratejisinin temeline risk yönetimini inşa eder.",
+        "pcm": "Concrete main difference na say e use serious institution-level risk calculation at the base of every vault. Normal DeFi vaults no do am like this."
+      }
+    },
+    {
+      "id": "l1_009",
+      "topic": "ecosystem",
+      "text": {
+        "en": "What types of blockchain ecosystems does Concrete target for integration?",
+        "zh": "Concrete针对哪些类型的区块链生态系统进行整合？",
+        "vi": "Concrete nhắm đến loại hệ sinh thái blockchain nào để tích hợp?",
+        "id": "Jenis ekosistem blockchain apa yang ditargetkan Concrete untuk integrasi?",
+        "tr": "Concrete, entegrasyon için hangi tür blockchain ekosistemlerini hedef alır?",
+        "pcm": "Which blockchain ecosystems Concrete dey target?"
+      },
+      "options": {
+        "en": ["A) Only private, permissioned blockchains", "B) Major public blockchain ecosystems where significant DeFi activity occurs", "C) Only the Bitcoin network", "D) Exclusively layer-2 networks"],
+        "zh": ["A) 仅限私有、许可区块链", "B) 发生重要DeFi活动的主要公共区块链生态系统", "C) 仅限比特币网络", "D) 专门的二层网络"],
+        "vi": ["A) Chỉ blockchain riêng tư, có cấp phép", "B) Các hệ sinh thái blockchain công khai lớn có hoạt động DeFi đáng kể", "C) Chỉ mạng Bitcoin", "D) Chỉ mạng layer-2"],
+        "id": ["A) Hanya blockchain pribadi dan berizin", "B) Ekosistem blockchain publik utama di mana aktivitas DeFi signifikan terjadi", "C) Hanya jaringan Bitcoin", "D) Hanya jaringan layer-2"],
+        "tr": ["A) Yalnızca özel, izinli blockchainler", "B) Önemli DeFi faaliyetinin gerçekleştiği büyük halka açık blockchain ekosistemler", "C) Yalnızca Bitcoin ağı", "D) Yalnızca katman-2 ağları"],
+        "pcm": ["A) Only private blockchains", "B) Big public blockchains wey get plenty DeFi activity", "C) Only Bitcoin", "D) Only layer-2 networks"]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Concrete targets major public blockchain ecosystems where significant DeFi liquidity and activity exists. This cross-chain approach maximizes yield opportunities and protocol reach.",
+        "zh": "Concrete针对存在重要DeFi流动性和活动的主要公共区块链生态系统。这种跨链方法最大化了收益机会和协议覆盖范围。",
+        "vi": "Concrete nhắm đến các hệ sinh thái blockchain công khai lớn có thanh khoản và hoạt động DeFi đáng kể. Cách tiếp cận cross-chain này tối đa hóa cơ hội yield.",
+        "id": "Concrete menargetkan ekosistem blockchain publik utama di mana terdapat likuiditas dan aktivitas DeFi yang signifikan. Pendekatan lintas-chain ini memaksimalkan peluang yield.",
+        "tr": "Concrete, önemli DeFi likiditesi ve faaliyetinin bulunduğu büyük halka açık blockchain ekosistemlerini hedef alır. Bu çapraz zincir yaklaşımı getiri fırsatlarını maksimize eder.",
+        "pcm": "Concrete dey target big public blockchains wey get plenty DeFi money and activity. This cross-chain approach help e find more ways to make profit."
+      }
+    },
+    {
+      "id": "l1_010",
+      "topic": "security",
+      "text": {
+        "en": "Which security firm conducted the audit of the Concrete (formerly Blueprint Finance) protocol?",
+        "zh": "哪家安全公司对Concrete（前身为Blueprint Finance）协议进行了审计？",
+        "vi": "Công ty bảo mật nào đã kiểm tra giao thức Concrete (trước đây là Blueprint Finance)?",
+        "id": "Perusahaan keamanan mana yang melakukan audit terhadap protokol Concrete (sebelumnya Blueprint Finance)?",
+        "tr": "Concrete (eski adıyla Blueprint Finance) protokolünü hangi güvenlik firması denetledi?",
+        "pcm": "Which security company audit Concrete (wey dem call Blueprint Finance before) protocol?"
+      },
+      "options": {
+        "en": ["A) Trail of Bits", "B) Halborn Security", "C) OpenZeppelin", "D) Certik"],
+        "zh": ["A) Trail of Bits", "B) Halborn Security", "C) OpenZeppelin", "D) Certik"],
+        "vi": ["A) Trail of Bits", "B) Halborn Security", "C) OpenZeppelin", "D) Certik"],
+        "id": ["A) Trail of Bits", "B) Halborn Security", "C) OpenZeppelin", "D) Certik"],
+        "tr": ["A) Trail of Bits", "B) Halborn Security", "C) OpenZeppelin", "D) Certik"],
+        "pcm": ["A) Trail of Bits", "B) Halborn Security", "C) OpenZeppelin", "D) Certik"]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "The Concrete protocol (formerly Blueprint Finance) was audited by Halborn Security. The full audit report is publicly available at https://www.halborn.com/audits/blueprint-finance, demonstrating the protocol's commitment to transparency and security.",
+        "zh": "Concrete协议（前身为Blueprint Finance）由Halborn Security审计。完整审计报告可在 https://www.halborn.com/audits/blueprint-finance 公开获取。",
+        "vi": "Giao thức Concrete (trước đây là Blueprint Finance) được kiểm tra bởi Halborn Security. Báo cáo kiểm tra đầy đủ có thể xem tại https://www.halborn.com/audits/blueprint-finance.",
+        "id": "Protokol Concrete (sebelumnya Blueprint Finance) diaudit oleh Halborn Security. Laporan audit lengkap tersedia di https://www.halborn.com/audits/blueprint-finance.",
+        "tr": "Concrete protokolü (eski adıyla Blueprint Finance) Halborn Security tarafından denetlendi. Tam denetim raporu https://www.halborn.com/audits/blueprint-finance adresinde kamuya açıktır.",
+        "pcm": "Concrete protocol (wey dem call Blueprint Finance before) was audited by Halborn Security. You fit see the full report for https://www.halborn.com/audits/blueprint-finance."
+      }
+    },
+    {
+      "id": "l1_011",
+      "topic": "points-campaign",
+      "text": {
+        "en": "Where can users participate in the Concrete Points Campaign?",
+        "zh": "用户可以在哪里参与Concrete积分活动？",
+        "vi": "Người dùng có thể tham gia Chương trình điểm Concrete ở đâu?",
+        "id": "Di mana pengguna dapat berpartisipasi dalam Kampanye Poin Concrete?",
+        "tr": "Kullanıcılar Concrete Puan Kampanyasına nerede katılabilir?",
+        "pcm": "Where person fit join Concrete Points Campaign?"
+      },
+      "options": {
+        "en": ["A) Only through third-party exchanges", "B) At https://points.concrete.xyz/home", "C) Through physical redemption centers", "D) Exclusively on the Ethereum mainnet app"],
+        "zh": ["A) 仅通过第三方交易所", "B) 在 https://points.concrete.xyz/home", "C) 通过实体兑换中心", "D) 仅在以太坊主网应用程序上"],
+        "vi": ["A) Chỉ qua sàn giao dịch bên thứ ba", "B) Tại https://points.concrete.xyz/home", "C) Qua trung tâm đổi thưởng vật lý", "D) Chỉ trên app Ethereum mainnet"],
+        "id": ["A) Hanya melalui bursa pihak ketiga", "B) Di https://points.concrete.xyz/home", "C) Melalui pusat penukaran fisik", "D) Secara eksklusif di aplikasi mainnet Ethereum"],
+        "tr": ["A) Yalnızca üçüncü taraf borsalar aracılığıyla", "B) https://points.concrete.xyz/home adresinde", "C) Fiziksel kullanım merkezleri aracılığıyla", "D) Yalnızca Ethereum ana ağı uygulamasında"],
+        "pcm": ["A) Only through other exchanges", "B) For https://points.concrete.xyz/home", "C) Through physical centers", "D) Only for Ethereum mainnet"]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "The Concrete Points Campaign is accessible at https://points.concrete.xyz/home. This is the official platform where users can earn and track their points for participating in the Concrete ecosystem.",
+        "zh": "Concrete积分活动可在 https://points.concrete.xyz/home 访问。这是用户赚取并跟踪Concrete生态系统参与积分的官方平台。",
+        "vi": "Chương trình điểm Concrete có thể truy cập tại https://points.concrete.xyz/home. Đây là nền tảng chính thức nơi người dùng có thể kiếm và theo dõi điểm.",
+        "id": "Kampanye Poin Concrete dapat diakses di https://points.concrete.xyz/home. Ini adalah platform resmi tempat pengguna dapat mendapatkan dan melacak poin mereka.",
+        "tr": "Concrete Puan Kampanyasına https://points.concrete.xyz/home adresinden erişilebilir. Bu, kullanıcıların puanlarını kazanıp takip edebildiği resmi platformdur.",
+        "pcm": "Concrete Points Campaign dey at https://points.concrete.xyz/home. Na the official place wey you fit earn and check your points."
+      }
+    },
+    {
+      "id": "l1_012",
+      "topic": "institutional",
+      "text": {
+        "en": "What characterizes 'institutional-grade' DeFi as provided by Concrete?",
+        "zh": "Concrete提供的「机构级」DeFi有何特征？",
+        "vi": "DeFi 'cấp tổ chức' mà Concrete cung cấp có đặc điểm gì?",
+        "id": "Apa yang mencirikan DeFi 'tingkat institusi' yang disediakan Concrete?",
+        "tr": "Concrete tarafından sağlanan 'kurumsal düzey' DeFi'yi ne karakterize eder?",
+        "pcm": "Wetin make DeFi 'institutional-grade' wey Concrete dey provide?"
+      },
+      "options": {
+        "en": ["A) High leverage and speculative strategies", "B) Rigorous risk controls, transparency, systematic processes, and professional-grade infrastructure", "C) Anonymous and unaudited smart contracts", "D) Manual human oversight of every transaction"],
+        "zh": ["A) 高杠杆和投机策略", "B) 严格的风险控制、透明度、系统化流程和专业级基础设施", "C) 匿名且未经审计的智能合约", "D) 对每笔交易进行人工监督"],
+        "vi": ["A) Đòn bẩy cao và chiến lược đầu cơ", "B) Kiểm soát rủi ro nghiêm ngặt, minh bạch, quy trình có hệ thống và cơ sở hạ tầng cấp chuyên nghiệp", "C) Smart contract ẩn danh và chưa được kiểm tra", "D) Giám sát thủ công của con người cho mỗi giao dịch"],
+        "id": ["A) Leverage tinggi dan strategi spekulatif", "B) Kontrol risiko ketat, transparansi, proses sistematis, dan infrastruktur tingkat profesional", "C) Smart contract anonim dan tidak diaudit", "D) Pengawasan manual manusia untuk setiap transaksi"],
+        "tr": ["A) Yüksek kaldıraç ve spekülatif stratejiler", "B) Titiz risk kontrolleri, şeffaflık, sistematik süreçler ve profesyonel düzeyde altyapı", "C) Anonim ve denetimsiz akıllı sözleşmeler", "D) Her işlemin manuel insan denetimi"],
+        "pcm": ["A) High leverage and gambling strategies", "B) Strict risk control, transparency, organized process, and professional-grade infrastructure", "C) Anonymous smart contracts wey nobody audit", "D) Human dey manually check every transaction"]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Institutional-grade DeFi, as embodied by Concrete, means applying the same rigorous standards used in traditional institutional finance: strict risk controls, full transparency, systematic and repeatable processes, and professional-grade technical infrastructure.",
+        "zh": "机构级DeFi，正如Concrete所体现的，意味着应用传统机构金融中使用的同等严格标准：严格的风险控制、完全透明、系统化和可重复的流程，以及专业级的技术基础设施。",
+        "vi": "DeFi cấp tổ chức, như Concrete thể hiện, có nghĩa là áp dụng các tiêu chuẩn nghiêm ngặt tương tự trong tài chính tổ chức truyền thống: kiểm soát rủi ro chặt chẽ, minh bạch hoàn toàn, quy trình có hệ thống.",
+        "id": "DeFi tingkat institusi, sebagaimana diwujudkan oleh Concrete, berarti menerapkan standar ketat yang sama dalam keuangan institusi tradisional: kontrol risiko ketat, transparansi penuh, dan proses sistematis.",
+        "tr": "Concrete tarafından somutlaştırılan kurumsal düzeyde DeFi, geleneksel kurumsal finansmanda kullanılan aynı katı standartların uygulanması anlamına gelir: sıkı risk kontrolleri, tam şeffaflık ve sistematik süreçler.",
+        "pcm": "Institutional-grade DeFi wey Concrete dey provide mean say e dey follow the same strict rules wey big banks and institutions follow: proper risk control, full transparency, and organized process."
+      }
+    },
+    {
+      "id": "l1_013",
+      "topic": "governance",
+      "text": {
+        "en": "What is the general purpose of governance in a DeFi protocol like Concrete?",
+        "zh": "在Concrete等DeFi协议中，治理的一般目的是什么？",
+        "vi": "Mục đích chung của quản trị trong giao thức DeFi như Concrete là gì?",
+        "id": "Apa tujuan umum tata kelola dalam protokol DeFi seperti Concrete?",
+        "tr": "Concrete gibi bir DeFi protokolünde yönetişimin genel amacı nedir?",
+        "pcm": "Wetin be the main purpose of governance for DeFi protocol like Concrete?"
+      },
+      "options": {
+        "en": ["A) To generate additional token supply arbitrarily", "B) To allow stakeholders to participate in protocol decision-making and evolution", "C) To shut down the protocol permanently", "D) To replace smart contracts with centralized servers"],
+        "zh": ["A) 任意增加额外的代币供应量", "B) 允许利益相关者参与协议决策和演进", "C) 永久关闭协议", "D) 用中心化服务器替换智能合约"],
+        "vi": ["A) Tạo nguồn cung token bổ sung tùy ý", "B) Cho phép các bên liên quan tham gia vào việc ra quyết định và phát triển giao thức", "C) Tắt vĩnh viễn giao thức", "D) Thay thế smart contract bằng máy chủ tập trung"],
+        "id": ["A) Menghasilkan pasokan token tambahan secara sewenang-wenang", "B) Memungkinkan pemangku kepentingan berpartisipasi dalam pengambilan keputusan dan evolusi protokol", "C) Mematikan protokol secara permanen", "D) Mengganti smart contract dengan server terpusat"],
+        "tr": ["A) Keyfi olarak ek token arzı oluşturmak", "B) Paydaşların protokol karar alma ve evrimine katılmasına izin vermek", "C) Protokolü kalıcı olarak kapatmak", "D) Akıllı sözleşmeleri merkezi sunucularla değiştirmek"],
+        "pcm": ["A) To just create more tokens anyhow", "B) To allow people wey get stake to help decide how protocol go work and grow", "C) To shut down protocol forever", "D) To use centralized servers instead of smart contracts"]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Governance in DeFi protocols enables token holders and stakeholders to have a voice in key decisions — from parameter updates to protocol upgrades — ensuring the protocol evolves in a decentralized, community-driven manner.",
+        "zh": "DeFi协议中的治理使代币持有者和利益相关者能够对关键决策发声——从参数更新到协议升级——确保协议以去中心化、社区驱动的方式演进。",
+        "vi": "Quản trị trong các giao thức DeFi cho phép người nắm giữ token và các bên liên quan có tiếng nói trong các quyết định quan trọng — từ cập nhật tham số đến nâng cấp giao thức.",
+        "id": "Tata kelola dalam protokol DeFi memungkinkan pemegang token dan pemangku kepentingan memiliki suara dalam keputusan kunci — dari pembaruan parameter hingga peningkatan protokol.",
+        "tr": "DeFi protokollerindeki yönetişim, token sahiplerinin ve paydaşların parametre güncellemelerinden protokol yükseltmelerine kadar önemli kararlarda söz sahibi olmasını sağlar.",
+        "pcm": "Governance for DeFi protocols mean say people wey get tokens fit vote and help decide how the protocol go change and grow. E dey make the system decentralized."
+      }
+    },
+    {
+      "id": "l1_014",
+      "topic": "sustainable-yield",
+      "text": {
+        "en": "What distinguishes 'sustainable yield' from unsustainable yield farming in DeFi?",
+        "zh": "在DeFi中，「可持续收益」与不可持续收益农业有何区别？",
+        "vi": "Điều gì phân biệt 'yield bền vững' với yield farming không bền vững trong DeFi?",
+        "id": "Apa yang membedakan 'yield berkelanjutan' dari yield farming yang tidak berkelanjutan di DeFi?",
+        "tr": "DeFi'de 'sürdürülebilir getiri' ile sürdürülemez getiri çiftçiliğini birbirinden ne ayırır?",
+        "pcm": "Wetin make 'sustainable yield' different from yield wey no go last for DeFi?"
+      },
+      "options": {
+        "en": ["A) Sustainable yield always offers higher APY", "B) Sustainable yield is derived from genuine economic activity rather than token inflation", "C) Sustainable yield requires no risk management", "D) Sustainable yield is only possible on Bitcoin"],
+        "zh": ["A) 可持续收益总是提供更高的年化收益率", "B) 可持续收益来源于真实经济活动而非代币通胀", "C) 可持续收益不需要风险管理", "D) 可持续收益只有在比特币上才可能实现"],
+        "vi": ["A) Yield bền vững luôn cung cấp APY cao hơn", "B) Yield bền vững được tạo ra từ hoạt động kinh tế thực sự chứ không phải lạm phát token", "C) Yield bền vững không cần quản lý rủi ro", "D) Yield bền vững chỉ có thể có trên Bitcoin"],
+        "id": ["A) Yield berkelanjutan selalu menawarkan APY lebih tinggi", "B) Yield berkelanjutan berasal dari aktivitas ekonomi nyata, bukan inflasi token", "C) Yield berkelanjutan tidak memerlukan manajemen risiko", "D) Yield berkelanjutan hanya mungkin di Bitcoin"],
+        "tr": ["A) Sürdürülebilir getiri her zaman daha yüksek APY sunar", "B) Sürdürülebilir getiri, token enflasyonu yerine gerçek ekonomik faaliyetten elde edilir", "C) Sürdürülebilir getiri risk yönetimi gerektirmez", "D) Sürdürülebilir getiri yalnızca Bitcoin'de mümkündür"],
+        "pcm": ["A) Sustainable yield always get higher APY", "B) Sustainable yield come from real economic activity, not from printing more tokens", "C) Sustainable yield no need risk management", "D) Sustainable yield only work for Bitcoin"]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Sustainable yield in DeFi comes from genuine economic activity — such as trading fees, lending interest, or protocol revenue — rather than from artificial token emissions that inflate supply and ultimately collapse. Concrete focuses on generating and accessing this type of real yield.",
+        "zh": "DeFi中的可持续收益来源于真实经济活动——如交易费用、借贷利息或协议收入——而非来自增加供应并最终崩溃的人为代币排放。Concrete专注于生成和获取这类真实收益。",
+        "vi": "Yield bền vững trong DeFi đến từ hoạt động kinh tế thực sự — như phí giao dịch, lãi suất cho vay — chứ không phải từ việc phát hành token nhân tạo. Concrete tập trung vào việc tạo ra loại yield thực sự này.",
+        "id": "Yield berkelanjutan dalam DeFi berasal dari aktivitas ekonomi nyata — seperti biaya perdagangan, bunga pinjaman — bukan dari emisi token buatan yang menggembungkan pasokan. Concrete berfokus pada perolehan yield nyata ini.",
+        "tr": "DeFi'de sürdürülebilir getiri, arz şişiren ve sonunda çöken yapay token emisyonları yerine gerçek ekonomik faaliyetten gelir. Concrete bu tür gerçek getirilere odaklanır.",
+        "pcm": "Sustainable yield for DeFi come from real economic activity like trading fees and lending interest — not from just printing more tokens. Concrete dey focus on finding this kind of real profit."
+      }
+    },
+    {
+      "id": "l1_015",
+      "topic": "target-users",
+      "text": {
+        "en": "Who is Concrete's primary target user?",
+        "zh": "Concrete的主要目标用户是谁？",
+        "vi": "Đối tượng người dùng mục tiêu chính của Concrete là ai?",
+        "id": "Siapa pengguna target utama Concrete?",
+        "tr": "Concrete'nin birincil hedef kullanıcısı kimdir?",
+        "pcm": "Who be Concrete main target users?"
+      },
+      "options": {
+        "en": ["A) Casual crypto traders seeking quick gains", "B) Institutional-grade depositors seeking transparent, risk-managed, and sustainable yield", "C) NFT collectors and artists", "D) Cryptocurrency miners"],
+        "zh": ["A) 寻求快速收益的休闲加密货币交易者", "B) 寻求透明、风险管理和可持续收益的机构级存款人", "C) NFT收藏家和艺术家", "D) 加密货币矿工"],
+        "vi": ["A) Nhà giao dịch crypto bình thường tìm kiếm lợi nhuận nhanh", "B) Người dùng cấp tổ chức tìm kiếm yield minh bạch, quản lý rủi ro và bền vững", "C) Nhà sưu tập NFT và nghệ sĩ", "D) Thợ đào tiền điện tử"],
+        "id": ["A) Pedagang kripto kasual yang mencari keuntungan cepat", "B) Deposan tingkat institusi yang mencari yield transparan, terkelola risiko, dan berkelanjutan", "C) Kolektor dan seniman NFT", "D) Penambang mata uang kripto"],
+        "tr": ["A) Hızlı kazanç arayan sıradan kripto yatırımcıları", "B) Şeffaf, risk yönetimli ve sürdürülebilir getiri arayan kurumsal düzeyde yatırımcılar", "C) NFT koleksiyoncuları ve sanatçılar", "D) Kripto para madencileri"],
+        "pcm": ["A) Casual crypto traders wey want quick money", "B) Institutional-level people wey want transparent, risk-managed, and sustainable yield", "C) NFT collectors and artists", "D) Crypto miners"]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Concrete is specifically designed for institutional-grade depositors — sophisticated participants who prioritize transparency, risk management, and sustainable yield over speculative high-APY opportunities. The protocol's architecture reflects these priorities throughout.",
+        "zh": "Concrete专为机构级存款人设计——这些复杂参与者优先考虑透明度、风险管理和可持续收益，而非投机性高收益机会。协议的架构始终反映这些优先事项。",
+        "vi": "Concrete được thiết kế đặc biệt cho người dùng cấp tổ chức — những người tham gia tinh tế ưu tiên minh bạch, quản lý rủi ro và yield bền vững hơn cơ hội APY cao đầu cơ.",
+        "id": "Concrete dirancang khusus untuk deposan tingkat institusi — peserta canggih yang mengutamakan transparansi, manajemen risiko, dan yield berkelanjutan daripada peluang APY tinggi spekulatif.",
+        "tr": "Concrete, spekülatif yüksek APY fırsatlarından ziyade şeffaflığı, risk yönetimini ve sürdürülebilir getiriyi ön planda tutan kurumsal düzeyde yatırımcılar için özel olarak tasarlanmıştır.",
+        "pcm": "Concrete dey designed for institutional-grade people — serious investors wey care about transparency, risk management, and sustainable profit more than high APY speculation."
+      }
+    },
+    {
+      "id": "l1_016",
+      "topic": "app-url",
+      "text": {
+        "en": "Which URL is the official Concrete application where users can access vaults?",
+        "zh": "哪个URL是用户可以访问金库的官方Concrete应用程序？",
+        "vi": "URL nào là ứng dụng Concrete chính thức nơi người dùng có thể truy cập vault?",
+        "id": "URL mana yang merupakan aplikasi Concrete resmi tempat pengguna dapat mengakses vault?",
+        "tr": "Kullanıcıların vault'lara erişebileceği resmi Concrete uygulaması hangi URL'dedir?",
+        "pcm": "Which URL be the official Concrete app where person fit access vaults?"
+      },
+      "options": {
+        "en": ["A) defi.concrete.io", "B) app.concrete.xyz", "C) vault.concrete.eth", "D) concrete.defi.app"],
+        "zh": ["A) defi.concrete.io", "B) app.concrete.xyz", "C) vault.concrete.eth", "D) concrete.defi.app"],
+        "vi": ["A) defi.concrete.io", "B) app.concrete.xyz", "C) vault.concrete.eth", "D) concrete.defi.app"],
+        "id": ["A) defi.concrete.io", "B) app.concrete.xyz", "C) vault.concrete.eth", "D) concrete.defi.app"],
+        "tr": ["A) defi.concrete.io", "B) app.concrete.xyz", "C) vault.concrete.eth", "D) concrete.defi.app"],
+        "pcm": ["A) defi.concrete.io", "B) app.concrete.xyz", "C) vault.concrete.eth", "D) concrete.defi.app"]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "The official Concrete application is accessible at https://app.concrete.xyz — this is where users interact with protocol vaults, view performance data, and participate in the ecosystem.",
+        "zh": "官方Concrete应用程序可在 https://app.concrete.xyz 访问——用户在此与协议金库交互、查看性能数据并参与生态系统。",
+        "vi": "Ứng dụng Concrete chính thức có thể truy cập tại https://app.concrete.xyz — đây là nơi người dùng tương tác với các vault giao thức, xem dữ liệu hiệu suất.",
+        "id": "Aplikasi Concrete resmi dapat diakses di https://app.concrete.xyz — di sinilah pengguna berinteraksi dengan vault protokol dan melihat data kinerja.",
+        "tr": "Resmi Concrete uygulamasına https://app.concrete.xyz adresinden erişilebilir — kullanıcılar burada protokol vault'larıyla etkileşime girer ve performans verilerini görüntüler.",
+        "pcm": "The official Concrete app dey at https://app.concrete.xyz — na where users fit interact with vaults, see performance data, and participate for the ecosystem."
+      }
+    },
+    {
+      "id": "l1_017",
+      "topic": "social-media",
+      "text": {
+        "en": "What is the official Twitter / X handle for Concrete?",
+        "zh": "Concrete的官方Twitter/X账号是什么？",
+        "vi": "Tài khoản Twitter / X chính thức của Concrete là gì?",
+        "id": "Apa handle Twitter / X resmi untuk Concrete?",
+        "tr": "Concrete'nin resmi Twitter / X hesabı nedir?",
+        "pcm": "Wetin be the official Twitter / X handle for Concrete?"
+      },
+      "options": {
+        "en": ["A) @Concrete_DeFi", "B) @ConcreteXYZ", "C) @ConcreteVaults", "D) @ConcretePro"],
+        "zh": ["A) @Concrete_DeFi", "B) @ConcreteXYZ", "C) @ConcreteVaults", "D) @ConcretePro"],
+        "vi": ["A) @Concrete_DeFi", "B) @ConcreteXYZ", "C) @ConcreteVaults", "D) @ConcretePro"],
+        "id": ["A) @Concrete_DeFi", "B) @ConcreteXYZ", "C) @ConcreteVaults", "D) @ConcretePro"],
+        "tr": ["A) @Concrete_DeFi", "B) @ConcreteXYZ", "C) @ConcreteVaults", "D) @ConcretePro"],
+        "pcm": ["A) @Concrete_DeFi", "B) @ConcreteXYZ", "C) @ConcreteVaults", "D) @ConcretePro"]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "The official Concrete Twitter / X account is @ConcreteXYZ (https://x.com/ConcreteXYZ). Following this account is the primary way to stay updated on protocol news, vault launches, and ecosystem announcements.",
+        "zh": "Concrete官方Twitter/X账号是@ConcreteXYZ (https://x.com/ConcreteXYZ)。关注此账号是了解协议新闻、金库发布和生态系统公告的主要方式。",
+        "vi": "Tài khoản Twitter / X chính thức của Concrete là @ConcreteXYZ (https://x.com/ConcreteXYZ). Theo dõi tài khoản này là cách chính để cập nhật tin tức giao thức.",
+        "id": "Akun Twitter / X resmi Concrete adalah @ConcreteXYZ (https://x.com/ConcreteXYZ). Mengikuti akun ini adalah cara utama untuk mendapatkan pembaruan tentang berita protokol.",
+        "tr": "Resmi Concrete Twitter / X hesabı @ConcreteXYZ (https://x.com/ConcreteXYZ). Bu hesabı takip etmek, protokol haberlerinden haberdar olmanın birincil yoludur.",
+        "pcm": "The official Concrete Twitter/X account na @ConcreteXYZ (https://x.com/ConcreteXYZ). Follow this account to always know wetin dey happen for the protocol."
+      }
+    },
+    {
+      "id": "l1_018",
+      "topic": "documentation",
+      "text": {
+        "en": "Where is the official Concrete protocol documentation published?",
+        "zh": "官方Concrete协议文档发布在哪里？",
+        "vi": "Tài liệu giao thức Concrete chính thức được công bố ở đâu?",
+        "id": "Di mana dokumentasi protokol Concrete resmi diterbitkan?",
+        "tr": "Resmi Concrete protokol dokümantasyonu nerede yayınlanmaktadır?",
+        "pcm": "Where dem publish the official Concrete protocol documentation?"
+      },
+      "options": {
+        "en": ["A) github.com/concrete", "B) docs.concrete.xyz", "C) wiki.concrete.io", "D) learn.concrete.xyz"],
+        "zh": ["A) github.com/concrete", "B) docs.concrete.xyz", "C) wiki.concrete.io", "D) learn.concrete.xyz"],
+        "vi": ["A) github.com/concrete", "B) docs.concrete.xyz", "C) wiki.concrete.io", "D) learn.concrete.xyz"],
+        "id": ["A) github.com/concrete", "B) docs.concrete.xyz", "C) wiki.concrete.io", "D) learn.concrete.xyz"],
+        "tr": ["A) github.com/concrete", "B) docs.concrete.xyz", "C) wiki.concrete.io", "D) learn.concrete.xyz"],
+        "pcm": ["A) github.com/concrete", "B) docs.concrete.xyz", "C) wiki.concrete.io", "D) learn.concrete.xyz"]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "The official Concrete protocol documentation is at https://docs.concrete.xyz. This is the authoritative source for technical details, vault mechanics, risk frameworks, and integration guides.",
+        "zh": "官方Concrete协议文档位于 https://docs.concrete.xyz。这是技术细节、金库机制、风险框架和集成指南的权威来源。",
+        "vi": "Tài liệu giao thức Concrete chính thức tại https://docs.concrete.xyz. Đây là nguồn tài liệu chính thức cho chi tiết kỹ thuật, cơ chế vault và khung rủi ro.",
+        "id": "Dokumentasi protokol Concrete resmi ada di https://docs.concrete.xyz. Ini adalah sumber otoritatif untuk detail teknis, mekanika vault, dan kerangka risiko.",
+        "tr": "Resmi Concrete protokol dokümantasyonu https://docs.concrete.xyz adresindedir. Bu, teknik detaylar, vault mekanikleri ve risk çerçeveleri için yetkili kaynaktır.",
+        "pcm": "The official Concrete protocol documentation dey at https://docs.concrete.xyz. Na the main source for technical details, vault mechanics, and risk frameworks."
+      }
+    },
+    {
+      "id": "l1_019",
+      "topic": "blog-platform",
+      "text": {
+        "en": "Which platform hosts the official Concrete blog and long-form updates?",
+        "zh": "哪个平台托管官方Concrete博客和长篇更新？",
+        "vi": "Nền tảng nào lưu trữ blog chính thức của Concrete và các bản cập nhật dài?",
+        "id": "Platform mana yang menjadi host blog resmi Concrete dan pembaruan panjang?",
+        "tr": "Resmi Concrete blogu ve uzun biçimli güncellemeler hangi platformda barındırılmaktadır?",
+        "pcm": "Which platform dey host the official Concrete blog and long updates?"
+      },
+      "options": {
+        "en": ["A) Medium", "B) Substack", "C) Mirror (mirror.xyz/concretexyz.eth)", "D) LinkedIn"],
+        "zh": ["A) Medium", "B) Substack", "C) Mirror (mirror.xyz/concretexyz.eth)", "D) LinkedIn"],
+        "vi": ["A) Medium", "B) Substack", "C) Mirror (mirror.xyz/concretexyz.eth)", "D) LinkedIn"],
+        "id": ["A) Medium", "B) Substack", "C) Mirror (mirror.xyz/concretexyz.eth)", "D) LinkedIn"],
+        "tr": ["A) Medium", "B) Substack", "C) Mirror (mirror.xyz/concretexyz.eth)", "D) LinkedIn"],
+        "pcm": ["A) Medium", "B) Substack", "C) Mirror (mirror.xyz/concretexyz.eth)", "D) LinkedIn"]
+      },
+      "correct": "C",
+      "explanation": {
+        "en": "Concrete publishes its official blog and long-form articles on Mirror at https://mirror.xyz/concretexyz.eth. Mirror is a decentralized publishing platform, which aligns with Concrete's on-chain transparency ethos.",
+        "zh": "Concrete在Mirror上发布官方博客和长篇文章，地址为 https://mirror.xyz/concretexyz.eth。Mirror是一个去中心化发布平台，与Concrete的链上透明度理念相一致。",
+        "vi": "Concrete xuất bản blog chính thức và các bài viết dài trên Mirror tại https://mirror.xyz/concretexyz.eth. Mirror là nền tảng xuất bản phi tập trung.",
+        "id": "Concrete menerbitkan blog resmi dan artikel panjang di Mirror di https://mirror.xyz/concretexyz.eth. Mirror adalah platform penerbitan terdesentralisasi.",
+        "tr": "Concrete, resmi blogunu ve uzun biçimli makalelerini https://mirror.xyz/concretexyz.eth adresindeki Mirror'da yayınlar. Mirror, merkeziyetsiz bir yayın platformudur.",
+        "pcm": "Concrete dey publish official blog and long articles for Mirror at https://mirror.xyz/concretexyz.eth. Mirror na decentralized publishing platform wey align with Concrete transparency."
+      }
+    },
+    {
+      "id": "l1_020",
+      "topic": "four-pillars",
+      "text": {
+        "en": "Which set best represents Concrete's four core architectural pillars?",
+        "zh": "哪组最能代表Concrete的四个核心架构支柱？",
+        "vi": "Bộ nào đại diện tốt nhất cho bốn trụ cột kiến trúc cốt lõi của Concrete?",
+        "id": "Kumpulan mana yang paling mewakili empat pilar arsitektur inti Concrete?",
+        "tr": "Hangi küme Concrete'nin dört temel mimari sütununu en iyi temsil eder?",
+        "pcm": "Which set best represent Concrete four core architectural pillars?"
+      },
+      "options": {
+        "en": [
+          "A) Staking, Governance, NFTs, Bridging",
+          "B) Quantitative Modeling, Risk Management, Cross-Chain Integration, Modular Infrastructure",
+          "C) Tokenomics, Marketing, Community, Development",
+          "D) Lending, Borrowing, Trading, Staking"
+        ],
+        "zh": [
+          "A) 质押、治理、NFT、跨链桥",
+          "B) 量化建模、风险管理、跨链整合、模块化基础设施",
+          "C) 代币经济、营销、社区、开发",
+          "D) 借贷、借款、交易、质押"
+        ],
+        "vi": [
+          "A) Staking, Quản trị, NFT, Bridge",
+          "B) Mô hình định lượng, Quản lý rủi ro, Tích hợp cross-chain, Cơ sở hạ tầng module",
+          "C) Tokenomics, Marketing, Cộng đồng, Phát triển",
+          "D) Cho vay, Vay, Giao dịch, Staking"
+        ],
+        "id": [
+          "A) Staking, Governance, NFT, Bridging",
+          "B) Pemodelan Kuantitatif, Manajemen Risiko, Integrasi Lintas-Chain, Infrastruktur Modular",
+          "C) Tokenomics, Pemasaran, Komunitas, Pengembangan",
+          "D) Pinjaman, Peminjaman, Perdagangan, Staking"
+        ],
+        "tr": [
+          "A) Staking, Yönetişim, NFT'ler, Köprüleme",
+          "B) Nicel Modelleme, Risk Yönetimi, Çapraz Zincir Entegrasyonu, Modüler Altyapı",
+          "C) Tokenomics, Pazarlama, Topluluk, Geliştirme",
+          "D) Borç Verme, Borçlanma, Ticaret, Staking"
+        ],
+        "pcm": [
+          "A) Staking, Governance, NFTs, Bridging",
+          "B) Quantitative Modeling, Risk Management, Cross-Chain Integration, Modular Infrastructure",
+          "C) Tokenomics, Marketing, Community, Development",
+          "D) Lending, Borrowing, Trading, Staking"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Concrete's four core pillars are: (1) Quantitative Modeling — driving data-driven risk and allocation decisions; (2) Risk Management — systematic controls embedded in every vault; (3) Cross-Chain Integration — enabling multi-ecosystem yield capture; (4) Modular Infrastructure — allowing extensibility without full redesigns.",
+        "zh": "Concrete的四大核心支柱是：(1)量化建模——驱动数据驱动的风险和分配决策；(2)风险管理——嵌入每个金库的系统化控制；(3)跨链整合——实现多生态系统收益捕获；(4)模块化基础设施——允许无需全面重新设计的可扩展性。",
+        "vi": "Bốn trụ cột cốt lõi của Concrete là: (1) Mô hình định lượng; (2) Quản lý rủi ro; (3) Tích hợp cross-chain; (4) Cơ sở hạ tầng module. Tất cả cùng nhau tạo nên hệ thống yield toàn diện cấp tổ chức.",
+        "id": "Empat pilar inti Concrete adalah: (1) Pemodelan Kuantitatif; (2) Manajemen Risiko; (3) Integrasi Lintas-Chain; (4) Infrastruktur Modular. Keempat pilar ini bersama-sama membentuk sistem yield tingkat institusi yang komprehensif.",
+        "tr": "Concrete'nin dört temel sütunu şunlardır: (1) Nicel Modelleme; (2) Risk Yönetimi; (3) Çapraz Zincir Entegrasyonu; (4) Modüler Altyapı. Bu dört sütun birlikte kurumsal düzeyde kapsamlı getiri altyapısını oluşturur.",
+        "pcm": "Concrete four core pillars na: (1) Quantitative Modeling — for data-driven decisions; (2) Risk Management — systematic controls for every vault; (3) Cross-Chain Integration — to capture yield from many blockchains; (4) Modular Infrastructure — to extend without rebuilding everything."
+      }
+    },
+    {
+      "id": "l1_021",
+      "topic": "full-stack-meaning",
+      "text": {
+        "en": "What does 'full-stack' mean when Concrete describes itself as a 'full-stack yield infrastructure'?",
+        "zh": "当Concrete将自己描述为「全栈收益基础设施」时，「全栈」是什么意思？",
+        "vi": "\"Full-stack\" có nghĩa gì khi Concrete mô tả mình là 'cơ sở hạ tầng yield toàn diện'?",
+        "id": "Apa arti 'full-stack' ketika Concrete mendeskripsikan dirinya sebagai 'infrastruktur yield full-stack'?",
+        "tr": "Concrete kendini 'tam yığın getiri altyapısı' olarak tanımlarken 'tam yığın' ne anlama gelir?",
+        "pcm": "Wetin 'full-stack' mean when Concrete call itself 'full-stack yield infrastructure'?"
+      },
+      "options": {
+        "en": [
+          "A) It uses a specific JavaScript technology stack for its website",
+          "B) It covers every layer of yield delivery — from strategy design and risk modeling to execution and monitoring — in a single cohesive system",
+          "C) It offers a full suite of DeFi products including an exchange, wallet, and launchpad",
+          "D) It supports all programming languages in its smart contracts"
+        ],
+        "zh": [
+          "A) 它为其网站使用了特定的JavaScript技术栈",
+          "B) 它在一个统一系统中涵盖收益交付的每一层——从策略设计和风险建模到执行和监控",
+          "C) 它提供包括交易所、钱包和启动台在内的完整DeFi产品套件",
+          "D) 它在智能合约中支持所有编程语言"
+        ],
+        "vi": [
+          "A) Nó sử dụng ngăn xếp công nghệ JavaScript cụ thể cho trang web",
+          "B) Nó bao gồm mọi lớp của việc cung cấp yield — từ thiết kế chiến lược và mô hình rủi ro đến thực thi và giám sát — trong một hệ thống thống nhất",
+          "C) Nó cung cấp đầy đủ sản phẩm DeFi bao gồm sàn giao dịch, ví và launchpad",
+          "D) Nó hỗ trợ tất cả ngôn ngữ lập trình trong smart contract"
+        ],
+        "id": [
+          "A) Ini menggunakan tumpukan teknologi JavaScript khusus untuk situsnya",
+          "B) Ini mencakup setiap lapisan pengiriman yield — dari desain strategi dan pemodelan risiko hingga eksekusi dan pemantauan — dalam satu sistem yang kohesif",
+          "C) Ini menawarkan rangkaian lengkap produk DeFi termasuk bursa, dompet, dan launchpad",
+          "D) Ini mendukung semua bahasa pemrograman dalam smart contractnya"
+        ],
+        "tr": [
+          "A) Web sitesi için belirli bir JavaScript teknoloji yığını kullanır",
+          "B) Strateji tasarımı ve risk modellemesinden yürütme ve izlemeye kadar her getiri katmanını tek bir uyumlu sistemde kapsar",
+          "C) Borsa, cüzdan ve launchpad dahil tam bir DeFi ürün paketi sunar",
+          "D) Akıllı sözleşmelerinde tüm programlama dillerini destekler"
+        ],
+        "pcm": [
+          "A) E dey use specific JavaScript tech stack for its website",
+          "B) E dey cover every layer of yield delivery — from strategy design and risk modeling to execution and monitoring — all in one system",
+          "C) E dey offer complete DeFi products including exchange, wallet, and launchpad",
+          "D) E support all programming languages for smart contracts"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "'Full-stack' in Concrete's context means the protocol handles every layer of the yield value chain internally: strategy design, quantitative risk modeling, capital deployment execution, cross-chain coordination, and ongoing performance monitoring. Unlike simple aggregators that only route capital, Concrete owns the entire stack.",
+        "zh": "在Concrete的背景下，「全栈」意味着协议在内部处理收益价值链的每一层：策略设计、量化风险建模、资本部署执行、跨链协调和持续性能监控。与仅路由资本的简单聚合器不同，Concrete拥有整个技术栈。",
+        "vi": "'Full-stack' trong bối cảnh Concrete có nghĩa là giao thức xử lý mọi lớp của chuỗi giá trị yield nội bộ: thiết kế chiến lược, mô hình rủi ro định lượng, triển khai vốn, phối hợp cross-chain và giám sát hiệu suất liên tục.",
+        "id": "'Full-stack' dalam konteks Concrete berarti protokol menangani setiap lapisan rantai nilai yield secara internal: desain strategi, pemodelan risiko kuantitatif, eksekusi penempatan modal, koordinasi lintas-chain, dan pemantauan kinerja berkelanjutan.",
+        "tr": "Concrete bağlamında 'tam yığın', protokolün getiri değer zincirinin her katmanını dahili olarak ele aldığı anlamına gelir: strateji tasarımı, nicel risk modellemesi, sermaye dağıtımı yürütmesi, çapraz zincir koordinasyonu ve süregelen performans izlemesi.",
+        "pcm": "'Full-stack' for Concrete context mean say the protocol dey handle every layer of yield delivery internally: strategy design, risk modeling, capital deployment, cross-chain coordination, and performance monitoring. E no just route money like simple aggregators."
+      }
+    },
+    {
+      "id": "l1_022",
+      "topic": "points-purpose",
+      "text": {
+        "en": "What is the primary purpose of the Concrete Points Campaign?",
+        "zh": "Concrete积分活动的主要目的是什么？",
+        "vi": "Mục đích chính của Chương trình điểm Concrete là gì?",
+        "id": "Apa tujuan utama Kampanye Poin Concrete?",
+        "tr": "Concrete Puan Kampanyasının temel amacı nedir?",
+        "pcm": "Wetin be the main purpose of Concrete Points Campaign?"
+      },
+      "options": {
+        "en": [
+          "A) To track social media engagement and follower counts",
+          "B) To reward early community participants and ecosystem contributors for their engagement with the Concrete protocol",
+          "C) To measure gas fees spent on the Ethereum network",
+          "D) To rank developers by lines of code submitted"
+        ],
+        "zh": [
+          "A) 跟踪社交媒体参与度和关注者数量",
+          "B) 奖励早期社区参与者和生态系统贡献者参与Concrete协议",
+          "C) 衡量在以太坊网络上花费的Gas费用",
+          "D) 按提交的代码行数对开发者进行排名"
+        ],
+        "vi": [
+          "A) Theo dõi mức độ tương tác trên mạng xã hội và số người theo dõi",
+          "B) Thưởng cho những người tham gia cộng đồng sớm và những người đóng góp cho hệ sinh thái vì sự tham gia của họ với giao thức Concrete",
+          "C) Đo phí gas đã chi trên mạng Ethereum",
+          "D) Xếp hạng nhà phát triển theo số dòng code đã gửi"
+        ],
+        "id": [
+          "A) Untuk melacak keterlibatan media sosial dan jumlah pengikut",
+          "B) Untuk memberi penghargaan kepada peserta komunitas awal dan kontributor ekosistem atas keterlibatan mereka dengan protokol Concrete",
+          "C) Untuk mengukur biaya gas yang dihabiskan di jaringan Ethereum",
+          "D) Untuk memberi peringkat pengembang berdasarkan baris kode yang dikirimkan"
+        ],
+        "tr": [
+          "A) Sosyal medya etkileşimini ve takipçi sayılarını takip etmek",
+          "B) Erken topluluk katılımcılarını ve ekosistem katkıda bulunanlarını Concrete protokolüne katılımları için ödüllendirmek",
+          "C) Ethereum ağında harcanan gas ücretlerini ölçmek",
+          "D) Geliştiricileri gönderilen kod satır sayısına göre sıralamak"
+        ],
+        "pcm": [
+          "A) To track social media engagement and followers",
+          "B) To reward early community members and ecosystem contributors for engaging with Concrete protocol",
+          "C) To measure gas fees spent on Ethereum network",
+          "D) To rank developers by how much code dem submit"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "The Concrete Points Campaign at https://points.concrete.xyz/home is designed to reward early participants — users who engage with the protocol, contribute to the ecosystem, and help grow the community — recognizing their role in Concrete's development.",
+        "zh": "位于 https://points.concrete.xyz/home 的Concrete积分活动旨在奖励早期参与者——参与协议、为生态系统作出贡献并帮助社区增长的用户——认可他们在Concrete发展中的作用。",
+        "vi": "Chương trình điểm Concrete tại https://points.concrete.xyz/home được thiết kế để thưởng cho những người tham gia sớm — người dùng tương tác với giao thức, đóng góp cho hệ sinh thái và giúp phát triển cộng đồng.",
+        "id": "Kampanye Poin Concrete di https://points.concrete.xyz/home dirancang untuk memberi penghargaan kepada peserta awal yang berinteraksi dengan protokol, berkontribusi pada ekosistem, dan membantu menumbuhkan komunitas.",
+        "tr": "https://points.concrete.xyz/home adresindeki Concrete Puan Kampanyası, protokolle etkileşime giren, ekosisteme katkıda bulunan ve topluluğun büyümesine yardımcı olan erken katılımcıları ödüllendirmek için tasarlanmıştır.",
+        "pcm": "The Concrete Points Campaign for https://points.concrete.xyz/home na designed to reward early participants — people wey dey interact with the protocol, contribute to ecosystem, and help grow the community."
+      }
+    },
+    {
+      "id": "l1_023",
+      "topic": "transparent-performance",
+      "text": {
+        "en": "What does 'transparent performance' mean in the context of Concrete vaults?",
+        "zh": "在Concrete金库的背景下，「透明表现」意味着什么？",
+        "vi": "\"Hiệu suất minh bạch\" có nghĩa gì trong bối cảnh các vault Concrete?",
+        "id": "Apa arti 'kinerja transparan' dalam konteks vault Concrete?",
+        "tr": "Concrete vault'ları bağlamında 'şeffaf performans' ne anlama gelir?",
+        "pcm": "Wetin 'transparent performance' mean for context of Concrete vaults?"
+      },
+      "options": {
+        "en": [
+          "A) Performance reports sent only to institutional investors by email",
+          "B) Publicly verifiable, on-chain yield and risk metrics that any depositor can audit at any time",
+          "C) A transparent UI design that makes the dashboard easy to read",
+          "D) Quarterly PDF reports published by the founding team"
+        ],
+        "zh": [
+          "A) 仅通过电子邮件发送给机构投资者的业绩报告",
+          "B) 任何存款人随时可以审查的公开可验证的链上收益和风险指标",
+          "C) 使仪表板易于阅读的透明UI设计",
+          "D) 创始团队发布的季度PDF报告"
+        ],
+        "vi": [
+          "A) Báo cáo hiệu suất chỉ gửi cho nhà đầu tư tổ chức qua email",
+          "B) Các số liệu yield và rủi ro trên chuỗi có thể xác minh công khai mà bất kỳ người gửi tiền nào cũng có thể kiểm tra bất kỳ lúc nào",
+          "C) Thiết kế giao diện người dùng minh bạch giúp bảng điều khiển dễ đọc",
+          "D) Báo cáo PDF hàng quý do đội sáng lập xuất bản"
+        ],
+        "id": [
+          "A) Laporan kinerja yang hanya dikirim ke investor institusi melalui email",
+          "B) Metrik yield dan risiko on-chain yang dapat diverifikasi secara publik yang dapat diaudit oleh deposan kapan saja",
+          "C) Desain UI transparan yang membuat dasbor mudah dibaca",
+          "D) Laporan PDF triwulan yang diterbitkan oleh tim pendiri"
+        ],
+        "tr": [
+          "A) Yalnızca kurumsal yatırımcılara e-postayla gönderilen performans raporları",
+          "B) Herhangi bir mevduat sahibinin herhangi bir zamanda denetleyebileceği kamuya açık, doğrulanabilir zincir üstü getiri ve risk metrikleri",
+          "C) Gösterge panelini okunması kolay hale getiren şeffaf bir UI tasarımı",
+          "D) Kurucu ekip tarafından yayınlanan üç aylık PDF raporları"
+        ],
+        "pcm": [
+          "A) Performance reports wey only institutional investors receive by email",
+          "B) Publicly verifiable on-chain yield and risk metrics wey any depositor fit check at any time",
+          "C) Transparent UI design wey make dashboard easy to read",
+          "D) Quarterly PDF reports wey founding team dey publish"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Transparent performance in Concrete means that all vault yield data, risk metrics, and allocation decisions are recorded on-chain and therefore publicly accessible. Any depositor — or any external observer — can independently verify how the vault is performing without relying on off-chain reports.",
+        "zh": "Concrete的透明表现意味着所有金库收益数据、风险指标和分配决策都记录在链上，因此可公开访问。任何存款人或外部观察者都可以独立验证金库的表现，无需依赖链下报告。",
+        "vi": "Hiệu suất minh bạch trong Concrete có nghĩa là tất cả dữ liệu yield vault, số liệu rủi ro và quyết định phân bổ được ghi lại trên chuỗi và do đó có thể truy cập công khai. Bất kỳ người gửi tiền nào cũng có thể xác minh độc lập hiệu suất vault.",
+        "id": "Kinerja transparan dalam Concrete berarti semua data yield vault, metrik risiko, dan keputusan alokasi dicatat on-chain dan karenanya dapat diakses secara publik. Setiap deposan dapat memverifikasi secara independen bagaimana vault berkinerja.",
+        "tr": "Concrete'de şeffaf performans, tüm vault getiri verileri, risk metrikleri ve tahsis kararlarının zincir üstünde kaydedildiği ve bu nedenle kamuya açık olduğu anlamına gelir. Her mevduat sahibi vault performansını bağımsız olarak doğrulayabilir.",
+        "pcm": "Transparent performance for Concrete mean say all vault yield data, risk metrics, and allocation decisions dey recorded on-chain so anybody fit verify them. No need to trust off-chain reports — you fit check everything yourself."
+      }
+    },
+    {
+      "id": "l1_024",
+      "topic": "original-name",
+      "text": {
+        "en": "What was the original name of the Concrete protocol before its rebrand?",
+        "zh": "Concrete协议在更名之前的原始名称是什么？",
+        "vi": "Tên gốc của giao thức Concrete trước khi đổi thương hiệu là gì?",
+        "id": "Apa nama asli protokol Concrete sebelum berganti merek?",
+        "tr": "Concrete protokolünün yeniden markalaşmadan önceki orijinal adı neydi?",
+        "pcm": "Wetin be the original name of Concrete protocol before dem rebrand am?"
+      },
+      "options": {
+        "en": ["A) Blueprint Finance", "B) Foundation Protocol", "C) BaseLayer Finance", "D) Construct DeFi"],
+        "zh": ["A) Blueprint Finance", "B) Foundation Protocol", "C) BaseLayer Finance", "D) Construct DeFi"],
+        "vi": ["A) Blueprint Finance", "B) Foundation Protocol", "C) BaseLayer Finance", "D) Construct DeFi"],
+        "id": ["A) Blueprint Finance", "B) Foundation Protocol", "C) BaseLayer Finance", "D) Construct DeFi"],
+        "tr": ["A) Blueprint Finance", "B) Foundation Protocol", "C) BaseLayer Finance", "D) Construct DeFi"],
+        "pcm": ["A) Blueprint Finance", "B) Foundation Protocol", "C) BaseLayer Finance", "D) Construct DeFi"]
+      },
+      "correct": "A",
+      "explanation": {
+        "en": "Concrete was originally known as Blueprint Finance. The Halborn security audit report references this original name (https://www.halborn.com/audits/blueprint-finance), and the protocol subsequently rebranded to Concrete while maintaining the same codebase and team.",
+        "zh": "Concrete最初被称为Blueprint Finance。Halborn安全审计报告引用了这个原始名称（https://www.halborn.com/audits/blueprint-finance），随后协议更名为Concrete，同时保留了相同的代码库和团队。",
+        "vi": "Concrete ban đầu được biết đến là Blueprint Finance. Báo cáo kiểm tra bảo mật Halborn đề cập đến tên gốc này (https://www.halborn.com/audits/blueprint-finance), và giao thức sau đó đổi thương hiệu thành Concrete.",
+        "id": "Concrete awalnya dikenal sebagai Blueprint Finance. Laporan audit keamanan Halborn mereferensikan nama asli ini (https://www.halborn.com/audits/blueprint-finance), dan protokol kemudian berganti merek menjadi Concrete.",
+        "tr": "Concrete başlangıçta Blueprint Finance olarak biliniyordu. Halborn güvenlik denetim raporu bu orijinal adı referans alır (https://www.halborn.com/audits/blueprint-finance) ve protokol daha sonra aynı kod tabanı ve ekiple Concrete olarak yeniden markalaştı.",
+        "pcm": "Concrete was originally called Blueprint Finance. The Halborn security audit report reference this original name (https://www.halborn.com/audits/blueprint-finance), and the protocol later rebrand to Concrete with same team and codebase."
+      }
+    },
+    {
+      "id": "l1_025",
+      "topic": "yield-description",
+      "text": {
+        "en": "How does Concrete describe its approach to yield generation?",
+        "zh": "Concrete如何描述其收益生成方式？",
+        "vi": "Concrete mô tả cách tiếp cận tạo yield của mình như thế nào?",
+        "id": "Bagaimana Concrete mendeskripsikan pendekatannya terhadap generasi yield?",
+        "tr": "Concrete, getiri oluşturma yaklaşımını nasıl tanımlar?",
+        "pcm": "How Concrete dey describe its own approach to generating yield?"
+      },
+      "options": {
+        "en": [
+          "A) Speculative and aggressive, targeting maximum APY at any cost",
+          "B) Transparent, risk-managed, and sustainable",
+          "C) Fixed-rate with fully guaranteed returns",
+          "D) Manual and discretionary based on founder decisions"
+        ],
+        "zh": [
+          "A) 投机性且激进，不惜一切追求最高年化收益率",
+          "B) 透明、风险可控、可持续",
+          "C) 固定利率，完全保证回报",
+          "D) 基于创始人决策的手动和自主决策"
+        ],
+        "vi": [
+          "A) Đầu cơ và tích cực, nhắm đến APY tối đa bằng mọi giá",
+          "B) Minh bạch, quản lý rủi ro và bền vững",
+          "C) Lãi suất cố định với lợi nhuận được đảm bảo hoàn toàn",
+          "D) Thủ công và tùy ý dựa trên quyết định của người sáng lập"
+        ],
+        "id": [
+          "A) Spekulatif dan agresif, menargetkan APY maksimum dengan segala cara",
+          "B) Transparan, terkelola risiko, dan berkelanjutan",
+          "C) Tingkat tetap dengan pengembalian yang sepenuhnya dijamin",
+          "D) Manual dan diskresioner berdasarkan keputusan pendiri"
+        ],
+        "tr": [
+          "A) Her ne pahasına olursa olsun maksimum APY'yi hedefleyen spekülatif ve agresif",
+          "B) Şeffaf, risk yönetimli ve sürdürülebilir",
+          "C) Tamamen garantili getirilerle sabit faizli",
+          "D) Kurucu kararlarına dayalı manuel ve takdire bağlı"
+        ],
+        "pcm": [
+          "A) Speculative and aggressive, targeting maximum APY at any cost",
+          "B) Transparent, risk-managed, and sustainable",
+          "C) Fixed-rate with fully guaranteed returns",
+          "D) Manual and discretionary based on founder decisions"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Concrete consistently describes its yield approach as transparent, risk-managed, and sustainable — three pillars that differentiate it from protocols that chase maximum APY without adequate risk controls. This framing reflects the protocol's institutional-grade ethos.",
+        "zh": "Concrete始终将其收益方式描述为透明、风险可控、可持续——这三个支柱将其与追求最高年化收益率而没有充分风险控制的协议区分开来。这一框架反映了协议的机构级理念。",
+        "vi": "Concrete luôn mô tả cách tiếp cận yield của mình là minh bạch, quản lý rủi ro và bền vững — ba trụ cột phân biệt nó với các giao thức chạy đua APY tối đa mà không có kiểm soát rủi ro đầy đủ.",
+        "id": "Concrete secara konsisten mendeskripsikan pendekatan yield-nya sebagai transparan, terkelola risiko, dan berkelanjutan — tiga pilar yang membedakannya dari protokol yang mengejar APY maksimum tanpa kontrol risiko yang memadai.",
+        "tr": "Concrete, getiri yaklaşımını tutarlı biçimde şeffaf, risk yönetimli ve sürdürülebilir olarak tanımlar — bu üç sütun, yeterli risk kontrolleri olmaksızın maksimum APY peşinde koşan protokollerden onu ayırır.",
+        "pcm": "Concrete always describe its yield approach as transparent, risk-managed, and sustainable — three things wey make am different from protocols wey just dey chase maximum APY without proper risk controls."
+      }
+    },
+    {
+      "id": "l1_026",
+      "topic": "website",
+      "text": {
+        "en": "What is the official Concrete website URL?",
+        "zh": "Concrete官方网站URL是什么？",
+        "vi": "URL trang web chính thức của Concrete là gì?",
+        "id": "Apa URL situs web resmi Concrete?",
+        "tr": "Resmi Concrete web sitesi URL'si nedir?",
+        "pcm": "Wetin be the official Concrete website URL?"
+      },
+      "options": {
+        "en": ["A) concrete.io", "B) concrete.xyz", "C) getconcrete.com", "D) concreteprotocol.org"],
+        "zh": ["A) concrete.io", "B) concrete.xyz", "C) getconcrete.com", "D) concreteprotocol.org"],
+        "vi": ["A) concrete.io", "B) concrete.xyz", "C) getconcrete.com", "D) concreteprotocol.org"],
+        "id": ["A) concrete.io", "B) concrete.xyz", "C) getconcrete.com", "D) concreteprotocol.org"],
+        "tr": ["A) concrete.io", "B) concrete.xyz", "C) getconcrete.com", "D) concreteprotocol.org"],
+        "pcm": ["A) concrete.io", "B) concrete.xyz", "C) getconcrete.com", "D) concreteprotocol.org"]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "The official Concrete website is https://www.concrete.xyz. This is the primary landing page for the protocol, providing an overview of the mission, product, and ecosystem links.",
+        "zh": "官方Concrete网站是 https://www.concrete.xyz。这是协议的主要登陆页面，提供使命、产品和生态系统链接的概述。",
+        "vi": "Trang web chính thức của Concrete là https://www.concrete.xyz. Đây là trang đích chính của giao thức, cung cấp tổng quan về sứ mệnh, sản phẩm và các liên kết hệ sinh thái.",
+        "id": "Situs web resmi Concrete adalah https://www.concrete.xyz. Ini adalah halaman arahan utama protokol, memberikan gambaran umum tentang misi, produk, dan tautan ekosistem.",
+        "tr": "Resmi Concrete web sitesi https://www.concrete.xyz'dir. Bu, misyon, ürün ve ekosistem bağlantılarına genel bakış sağlayan protokolün birincil açılış sayfasıdır.",
+        "pcm": "The official Concrete website na https://www.concrete.xyz. Na the main page for the protocol wey dey give overview of mission, products, and ecosystem links."
+      }
+    },
+    {
+      "id": "l1_027",
+      "topic": "institutional-standards",
+      "text": {
+        "en": "What best describes the relationship between Concrete and traditional institutional finance standards?",
+        "zh": "什么最能描述Concrete与传统机构金融标准之间的关系？",
+        "vi": "Điều gì mô tả tốt nhất mối quan hệ giữa Concrete và các tiêu chuẩn tài chính tổ chức truyền thống?",
+        "id": "Apa yang paling baik mendeskripsikan hubungan antara Concrete dan standar keuangan institusi tradisional?",
+        "tr": "Concrete ile geleneksel kurumsal finans standartları arasındaki ilişkiyi en iyi ne tanımlar?",
+        "pcm": "Wetin best describe the relationship between Concrete and traditional institutional finance standards?"
+      },
+      "options": {
+        "en": [
+          "A) Concrete rejects all institutional finance principles in favor of pure DeFi experimentation",
+          "B) Concrete applies institutional-grade rigor — systematic risk controls, transparency, and professional infrastructure — to DeFi yield generation",
+          "C) Concrete exclusively serves licensed financial institutions with no retail access",
+          "D) Concrete mirrors traditional hedge fund strategies without any on-chain transparency"
+        ],
+        "zh": [
+          "A) Concrete拒绝所有机构金融原则，转而支持纯DeFi实验",
+          "B) Concrete将机构级严格性——系统化风险控制、透明度和专业基础设施——应用于DeFi收益生成",
+          "C) Concrete专门为持牌金融机构服务，没有零售访问",
+          "D) Concrete模仿传统对冲基金策略，没有任何链上透明度"
+        ],
+        "vi": [
+          "A) Concrete từ chối tất cả nguyên tắc tài chính tổ chức để ủng hộ thí nghiệm DeFi thuần túy",
+          "B) Concrete áp dụng sự nghiêm ngặt cấp tổ chức — kiểm soát rủi ro có hệ thống, minh bạch và cơ sở hạ tầng chuyên nghiệp — cho việc tạo yield DeFi",
+          "C) Concrete chỉ phục vụ các tổ chức tài chính được cấp phép mà không có quyền truy cập bán lẻ",
+          "D) Concrete phản ánh các chiến lược quỹ phòng hộ truyền thống mà không có tính minh bạch on-chain"
+        ],
+        "id": [
+          "A) Concrete menolak semua prinsip keuangan institusi demi eksperimen DeFi murni",
+          "B) Concrete menerapkan ketelitian tingkat institusi — kontrol risiko sistematis, transparansi, dan infrastruktur profesional — untuk generasi yield DeFi",
+          "C) Concrete secara eksklusif melayani lembaga keuangan berlisensi tanpa akses ritel",
+          "D) Concrete mencerminkan strategi dana lindung nilai tradisional tanpa transparansi on-chain apapun"
+        ],
+        "tr": [
+          "A) Concrete, saf DeFi deneyi adına tüm kurumsal finans ilkelerini reddeder",
+          "B) Concrete, DeFi getiri üretimine kurumsal düzeyde titizlik — sistematik risk kontrolleri, şeffaflık ve profesyonel altyapı — uygular",
+          "C) Concrete yalnızca lisanslı finansal kurumlara hizmet verir, perakende erişimi yoktur",
+          "D) Concrete, hiçbir zincir üstü şeffaflık olmaksızın geleneksel hedge fon stratejilerini yansıtır"
+        ],
+        "pcm": [
+          "A) Concrete dey reject all institutional finance principles for pure DeFi experiment",
+          "B) Concrete dey apply institutional-grade rigor — systematic risk controls, transparency, and professional infrastructure — to DeFi yield generation",
+          "C) Concrete only serve licensed financial institutions with no retail access",
+          "D) Concrete dey copy traditional hedge fund strategies without any on-chain transparency"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Concrete bridges institutional finance standards and DeFi. It applies the same rigorous risk management practices, transparency requirements, and systematic processes used by institutional asset managers — but delivers them in a decentralized, on-chain environment accessible to qualified participants.",
+        "zh": "Concrete连接机构金融标准和DeFi。它应用机构资产管理人使用的同等严格的风险管理实践、透明度要求和系统化流程——但在对合格参与者开放的去中心化链上环境中提供这些服务。",
+        "vi": "Concrete kết nối các tiêu chuẩn tài chính tổ chức và DeFi. Nó áp dụng các quy trình quản lý rủi ro nghiêm ngặt tương tự, yêu cầu minh bạch và các quy trình có hệ thống được sử dụng bởi các nhà quản lý tài sản tổ chức.",
+        "id": "Concrete menjembatani standar keuangan institusi dan DeFi. Ini menerapkan praktik manajemen risiko ketat yang sama, persyaratan transparansi, dan proses sistematis yang digunakan oleh manajer aset institusi.",
+        "tr": "Concrete, kurumsal finans standartları ile DeFi'yi köprüler. Kurumsal varlık yöneticilerinin kullandığı aynı titiz risk yönetimi uygulamalarını, şeffaflık gereksinimlerini ve sistematik süreçleri uygular.",
+        "pcm": "Concrete dey bridge institutional finance standards and DeFi. E apply same strict risk management, transparency, and systematic processes wey institutional asset managers dey use — but for decentralized on-chain environment."
+      }
+    },
+    {
+      "id": "l1_028",
+      "topic": "risk-managed-vaults",
+      "text": {
+        "en": "What does 'risk-managed vaults' mean in Concrete's design?",
+        "zh": "在Concrete的设计中，「风险管理金库」是什么意思？",
+        "vi": "\"Vault được quản lý rủi ro\" có nghĩa gì trong thiết kế của Concrete?",
+        "id": "Apa arti 'vault terkelola risiko' dalam desain Concrete?",
+        "tr": "'Risk yönetimli vault'lar' Concrete tasarımında ne anlama gelir?",
+        "pcm": "Wetin 'risk-managed vaults' mean for Concrete design?"
+      },
+      "options": {
+        "en": [
+          "A) Vaults that eliminate all possible risk through insurance guarantees",
+          "B) Vaults in which quantitative risk controls are systematically embedded, continuously monitored, and dynamically adjusted throughout the vault's lifecycle",
+          "C) Vaults that only accept stablecoins to avoid price volatility",
+          "D) Vaults overseen by a manual human risk committee that votes on each decision"
+        ],
+        "zh": [
+          "A) 通过保险保证消除所有可能风险的金库",
+          "B) 在金库整个生命周期内系统性地嵌入、持续监控和动态调整量化风险控制的金库",
+          "C) 只接受稳定币以避免价格波动的金库",
+          "D) 由人工风险委员会监督并对每个决策进行投票的金库"
+        ],
+        "vi": [
+          "A) Các vault loại bỏ tất cả rủi ro có thể thông qua bảo đảm bảo hiểm",
+          "B) Các vault trong đó các kiểm soát rủi ro định lượng được nhúng có hệ thống, theo dõi liên tục và điều chỉnh động trong suốt vòng đời của vault",
+          "C) Các vault chỉ chấp nhận stablecoin để tránh biến động giá",
+          "D) Các vault được giám sát bởi ủy ban rủi ro con người thủ công bỏ phiếu về mỗi quyết định"
+        ],
+        "id": [
+          "A) Vault yang menghilangkan semua risiko yang mungkin melalui jaminan asuransi",
+          "B) Vault di mana kontrol risiko kuantitatif secara sistematis tertanam, terus dipantau, dan disesuaikan secara dinamis sepanjang siklus hidup vault",
+          "C) Vault yang hanya menerima stablecoin untuk menghindari volatilitas harga",
+          "D) Vault yang diawasi oleh komite risiko manusia manual yang memilih setiap keputusan"
+        ],
+        "tr": [
+          "A) Sigorta güvenceleri aracılığıyla tüm olası riskleri ortadan kaldıran vault'lar",
+          "B) Nicel risk kontrollerinin sistematik olarak gömüldüğü, sürekli izlendiği ve vault'un yaşam döngüsü boyunca dinamik olarak ayarlandığı vault'lar",
+          "C) Fiyat oynaklığından kaçınmak için yalnızca stablecoin kabul eden vault'lar",
+          "D) Her karar üzerinde oy kullanan manuel insan risk komitesi tarafından denetlenen vault'lar"
+        ],
+        "pcm": [
+          "A) Vaults wey dey eliminate all risk through insurance guarantees",
+          "B) Vaults wey get quantitative risk controls wey dey embedded, continuously monitored, and dynamically adjusted throughout vault lifecycle",
+          "C) Vaults wey only accept stablecoins to avoid price volatility",
+          "D) Vaults wey manual human risk committee dey oversee and vote on every decision"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Risk-managed vaults in Concrete are not simply 'lower risk' vaults — they are vaults where risk is actively and systematically governed throughout the entire lifecycle. Quantitative models continuously measure, constrain, and rebalance risk exposures, making risk management a core architectural feature rather than an optional overlay.",
+        "zh": "Concrete的风险管理金库不仅仅是「较低风险」的金库——它们是在整个生命周期中主动、系统地管理风险的金库。量化模型持续测量、约束和重新平衡风险敞口，使风险管理成为核心架构特征，而非可选叠加层。",
+        "vi": "Vault được quản lý rủi ro trong Concrete không chỉ đơn giản là vault 'rủi ro thấp hơn' — chúng là các vault mà rủi ro được quản lý chủ động và có hệ thống trong toàn bộ vòng đời. Các mô hình định lượng liên tục đo lường, kiểm soát và cân bằng lại rủi ro.",
+        "id": "Vault terkelola risiko dalam Concrete bukan sekadar vault 'risiko lebih rendah' — melainkan vault di mana risiko dikelola secara aktif dan sistematis sepanjang seluruh siklus hidup. Model kuantitatif terus mengukur, membatasi, dan menyeimbangkan kembali risiko.",
+        "tr": "Concrete'deki risk yönetimli vault'lar, yalnızca 'daha düşük riskli' vault'lar değildir — tüm yaşam döngüsü boyunca riskin aktif ve sistematik olarak yönetildiği vault'lardır. Nicel modeller riski sürekli ölçer, sınırlar ve yeniden dengeler.",
+        "pcm": "Risk-managed vaults for Concrete no just mean 'lower risk' vaults — dem be vaults wey risk dey actively and systematically managed throughout entire lifecycle. Quantitative models dey continuously measure, constrain, and rebalance risk exposures."
+      }
+    },
+    {
+      "id": "l1_029",
+      "topic": "yield-type",
+      "text": {
+        "en": "What type of yield does Concrete specifically aim to provide to its depositors?",
+        "zh": "Concrete具体旨在为其存款人提供什么类型的收益？",
+        "vi": "Loại yield nào mà Concrete cụ thể nhắm đến cung cấp cho người gửi tiền?",
+        "id": "Jenis yield apa yang secara khusus dituju Concrete untuk disediakan kepada deposaannya?",
+        "tr": "Concrete özellikle mevduat sahiplerine hangi tür getiri sağlamayı amaçlar?",
+        "pcm": "Wetin type of yield Concrete specifically dey aim to provide to depositors?"
+      },
+      "options": {
+        "en": [
+          "A) Token-inflated yields with high APY driven by newly minted rewards",
+          "B) Sustainable, risk-adjusted yield derived from genuine DeFi economic activity",
+          "C) Fixed guaranteed interest rates identical to traditional bank savings",
+          "D) Yield exclusively from proof-of-stake block rewards on Ethereum"
+        ],
+        "zh": [
+          "A) 由新铸造奖励驱动的高年化收益率代币通胀收益",
+          "B) 来源于真实DeFi经济活动的可持续、风险调整后收益",
+          "C) 与传统银行储蓄相同的固定保证利率",
+          "D) 仅来自以太坊权益证明区块奖励的收益"
+        ],
+        "vi": [
+          "A) Yield được tạo ra bởi token với APY cao do phần thưởng mới đúc",
+          "B) Yield bền vững, được điều chỉnh rủi ro được tạo ra từ hoạt động kinh tế DeFi thực sự",
+          "C) Lãi suất cố định được đảm bảo giống hệt tiết kiệm ngân hàng truyền thống",
+          "D) Yield chỉ từ phần thưởng block bằng chứng cổ phần trên Ethereum"
+        ],
+        "id": [
+          "A) Yield yang digelembungkan token dengan APY tinggi didorong oleh hadiah yang baru dicetak",
+          "B) Yield berkelanjutan dan disesuaikan risiko yang berasal dari aktivitas ekonomi DeFi yang nyata",
+          "C) Suku bunga tetap yang dijamin identik dengan tabungan bank tradisional",
+          "D) Yield secara eksklusif dari hadiah blok proof-of-stake di Ethereum"
+        ],
+        "tr": [
+          "A) Yeni basılan ödüllerle desteklenen yüksek APY'li token enflasyonlu getiriler",
+          "B) Gerçek DeFi ekonomik faaliyetinden elde edilen sürdürülebilir, risk ayarlı getiri",
+          "C) Geleneksel banka tasarruflarıyla aynı sabit garantili faiz oranları",
+          "D) Yalnızca Ethereum'daki proof-of-stake blok ödüllerinden getiri"
+        ],
+        "pcm": [
+          "A) Token-inflated yields with high APY from newly minted rewards",
+          "B) Sustainable, risk-adjusted yield from genuine DeFi economic activity",
+          "C) Fixed guaranteed interest rates same like traditional bank savings",
+          "D) Yield only from Ethereum proof-of-stake block rewards"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Concrete's explicit goal is sustainable, risk-adjusted yield from real DeFi economic activity — such as lending interest, trading fees, and structured strategies. This contrasts with token-emission-based yields that inflate supply temporarily and collapse. The risk-adjusted framing ensures returns are analyzed relative to the risk taken to generate them.",
+        "zh": "Concrete的明确目标是来自真实DeFi经济活动的可持续、风险调整后收益——如借贷利息、交易费用和结构化策略。这与暂时通胀供应并最终崩溃的代币发行收益形成对比。风险调整框架确保回报相对于产生它们所承担的风险进行分析。",
+        "vi": "Mục tiêu rõ ràng của Concrete là yield bền vững, được điều chỉnh rủi ro từ hoạt động kinh tế DeFi thực sự — như lãi suất cho vay, phí giao dịch và các chiến lược có cấu trúc. Điều này tương phản với yield dựa trên phát hành token tạm thời làm tăng nguồn cung rồi sụp đổ.",
+        "id": "Tujuan eksplisit Concrete adalah yield berkelanjutan dan disesuaikan risiko dari aktivitas ekonomi DeFi nyata seperti bunga pinjaman, biaya perdagangan, dan strategi terstruktur. Ini kontras dengan yield berbasis emisi token yang sementara menggelembungkan pasokan lalu kolaps.",
+        "tr": "Concrete'nin açık hedefi, borç verme faizi, işlem ücretleri ve yapılandırılmış stratejiler gibi gerçek DeFi ekonomik faaliyetinden sürdürülebilir, risk ayarlı getiridir. Bu, geçici olarak arzı şişiren ve çöken token emisyonu tabanlı getirilerle çelişir.",
+        "pcm": "Concrete explicit goal na sustainable, risk-adjusted yield from real DeFi economic activity like lending interest, trading fees, and structured strategies. This dey different from token-emission yields wey just inflate supply temporarily then collapse."
+      }
+    },
+    {
+      "id": "l1_030",
+      "topic": "long-term-vision",
+      "text": {
+        "en": "According to Concrete's positioning, what best describes its long-term vision for DeFi?",
+        "zh": "根据Concrete的定位，什么最能描述其对DeFi的长期愿景？",
+        "vi": "Theo định vị của Concrete, điều gì mô tả tốt nhất tầm nhìn dài hạn của nó cho DeFi?",
+        "id": "Menurut positioning Concrete, apa yang paling baik menggambarkan visi jangka panjangnya untuk DeFi?",
+        "tr": "Concrete'nin konumlandırmasına göre, DeFi için uzun vadeli vizyonunu en iyi ne tanımlar?",
+        "pcm": "According to Concrete positioning, wetin best describe its long-term vision for DeFi?"
+      },
+      "options": {
+        "en": [
+          "A) To become the largest NFT marketplace in Web3",
+          "B) To serve as the foundational yield infrastructure layer that enables institutional-grade DeFi participation at scale",
+          "C) To issue a governance token with the highest market capitalization",
+          "D) To replace all existing DeFi protocols with a single centralized platform"
+        ],
+        "zh": [
+          "A) 成为Web3最大的NFT市场",
+          "B) 作为基础收益基础设施层，在规模上实现机构级DeFi参与",
+          "C) 发行市值最高的治理代币",
+          "D) 用单一中心化平台取代所有现有DeFi协议"
+        ],
+        "vi": [
+          "A) Trở thành thị trường NFT lớn nhất trong Web3",
+          "B) Đóng vai trò là lớp cơ sở hạ tầng yield nền tảng cho phép tham gia DeFi cấp tổ chức theo quy mô",
+          "C) Phát hành token quản trị với vốn hóa thị trường cao nhất",
+          "D) Thay thế tất cả các giao thức DeFi hiện có bằng một nền tảng tập trung duy nhất"
+        ],
+        "id": [
+          "A) Menjadi marketplace NFT terbesar di Web3",
+          "B) Menjadi lapisan infrastruktur yield fundamental yang memungkinkan partisipasi DeFi tingkat institusi dalam skala besar",
+          "C) Menerbitkan token tata kelola dengan kapitalisasi pasar tertinggi",
+          "D) Menggantikan semua protokol DeFi yang ada dengan satu platform terpusat"
+        ],
+        "tr": [
+          "A) Web3'teki en büyük NFT marketplace olmak",
+          "B) Ölçekte kurumsal düzeyde DeFi katılımını sağlayan temel getiri altyapısı katmanı olarak hizmet etmek",
+          "C) En yüksek piyasa değerine sahip yönetişim tokenını çıkarmak",
+          "D) Mevcut tüm DeFi protokollerini tek bir merkezi platformla değiştirmek"
+        ],
+        "pcm": [
+          "A) To become the largest NFT marketplace in Web3",
+          "B) To serve as foundational yield infrastructure layer wey go allow institutional-grade DeFi participation at scale",
+          "C) To issue governance token with highest market cap",
+          "D) To replace all existing DeFi protocols with one centralized platform"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Concrete's long-term vision is to be the foundational infrastructure layer for institutional-grade yield in DeFi — not to compete for a single niche, but to power the broader ecosystem of sophisticated DeFi participation. The protocol's full-stack approach, modular architecture, and cross-chain integration are all oriented toward this infrastructure role.",
+        "zh": "Concrete的长期愿景是成为DeFi中机构级收益的基础设施层——不是为了争夺单一利基市场，而是为更广泛的复杂DeFi参与生态系统提供动力。协议的全栈方法、模块化架构和跨链整合都以这种基础设施角色为导向。",
+        "vi": "Tầm nhìn dài hạn của Concrete là trở thành lớp cơ sở hạ tầng nền tảng cho yield cấp tổ chức trong DeFi — không phải cạnh tranh cho một thị trường ngách, mà là cung cấp sức mạnh cho hệ sinh thái tham gia DeFi phức tạp rộng hơn.",
+        "id": "Visi jangka panjang Concrete adalah menjadi lapisan infrastruktur fundamental untuk yield tingkat institusi dalam DeFi — bukan bersaing untuk satu ceruk, tetapi mendukung ekosistem partisipasi DeFi yang lebih luas.",
+        "tr": "Concrete'nin uzun vadeli vizyonu, DeFi'de kurumsal düzeyde getiri için temel altyapı katmanı olmaktır — tek bir nişi ele geçirmek değil, daha geniş sofistike DeFi katılım ekosistemini güçlendirmek.",
+        "pcm": "Concrete long-term vision na to be the foundational infrastructure layer for institutional-grade yield in DeFi — not to compete for single niche, but to power the broader ecosystem of serious DeFi participation."
+      }
+    }
+  ]
+}

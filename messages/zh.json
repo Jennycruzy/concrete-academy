@@ -1,0 +1,136 @@
+{
+  "nav": {
+    "learn": "学习",
+    "quiz": "测验",
+    "leaderboard": "排行榜",
+    "startLearning": "开始学习"
+  },
+  "hero": {
+    "badge": "Concrete Academy — 官方教育平台",
+    "title": "掌握DeFi最复杂的",
+    "titleHighlight": "收益基础设施",
+    "subtitle": "通过结构化内容学习Concrete DeFi，参与排名测验测试知识，并从基于官方文档训练的AI获取解答。",
+    "ctaLearn": "开始学习",
+    "ctaQuiz": "参加测验",
+    "stat1": "6种语言",
+    "stat2": "2个测验级别",
+    "stat3": "4个排名等级",
+    "stat4": "由Concrete文档驱动"
+  },
+  "features": {
+    "title": "Concrete协议的",
+    "titleHighlight": "四大支柱",
+    "modular": "模块化架构",
+    "modularDesc": "为不断演变的DeFi格局设计的可组合、可升级组件。每个模块在不影响系统完整性的情况下发挥独特作用。",
+    "quant": "量化建模",
+    "quantDesc": "在协议层面应用机构级数学框架驱动的数据驱动风险评估和资本配置。",
+    "risk": "风险管理",
+    "riskDesc": "直接嵌入金库策略的系统化风险控制——而非附加功能。持续监控和动态仓位管理。",
+    "crosschain": "跨链整合",
+    "crosschainDesc": "跨主要区块链生态系统统一访问收益机会，最大化资本效率，无链碎片化。"
+  },
+  "learning": {
+    "title": "您的学习",
+    "titleHighlight": "路径",
+    "step1Title": "研究协议",
+    "step1Desc": "阅读涵盖Concrete架构、金库、风险模型等方面的结构化模块。",
+    "step2Title": "测试您的知识",
+    "step2Desc": "参加两个级别的排名测验——从概念基础到机制掌握。",
+    "step3Title": "获得您的排名",
+    "step3Desc": "得分81%+即可达到大师级别。攀登全球排行榜。",
+    "viewModules": "查看所有模块",
+    "takeQuiz": "参加测验"
+  },
+  "quiz": {
+    "title": "选择您的",
+    "titleHighlight": "挑战",
+    "level1": "第1级",
+    "level1Title": "Concrete基础",
+    "level1Desc": "15道概念性问题，涵盖Concrete的核心使命、金库、风险管理和生态系统。",
+    "level1Duration": "约10分钟",
+    "level2": "第2级",
+    "level2Title": "Concrete机制",
+    "level2Desc": "12道关于跨链执行、量化模型和协议架构的高级问题。",
+    "level2Duration": "约12分钟",
+    "recommended": "从这里开始",
+    "advanced": "进阶",
+    "startLevel1": "开始第1级",
+    "startLevel2": "开始第2级"
+  },
+  "chatbot": {
+    "bannerTitle": "向Concrete分析师提问任何问题",
+    "bannerDesc": "我们的AI专门基于Concrete官方文档训练，用您的语言提供精确、权威的答案。",
+    "openChat": "打开聊天",
+    "placeholder": "询问关于Concrete协议的问题...",
+    "sending": "发送中...",
+    "typingIndicator": "Concrete分析师正在思考...",
+    "welcomeMessage": "您好。我是Concrete分析师——您了解Concrete协议的机构级向导。我专门基于官方Concrete文档回答问题。您想了解什么？"
+  },
+  "leaderboard": {
+    "title": "全球",
+    "titleHighlight": "排行榜",
+    "level1Tab": "第1级",
+    "level2Tab": "第2级",
+    "rank": "排名",
+    "username": "用户名",
+    "score": "分数",
+    "language": "语言",
+    "date": "日期",
+    "empty": "暂无分数。成为第一个！"
+  },
+  "quizEngine": {
+    "question": "问题",
+    "of": "共",
+    "submit": "提交答案",
+    "next": "下一题",
+    "viewResults": "查看结果",
+    "correct": "正确！",
+    "incorrect": "错误",
+    "explanation": "解释",
+    "yourScore": "您的分数",
+    "rank": "您的排名",
+    "submitScore": "提交到排行榜",
+    "username": "输入用户名",
+    "submitting": "提交中...",
+    "submitted": "分数已提交！",
+    "playAgain": "再玩一次",
+    "retake": "重新测验"
+  },
+  "ranks": {
+    "newbie": "新手",
+    "navigator": "领航者",
+    "guru": "大师",
+    "master": "宗师"
+  },
+  "masterTeaser": {
+    "title": "新级别即将到来...",
+    "subtitle": "您已掌握当今存在的一切。但Concrete协议还在成长。",
+    "body": "一个新的挑战正在铸造中。保持关注。",
+    "follow": "关注 @ConcreteXYZ"
+  },
+  "footer": {
+    "tagline": "将每位DeFi学习者培养为Concrete大师。",
+    "disclaimer": "Concrete Academy — 教育平台。非投资建议。",
+    "links": {
+      "docs": "文档",
+      "app": "启动应用",
+      "blog": "博客",
+      "audit": "安全审计",
+      "twitter": "Twitter/X",
+      "points": "积分活动"
+    }
+  },
+  "learn": {
+    "title": "学习",
+    "titleHighlight": "模块",
+    "subtitle": "直接来源于Concrete官方文档的结构化内容。",
+    "readMore": "阅读模块",
+    "readTime": "分钟阅读",
+    "backToModules": "返回模块"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "出现错误",
+    "tryAgain": "重试"
+  }
+}

@@ -1,0 +1,1193 @@
+{
+  "level": 2,
+  "title": {
+    "en": "Concrete Mechanisms",
+    "zh": "Concrete机制深度",
+    "vi": "Cơ chế Concrete",
+    "id": "Mekanisme Concrete",
+    "tr": "Concrete Mekanizmaları",
+    "pcm": "Concrete Deep Mechanics"
+  },
+  "questions": [
+    {
+      "id": "l2_001",
+      "topic": "cross-chain-execution",
+      "text": {
+        "en": "How does cross-chain vault execution work in Concrete's architecture?",
+        "zh": "在Concrete的架构中，跨链金库执行是如何运作的？",
+        "vi": "Việc thực thi vault cross-chain hoạt động như thế nào trong kiến trúc của Concrete?",
+        "id": "Bagaimana eksekusi vault lintas-chain bekerja dalam arsitektur Concrete?",
+        "tr": "Concrete mimarisinde çapraz zincir vault yürütümü nasıl çalışır?",
+        "pcm": "How cross-chain vault execution dey work for Concrete architecture?"
+      },
+      "options": {
+        "en": [
+          "A) A centralized server manually moves funds between chains",
+          "B) Smart contract modules coordinate with cross-chain messaging protocols to deploy and manage capital across multiple networks",
+          "C) Users manually bridge assets between chains to access each vault",
+          "D) Vaults only exist on a single chain with no cross-chain capability"
+        ],
+        "zh": [
+          "A) 中心化服务器手动在链间转移资金",
+          "B) 智能合约模块与跨链消息协议协调，在多个网络中部署和管理资本",
+          "C) 用户手动在链间桥接资产以访问每个金库",
+          "D) 金库只存在于单一链上，没有跨链能力"
+        ],
+        "vi": [
+          "A) Máy chủ tập trung di chuyển tài sản thủ công giữa các chain",
+          "B) Các module smart contract phối hợp với giao thức nhắn tin cross-chain để triển khai và quản lý vốn trên nhiều mạng",
+          "C) Người dùng phải tự bridge tài sản giữa các chain để truy cập mỗi vault",
+          "D) Vault chỉ tồn tại trên một chain duy nhất"
+        ],
+        "id": [
+          "A) Server terpusat secara manual memindahkan dana antar chain",
+          "B) Modul smart contract berkoordinasi dengan protokol pesan lintas-chain untuk menyebarkan dan mengelola modal di berbagai jaringan",
+          "C) Pengguna secara manual menjembatani aset antar chain untuk mengakses setiap vault",
+          "D) Vault hanya ada di satu chain tanpa kemampuan lintas-chain"
+        ],
+        "tr": [
+          "A) Merkezi bir sunucu fonları zincirler arasında manuel olarak taşır",
+          "B) Akıllı sözleşme modülleri, birden fazla ağda sermaye dağıtmak ve yönetmek için çapraz zincir mesajlaşma protokolleriyle koordinasyon sağlar",
+          "C) Kullanıcılar her vault'a erişmek için varlıkları zincirler arasında manuel olarak köprüler",
+          "D) Vault'lar yalnızca tek bir zincirde mevcuttur"
+        ],
+        "pcm": [
+          "A) Centralized server dey manually move money between chains",
+          "B) Smart contract modules dey coordinate with cross-chain protocols to deploy and manage money for multiple networks",
+          "C) Users must manually bridge their money between chains",
+          "D) Vaults only exist on one chain"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Concrete's cross-chain execution leverages modular smart contract architecture coordinated with cross-chain messaging protocols. This enables the protocol to deploy and manage capital across multiple networks without requiring manual user interaction for each chain.",
+        "zh": "Concrete的跨链执行利用模块化智能合约架构与跨链消息协议协调。这使协议能够在多个网络中部署和管理资本，而无需用户对每条链进行手动操作。",
+        "vi": "Thực thi cross-chain của Concrete tận dụng kiến trúc smart contract module phối hợp với các giao thức nhắn tin cross-chain. Điều này cho phép giao thức triển khai và quản lý vốn trên nhiều mạng.",
+        "id": "Eksekusi cross-chain Concrete memanfaatkan arsitektur smart contract modular yang dikoordinasikan dengan protokol pesan lintas-chain untuk menyebarkan dan mengelola modal di beberapa jaringan.",
+        "tr": "Concrete'nin çapraz zincir yürütümü, çapraz zincir mesajlaşma protokolleriyle koordineli modüler akıllı sözleşme mimarisinden yararlanır. Bu, sermayeyi birden fazla ağda dağıtmayı ve yönetmeyi sağlar.",
+        "pcm": "Concrete cross-chain execution dey use modular smart contracts wey dey coordinate with cross-chain protocols. This allow the system to deploy and manage money for multiple blockchains without user having to do anything manually."
+      }
+    },
+    {
+      "id": "l2_002",
+      "topic": "quant-risk-adjustment",
+      "text": {
+        "en": "How do quantitative models adjust risk within Concrete vault strategies?",
+        "zh": "量化模型如何在Concrete金库策略中调整风险？",
+        "vi": "Các mô hình định lượng điều chỉnh rủi ro trong chiến lược vault Concrete như thế nào?",
+        "id": "Bagaimana model kuantitatif menyesuaikan risiko dalam strategi vault Concrete?",
+        "tr": "Nicel modeller Concrete vault stratejilerinde riski nasıl ayarlar?",
+        "pcm": "How quantitative models dey adjust risk inside Concrete vault strategies?"
+      },
+      "options": {
+        "en": [
+          "A) By manually reviewing each trade once per week",
+          "B) By continuously analyzing market conditions and dynamically rebalancing position sizes based on pre-defined risk parameters",
+          "C) By only investing in assets with zero volatility",
+          "D) By waiting for governance votes before making any adjustments"
+        ],
+        "zh": [
+          "A) 通过每周手动审查每笔交易",
+          "B) 通过持续分析市场条件并根据预定义风险参数动态再平衡头寸规模",
+          "C) 只投资零波动资产",
+          "D) 在进行任何调整之前等待治理投票"
+        ],
+        "vi": [
+          "A) Bằng cách xem xét thủ công từng giao dịch mỗi tuần",
+          "B) Bằng cách liên tục phân tích điều kiện thị trường và tự động cân bằng lại quy mô vị thế dựa trên tham số rủi ro được xác định trước",
+          "C) Chỉ đầu tư vào tài sản có độ biến động bằng 0",
+          "D) Chờ đợi kết quả bỏ phiếu quản trị trước khi điều chỉnh"
+        ],
+        "id": [
+          "A) Dengan meninjau setiap perdagangan secara manual seminggu sekali",
+          "B) Dengan terus menganalisis kondisi pasar dan secara dinamis menyeimbangkan kembali ukuran posisi berdasarkan parameter risiko yang telah ditentukan",
+          "C) Hanya berinvestasi pada aset dengan volatilitas nol",
+          "D) Dengan menunggu voting tata kelola sebelum melakukan penyesuaian"
+        ],
+        "tr": [
+          "A) Her ticareti haftada bir manuel olarak inceleyerek",
+          "B) Piyasa koşullarını sürekli analiz ederek ve önceden tanımlanmış risk parametrelerine göre pozisyon boyutlarını dinamik olarak yeniden dengeleyerek",
+          "C) Yalnızca sıfır volatiliteli varlıklara yatırım yaparak",
+          "D) Herhangi bir ayarlama yapmadan önce yönetişim oylarını bekleyerek"
+        ],
+        "pcm": [
+          "A) By manually checking each trade once per week",
+          "B) By continuously checking market conditions and automatically adjusting position sizes based on pre-set risk rules",
+          "C) By only putting money in assets wey no volatile",
+          "D) By waiting for governance votes before making changes"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Concrete's quantitative models operate continuously, monitoring market metrics and dynamically adjusting position sizes, allocation weights, and exposure levels to keep vault strategies within their defined risk parameters — without manual intervention.",
+        "zh": "Concrete的量化模型持续运行，监控市场指标，动态调整头寸规模、配置权重和敞口水平，使金库策略保持在其定义的风险参数内——无需人工干预。",
+        "vi": "Các mô hình định lượng của Concrete hoạt động liên tục, theo dõi các số liệu thị trường và tự động điều chỉnh quy mô vị thế, trọng số phân bổ để giữ cho chiến lược vault trong các tham số rủi ro đã xác định.",
+        "id": "Model kuantitatif Concrete beroperasi secara terus-menerus, memantau metrik pasar dan secara dinamis menyesuaikan ukuran posisi, bobot alokasi untuk menjaga strategi vault dalam parameter risiko yang ditentukan.",
+        "tr": "Concrete'nin nicel modelleri sürekli çalışarak piyasa metriklerini izler ve vault stratejilerini tanımlı risk parametreleri içinde tutmak için pozisyon boyutlarını ve ağırlıkları dinamik olarak ayarlar.",
+        "pcm": "Concrete quantitative models dey always work, checking market and automatically adjusting how much money dey in each position to keep risk at the right level — no human needed."
+      }
+    },
+    {
+      "id": "l2_003",
+      "topic": "audit-security",
+      "text": {
+        "en": "What was the significance of the Halborn audit for the Concrete (Blueprint Finance) protocol?",
+        "zh": "Halborn审计对Concrete（Blueprint Finance）协议有何意义？",
+        "vi": "Cuộc kiểm tra Halborn có ý nghĩa gì đối với giao thức Concrete (Blueprint Finance)?",
+        "id": "Apa signifikansi audit Halborn untuk protokol Concrete (Blueprint Finance)?",
+        "tr": "Halborn denetimi Concrete (Blueprint Finance) protokolü için ne anlam taşıdı?",
+        "pcm": "Wetin be the significance of Halborn audit for Concrete (Blueprint Finance) protocol?"
+      },
+      "options": {
+        "en": [
+          "A) It was a marketing campaign with no actual security review",
+          "B) It provided an independent, professional security assessment of the smart contract codebase to identify and remediate vulnerabilities",
+          "C) It only reviewed the tokenomics model",
+          "D) It guaranteed no bugs could ever exist in the protocol"
+        ],
+        "zh": [
+          "A) 这是一次没有实际安全审查的营销活动",
+          "B) 它对智能合约代码库进行了独立的专业安全评估，以识别和修复漏洞",
+          "C) 它只审查了代币经济模型",
+          "D) 它保证协议中永远不存在漏洞"
+        ],
+        "vi": [
+          "A) Đây là chiến dịch marketing không có đánh giá bảo mật thực sự",
+          "B) Nó cung cấp đánh giá bảo mật độc lập và chuyên nghiệp về codebase smart contract để xác định và khắc phục lỗ hổng",
+          "C) Nó chỉ xem xét mô hình tokenomics",
+          "D) Nó đảm bảo không bao giờ có lỗi trong giao thức"
+        ],
+        "id": [
+          "A) Ini adalah kampanye pemasaran tanpa tinjauan keamanan yang sebenarnya",
+          "B) Ini memberikan penilaian keamanan independen dan profesional atas codebase smart contract untuk mengidentifikasi dan memediasi kerentanan",
+          "C) Ini hanya meninjau model tokenomics",
+          "D) Ini menjamin tidak ada bug yang pernah ada dalam protokol"
+        ],
+        "tr": [
+          "A) Gerçek bir güvenlik incelemesi olmayan bir pazarlama kampanyasıydı",
+          "B) Güvenlik açıklarını tespit etmek ve gidermek için akıllı sözleşme kod tabanının bağımsız, profesyonel bir güvenlik değerlendirmesini sağladı",
+          "C) Yalnızca tokenomics modelini inceledi",
+          "D) Protokolde hiçbir zaman hata olmayacağını garanti etti"
+        ],
+        "pcm": [
+          "A) Na just marketing campaign wey no get real security check",
+          "B) E provide independent professional security check of smart contract code to find and fix vulnerabilities",
+          "C) E only check the tokenomics model",
+          "D) E guarantee say no bug go ever exist for protocol"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "The Halborn audit represents a critical security milestone. Independent audits by firms like Halborn involve comprehensive smart contract code review, vulnerability assessment, and remediation validation — providing external validation of the protocol's security posture. The report is publicly available.",
+        "zh": "Halborn审计代表了一个关键的安全里程碑。Halborn等公司的独立审计涉及全面的智能合约代码审查、漏洞评估和修复验证——提供协议安全态势的外部验证。报告公开可查。",
+        "vi": "Kiểm tra Halborn là một cột mốc bảo mật quan trọng. Các kiểm tra độc lập liên quan đến xem xét mã smart contract toàn diện, đánh giá lỗ hổng và xác nhận khắc phục — cung cấp xác nhận bên ngoài về tình trạng bảo mật của giao thức.",
+        "id": "Audit Halborn mewakili tonggak keamanan yang penting. Audit independen melibatkan tinjauan kode smart contract yang komprehensif, penilaian kerentanan, dan validasi remediasi — memberikan validasi eksternal atas postur keamanan protokol.",
+        "tr": "Halborn denetimi kritik bir güvenlik miladını temsil eder. Bağımsız denetimler, kapsamlı akıllı sözleşme kodu incelemesini, güvenlik açığı değerlendirmesini ve düzeltme doğrulamasını içerir.",
+        "pcm": "Halborn audit na very important security milestone. Independent audit dey involve checking all the smart contract code, finding vulnerabilities, and confirming say dem fix them. The report dey public for everyone to see."
+      }
+    },
+    {
+      "id": "l2_004",
+      "topic": "rebalancing",
+      "text": {
+        "en": "What triggers a vault rebalancing event in Concrete's protocol?",
+        "zh": "什么触发Concrete协议中的金库再平衡事件？",
+        "vi": "Điều gì kích hoạt sự kiện cân bằng lại vault trong giao thức Concrete?",
+        "id": "Apa yang memicu peristiwa penyeimbangan kembali vault dalam protokol Concrete?",
+        "tr": "Concrete protokolünde bir vault yeniden dengeleme olayını ne tetikler?",
+        "pcm": "Wetin cause vault rebalancing to happen for Concrete protocol?"
+      },
+      "options": {
+        "en": [
+          "A) Only manual commands from the founding team",
+          "B) Programmatic conditions — such as threshold breaches, yield divergence, or risk metric shifts — as defined by the vault's quantitative model",
+          "C) User votes submitted through the governance forum",
+          "D) Rebalancing occurs only on a fixed monthly schedule"
+        ],
+        "zh": [
+          "A) 仅来自创始团队的手动命令",
+          "B) 程序化条件——如阈值突破、收益偏差或风险指标变化——由金库的量化模型定义",
+          "C) 通过治理论坛提交的用户投票",
+          "D) 再平衡仅按固定月度时间表进行"
+        ],
+        "vi": [
+          "A) Chỉ các lệnh thủ công từ đội sáng lập",
+          "B) Các điều kiện lập trình — như vi phạm ngưỡng, phân kỳ yield hoặc thay đổi số liệu rủi ro — được xác định bởi mô hình định lượng của vault",
+          "C) Phiếu bầu của người dùng qua diễn đàn quản trị",
+          "D) Tái cân bằng chỉ xảy ra theo lịch tháng cố định"
+        ],
+        "id": [
+          "A) Hanya perintah manual dari tim pendiri",
+          "B) Kondisi terprogram — seperti pelanggaran ambang batas, divergensi yield, atau pergeseran metrik risiko — sebagaimana didefinisikan oleh model kuantitatif vault",
+          "C) Voting pengguna yang diajukan melalui forum tata kelola",
+          "D) Penyeimbangan kembali hanya terjadi pada jadwal bulanan tetap"
+        ],
+        "tr": [
+          "A) Yalnızca kurucu ekipten gelen manuel komutlar",
+          "B) Vault'un nicel modeli tarafından tanımlanan eşik ihlalleri, getiri sapması veya risk metrik değişimleri gibi programatik koşullar",
+          "C) Yönetişim forumu aracılığıyla sunulan kullanıcı oyları",
+          "D) Yeniden dengeleme yalnızca sabit aylık programa göre gerçekleşir"
+        ],
+        "pcm": [
+          "A) Only manual commands from the founding team",
+          "B) Programmatic conditions like threshold breaches, yield changes, or risk metric shifts as defined by vault quantitative model",
+          "C) User votes through governance forum",
+          "D) Rebalancing only happen on fixed monthly schedule"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Concrete's vault rebalancing is triggered by programmatic conditions defined within the quantitative model — not manual intervention or fixed schedules. This enables the protocol to respond dynamically to changing market conditions in real time.",
+        "zh": "Concrete金库的再平衡由量化模型中定义的程序化条件触发——而非人工干预或固定时间表。这使协议能够实时动态响应变化的市场条件。",
+        "vi": "Việc tái cân bằng vault của Concrete được kích hoạt bởi các điều kiện lập trình được xác định trong mô hình định lượng — không phải can thiệp thủ công hay lịch cố định. Điều này cho phép giao thức phản ứng động với các điều kiện thị trường thay đổi.",
+        "id": "Penyeimbangan kembali vault Concrete dipicu oleh kondisi terprogram yang ditentukan dalam model kuantitatif — bukan intervensi manual atau jadwal tetap. Ini memungkinkan protokol untuk merespons kondisi pasar yang berubah secara real-time.",
+        "tr": "Concrete'nin vault yeniden dengelemesi, nicel model içinde tanımlanan programatik koşullarla tetiklenir — manuel müdahale veya sabit programlar değil. Bu, protokolün değişen piyasa koşullarına gerçek zamanlı olarak dinamik biçimde yanıt vermesini sağlar.",
+        "pcm": "Concrete vault rebalancing dey triggered by automatic conditions wey the quantitative model define — not manual work or fixed time. This allow the system to react fast when market conditions change."
+      }
+    },
+    {
+      "id": "l2_005",
+      "topic": "yield-generation",
+      "text": {
+        "en": "Which of the following best describes how yield is generated within Concrete vaults?",
+        "zh": "以下哪项最能描述Concrete金库内如何产生收益？",
+        "vi": "Điều nào sau đây mô tả tốt nhất cách yield được tạo ra trong Concrete vaults?",
+        "id": "Mana dari berikut ini yang paling baik menggambarkan bagaimana yield dihasilkan dalam vault Concrete?",
+        "tr": "Aşağıdakilerden hangisi Concrete vault'larında getirinin nasıl oluşturulduğunu en iyi tanımlar?",
+        "pcm": "Which one dey best describe how Concrete vaults dey generate yield?"
+      },
+      "options": {
+        "en": [
+          "A) By printing new protocol tokens and distributing them as rewards",
+          "B) By deploying deposited capital into yield-generating DeFi protocols such as lending markets, liquidity pools, and structured strategies, then distributing the real returns to depositors",
+          "C) By charging high entry fees and redistributing them",
+          "D) By holding assets idle and earning price appreciation only"
+        ],
+        "zh": [
+          "A) 通过铸造新协议代币并将其作为奖励分发",
+          "B) 将存入的资本部署到产生收益的DeFi协议（如借贷市场、流动性池和结构化策略）中，然后将真实回报分配给存款人",
+          "C) 通过收取高额入场费并重新分配",
+          "D) 持有资产闲置，仅赚取价格升值"
+        ],
+        "vi": [
+          "A) Bằng cách in token giao thức mới và phân phối chúng như phần thưởng",
+          "B) Bằng cách triển khai vốn được gửi vào các giao thức DeFi tạo yield như thị trường cho vay, liquidity pool, và phân phối lợi nhuận thực cho người gửi",
+          "C) Bằng cách thu phí nhập cảnh cao và phân phối lại",
+          "D) Bằng cách giữ tài sản nhàn rỗi và chỉ kiếm từ tăng giá"
+        ],
+        "id": [
+          "A) Dengan mencetak token protokol baru dan mendistribusikannya sebagai hadiah",
+          "B) Dengan menyebarkan modal yang disimpan ke protokol DeFi penghasil yield seperti pasar pinjaman, liquidity pool, dan mendistribusikan pengembalian nyata kepada deposan",
+          "C) Dengan membebankan biaya masuk tinggi dan mendistribusikannya kembali",
+          "D) Dengan menyimpan aset menganggur dan hanya mendapatkan apresiasi harga"
+        ],
+        "tr": [
+          "A) Yeni protokol tokenları basarak ve bunları ödül olarak dağıtarak",
+          "B) Yatırılan sermayeyi borç verme piyasaları, likidite havuzları gibi getiri sağlayan DeFi protokollerine dağıtarak ve gerçek getirileri mevduat sahiplerine dağıtarak",
+          "C) Yüksek giriş ücretleri alarak ve bunları yeniden dağıtarak",
+          "D) Varlıkları atıl tutarak yalnızca fiyat artışından kazanarak"
+        ],
+        "pcm": [
+          "A) By printing new tokens and sharing as rewards",
+          "B) By putting deposited money into DeFi protocols like lending markets and liquidity pools, then sharing real profit back to depositors",
+          "C) By charging high fees and redistributing them",
+          "D) By just holding assets and waiting for price to increase"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Concrete vaults generate yield by actively deploying deposited capital into productive DeFi protocols — such as lending markets and liquidity pools — that generate real economic returns. These genuine returns are then distributed to depositors, not token emissions.",
+        "zh": "Concrete金库通过将存入的资本主动部署到生产性DeFi协议（如借贷市场和流动性池）来产生收益，这些协议产生真实的经济回报。然后将这些真实回报分配给存款人，而非代币发放。",
+        "vi": "Vault Concrete tạo yield bằng cách chủ động triển khai vốn được gửi vào các giao thức DeFi sản xuất như thị trường cho vay và liquidity pool. Lợi nhuận thực sự được phân phối cho người gửi.",
+        "id": "Vault Concrete menghasilkan yield dengan secara aktif menempatkan modal yang disimpan ke protokol DeFi produktif seperti pasar pinjaman dan liquidity pool. Pengembalian nyata ini kemudian didistribusikan kepada deposan.",
+        "tr": "Concrete vault'ları, yatırılan sermayeyi borç verme piyasaları ve likidite havuzları gibi üretken DeFi protokollerine aktif olarak dağıtarak getiri üretir. Bu gerçek getiriler mevduat sahiplerine dağıtılır.",
+        "pcm": "Concrete vaults dey generate yield by actively putting deposited money into productive DeFi protocols like lending markets and liquidity pools. The real profit wey come from this activity dey then shared with people wey deposited."
+      }
+    },
+    {
+      "id": "l2_006",
+      "topic": "protocol-integrations",
+      "text": {
+        "en": "What is the role of protocol integration points in Concrete's design?",
+        "zh": "在Concrete的设计中，协议集成点扮演什么角色？",
+        "vi": "Vai trò của các điểm tích hợp giao thức trong thiết kế của Concrete là gì?",
+        "id": "Apa peran titik integrasi protokol dalam desain Concrete?",
+        "tr": "Protokol entegrasyon noktaları Concrete'nin tasarımında ne rol oynar?",
+        "pcm": "Wetin be the role of protocol integration points for Concrete design?"
+      },
+      "options": {
+        "en": [
+          "A) They serve as decorative elements in the user interface",
+          "B) They are the standardized connectors that allow Concrete vaults to interact with external DeFi protocols for yield generation and capital deployment",
+          "C) They are the backend servers that host the website",
+          "D) They are only used for NFT marketplace connections"
+        ],
+        "zh": [
+          "A) 它们是用户界面中的装饰元素",
+          "B) 它们是标准化连接器，允许Concrete金库与外部DeFi协议交互以生成收益和部署资本",
+          "C) 它们是托管网站的后端服务器",
+          "D) 它们仅用于NFT市场连接"
+        ],
+        "vi": [
+          "A) Chúng là các yếu tố trang trí trong giao diện người dùng",
+          "B) Chúng là các kết nối tiêu chuẩn cho phép vault Concrete tương tác với các giao thức DeFi bên ngoài để tạo yield và triển khai vốn",
+          "C) Chúng là các máy chủ backend lưu trữ trang web",
+          "D) Chúng chỉ được sử dụng cho kết nối thị trường NFT"
+        ],
+        "id": [
+          "A) Mereka berfungsi sebagai elemen dekoratif di antarmuka pengguna",
+          "B) Mereka adalah konektor standar yang memungkinkan vault Concrete berinteraksi dengan protokol DeFi eksternal untuk menghasilkan yield dan menyebarkan modal",
+          "C) Mereka adalah server backend yang menghosting situs web",
+          "D) Mereka hanya digunakan untuk koneksi marketplace NFT"
+        ],
+        "tr": [
+          "A) Kullanıcı arayüzündeki dekoratif öğeler olarak hizmet ederler",
+          "B) Concrete vault'larının getiri üretimi ve sermaye dağıtımı için harici DeFi protokolleriyle etkileşime girmesine olanak tanıyan standartlaştırılmış bağlayıcılardır",
+          "C) Web sitesini barındıran arka uç sunucularıdır",
+          "D) Yalnızca NFT marketplace bağlantıları için kullanılırlar"
+        ],
+        "pcm": [
+          "A) Dem be decorative elements for user interface",
+          "B) Dem be standardized connectors wey allow Concrete vaults to interact with external DeFi protocols for yield and capital deployment",
+          "C) Dem be backend servers wey host website",
+          "D) Dem only dey used for NFT marketplace connections"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Protocol integration points in Concrete serve as the standardized interfaces that connect the vault layer to external DeFi protocols. The modular architecture ensures these integrations can be added, updated, or replaced without disrupting the entire system.",
+        "zh": "Concrete的协议集成点是将金库层连接到外部DeFi协议的标准化接口。模块化架构确保这些集成可以在不破坏整个系统的情况下添加、更新或替换。",
+        "vi": "Các điểm tích hợp giao thức trong Concrete đóng vai trò là các giao diện tiêu chuẩn kết nối lớp vault với các giao thức DeFi bên ngoài. Kiến trúc module đảm bảo các tích hợp này có thể được thêm, cập nhật hoặc thay thế.",
+        "id": "Titik integrasi protokol dalam Concrete berfungsi sebagai antarmuka standar yang menghubungkan lapisan vault dengan protokol DeFi eksternal. Arsitektur modular memastikan integrasi ini dapat ditambahkan, diperbarui, atau diganti.",
+        "tr": "Concrete'deki protokol entegrasyon noktaları, vault katmanını harici DeFi protokollerine bağlayan standartlaştırılmış arayüzler olarak hizmet eder. Modüler mimari, bu entegrasyonların sistem bozulmadan eklenmesini, güncellenmesini veya değiştirilmesini sağlar.",
+        "pcm": "Protocol integration points for Concrete na standardized connectors wey link vault layer to external DeFi protocols. The modular design mean say new integrations fit be added or changed without breaking the whole system."
+      }
+    },
+    {
+      "id": "l2_007",
+      "topic": "risk-scoring",
+      "text": {
+        "en": "What does a risk scoring methodology assess in Concrete's framework?",
+        "zh": "在Concrete的框架中，风险评分方法论评估什么？",
+        "vi": "Phương pháp đánh giá rủi ro đánh giá điều gì trong khung của Concrete?",
+        "id": "Apa yang dinilai oleh metodologi penilaian risiko dalam kerangka Concrete?",
+        "tr": "Risk puanlama metodolojisi Concrete çerçevesinde neyi değerlendirir?",
+        "pcm": "Wetin risk scoring methodology dey assess for Concrete framework?"
+      },
+      "options": {
+        "en": [
+          "A) The aesthetic quality of the protocol's user interface",
+          "B) The relative risk levels of assets, protocols, and strategies to inform allocation and exposure limits",
+          "C) The number of Twitter followers a protocol has",
+          "D) The age of the protocol's founding team"
+        ],
+        "zh": [
+          "A) 协议用户界面的美学质量",
+          "B) 资产、协议和策略的相对风险水平，以告知配置和敞口限制",
+          "C) 协议拥有的Twitter关注者数量",
+          "D) 协议创始团队的年龄"
+        ],
+        "vi": [
+          "A) Chất lượng thẩm mỹ của giao diện người dùng giao thức",
+          "B) Mức độ rủi ro tương đối của tài sản, giao thức và chiến lược để thông báo giới hạn phân bổ và rủi ro",
+          "C) Số người theo dõi Twitter của giao thức",
+          "D) Tuổi của đội sáng lập giao thức"
+        ],
+        "id": [
+          "A) Kualitas estetika antarmuka pengguna protokol",
+          "B) Tingkat risiko relatif aset, protokol, dan strategi untuk menginformasikan alokasi dan batas eksposur",
+          "C) Jumlah pengikut Twitter yang dimiliki protokol",
+          "D) Usia tim pendiri protokol"
+        ],
+        "tr": [
+          "A) Protokol kullanıcı arayüzünün estetik kalitesi",
+          "B) Tahsis ve risk sınırlarını bilgilendirmek için varlıkların, protokollerin ve stratejilerin göreceli risk seviyeleri",
+          "C) Protokolün sahip olduğu Twitter takipçi sayısı",
+          "D) Protokolün kurucu ekibinin yaşı"
+        ],
+        "pcm": [
+          "A) How beautiful the protocol interface look",
+          "B) The relative risk levels of assets, protocols, and strategies to decide allocation and exposure limits",
+          "C) How many Twitter followers the protocol get",
+          "D) How old the founding team be"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Risk scoring in Concrete's framework involves evaluating assets, counterparty protocols, and overall strategies across multiple dimensions — such as smart contract risk, liquidity risk, and market risk — to assign quantitative scores that guide allocation decisions and set exposure limits.",
+        "zh": "Concrete框架中的风险评分涉及在多个维度评估资产、对手方协议和整体策略——如智能合约风险、流动性风险和市场风险——以分配指导配置决策和设置敞口限制的量化评分。",
+        "vi": "Đánh giá rủi ro trong khung Concrete liên quan đến việc đánh giá tài sản, giao thức đối tác và chiến lược tổng thể trên nhiều chiều — như rủi ro smart contract, rủi ro thanh khoản — để gán điểm định lượng hướng dẫn quyết định phân bổ.",
+        "id": "Penilaian risiko dalam kerangka Concrete melibatkan evaluasi aset, protokol mitra, dan strategi keseluruhan di berbagai dimensi untuk menetapkan skor kuantitatif yang memandu keputusan alokasi.",
+        "tr": "Concrete çerçevesindeki risk puanlaması, tahsis kararlarını yönlendiren nicel puanlar atamak için akıllı sözleşme riski, likidite riski gibi boyutlarda varlıkları ve stratejileri değerlendirmeyi içerir.",
+        "pcm": "Risk scoring for Concrete framework involve evaluating assets and strategies from many angles like smart contract risk, liquidity risk, and market risk to give scores wey guide how to allocate money."
+      }
+    },
+    {
+      "id": "l2_008",
+      "topic": "capital-allocation",
+      "text": {
+        "en": "How is capital allocated within a multi-asset Concrete vault?",
+        "zh": "如何在多资产Concrete金库中分配资本？",
+        "vi": "Vốn được phân bổ như thế nào trong Concrete vault đa tài sản?",
+        "id": "Bagaimana modal dialokasikan dalam vault Concrete multi-aset?",
+        "tr": "Çok varlıklı bir Concrete vault'unda sermaye nasıl tahsis edilir?",
+        "pcm": "How capital dey allocated inside multi-asset Concrete vault?"
+      },
+      "options": {
+        "en": [
+          "A) Equally split between all available assets regardless of conditions",
+          "B) Dynamically, based on quantitative model outputs that optimize for risk-adjusted yield across the available asset universe",
+          "C) Fixed by the founding team at launch with no ability to change",
+          "D) Randomly determined by a smart contract oracle"
+        ],
+        "zh": [
+          "A) 无论条件如何均等分配给所有可用资产",
+          "B) 动态地，基于量化模型输出，在可用资产范围内优化风险调整后收益",
+          "C) 由创始团队在启动时固定，无法更改",
+          "D) 由智能合约预言机随机确定"
+        ],
+        "vi": [
+          "A) Chia đều cho tất cả tài sản có sẵn bất kể điều kiện",
+          "B) Động, dựa trên đầu ra mô hình định lượng tối ưu hóa yield điều chỉnh rủi ro trên toàn bộ vũ trụ tài sản có sẵn",
+          "C) Được cố định bởi đội sáng lập khi ra mắt không thể thay đổi",
+          "D) Được xác định ngẫu nhiên bởi oracle smart contract"
+        ],
+        "id": [
+          "A) Dibagi rata di antara semua aset yang tersedia terlepas dari kondisi",
+          "B) Secara dinamis, berdasarkan output model kuantitatif yang mengoptimalkan yield yang disesuaikan risiko di seluruh alam semesta aset yang tersedia",
+          "C) Ditetapkan oleh tim pendiri saat peluncuran tanpa kemampuan untuk berubah",
+          "D) Ditentukan secara acak oleh oracle smart contract"
+        ],
+        "tr": [
+          "A) Koşullardan bağımsız olarak tüm mevcut varlıklar arasında eşit bölünmüş",
+          "B) Mevcut varlık evreninde risk ayarlı getiriyi optimize eden nicel model çıktılarına dayalı olarak dinamik biçimde",
+          "C) Başlangıçta kurucu ekip tarafından sabitlenmiş, değiştirilme imkânı yok",
+          "D) Akıllı sözleşme oracle'ı tarafından rastgele belirlenir"
+        ],
+        "pcm": [
+          "A) Equal split between all assets no matter the conditions",
+          "B) Dynamically, based on quantitative model outputs wey optimize risk-adjusted yield across all available assets",
+          "C) Fixed by founding team at launch, cannot change",
+          "D) Randomly determined by smart contract oracle"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Capital allocation in Concrete's multi-asset vaults is dynamic and model-driven. The quantitative framework continuously evaluates risk-return profiles across the available asset universe and adjusts allocation weights to optimize for risk-adjusted yield.",
+        "zh": "Concrete多资产金库中的资本配置是动态的、模型驱动的。量化框架持续评估可用资产范围内的风险回报特征，并调整配置权重以优化风险调整后收益。",
+        "vi": "Phân bổ vốn trong vault đa tài sản của Concrete là động và dựa trên mô hình. Khung định lượng liên tục đánh giá các hồ sơ rủi ro-lợi nhuận và điều chỉnh trọng số phân bổ để tối ưu hóa yield điều chỉnh rủi ro.",
+        "id": "Alokasi modal dalam vault multi-aset Concrete bersifat dinamis dan berbasis model. Kerangka kuantitatif terus mengevaluasi profil risiko-return dan menyesuaikan bobot alokasi untuk mengoptimalkan yield yang disesuaikan risiko.",
+        "tr": "Concrete'nin çok varlıklı vault'larındaki sermaye tahsisi dinamik ve model odaklıdır. Nicel çerçeve, risk-getiri profillerini sürekli değerlendirir ve risk ayarlı getiriyi optimize etmek için tahsis ağırlıklarını ayarlar.",
+        "pcm": "Capital allocation for Concrete multi-asset vaults dey dynamic and model-driven. The quantitative framework dey always evaluate risk-return profiles and adjust allocations to optimize yield while managing risk."
+      }
+    },
+    {
+      "id": "l2_009",
+      "topic": "smart-contract-architecture",
+      "text": {
+        "en": "What architectural principle enables Concrete's smart contracts to be upgraded or extended?",
+        "zh": "什么架构原则使Concrete的智能合约能够升级或扩展？",
+        "vi": "Nguyên tắc kiến trúc nào cho phép smart contract của Concrete được nâng cấp hoặc mở rộng?",
+        "id": "Prinsip arsitektur apa yang memungkinkan smart contract Concrete untuk ditingkatkan atau diperluas?",
+        "tr": "Concrete'nin akıllı sözleşmelerinin yükseltilmesini veya genişletilmesini sağlayan mimari prensip nedir?",
+        "pcm": "Wetin architectural principle dey allow Concrete smart contracts to be upgraded or extended?"
+      },
+      "options": {
+        "en": [
+          "A) A single monolithic contract that handles all functions",
+          "B) A modular, component-based design where individual modules can be upgraded without affecting the entire system",
+          "C) Smart contracts that automatically self-destruct and redeploy",
+          "D) Centralized admin keys that override all smart contract logic"
+        ],
+        "zh": [
+          "A) 处理所有功能的单一整体合约",
+          "B) 模块化、基于组件的设计，各个模块可以升级而不影响整个系统",
+          "C) 自动自毁并重新部署的智能合约",
+          "D) 覆盖所有智能合约逻辑的集中式管理员密钥"
+        ],
+        "vi": [
+          "A) Một contract monolithic duy nhất xử lý tất cả các chức năng",
+          "B) Thiết kế module, dựa trên component, nơi các module riêng lẻ có thể được nâng cấp mà không ảnh hưởng đến toàn bộ hệ thống",
+          "C) Smart contract tự động tự hủy và triển khai lại",
+          "D) Khóa admin tập trung ghi đè tất cả logic smart contract"
+        ],
+        "id": [
+          "A) Satu kontrak monolitik yang menangani semua fungsi",
+          "B) Desain modular berbasis komponen di mana modul individual dapat ditingkatkan tanpa memengaruhi seluruh sistem",
+          "C) Smart contract yang secara otomatis menghancurkan diri sendiri dan menyebar kembali",
+          "D) Kunci admin terpusat yang menggantikan semua logika smart contract"
+        ],
+        "tr": [
+          "A) Tüm işlevleri ele alan tek bir monolitik sözleşme",
+          "B) Bireysel modüllerin tüm sistemi etkilemeden yükseltilebileceği modüler, bileşen tabanlı bir tasarım",
+          "C) Otomatik olarak kendini imha eden ve yeniden dağıtan akıllı sözleşmeler",
+          "D) Tüm akıllı sözleşme mantığını geçersiz kılan merkezi yönetici anahtarları"
+        ],
+        "pcm": [
+          "A) One single big contract wey handle everything",
+          "B) Modular component-based design wey allow individual modules to be upgraded without affecting the whole system",
+          "C) Smart contracts wey automatically destroy themselves and redeploy",
+          "D) Centralized admin keys wey override all smart contract logic"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Concrete's modular smart contract architecture separates concerns into distinct modules — each responsible for specific functions like risk management, execution, or integrations. This separation allows individual components to be upgraded or replaced without requiring a full protocol migration.",
+        "zh": "Concrete的模块化智能合约架构将关注点分离为不同模块——每个模块负责特定功能，如风险管理、执行或集成。这种分离允许单个组件在不需要完整协议迁移的情况下进行升级或替换。",
+        "vi": "Kiến trúc smart contract module của Concrete tách biệt các mối quan tâm thành các module riêng biệt — mỗi module chịu trách nhiệm cho các chức năng cụ thể. Sự tách biệt này cho phép các thành phần riêng lẻ được nâng cấp mà không cần di chuyển toàn bộ giao thức.",
+        "id": "Arsitektur smart contract modular Concrete memisahkan kepedulian menjadi modul yang berbeda — masing-masing bertanggung jawab atas fungsi tertentu. Pemisahan ini memungkinkan komponen individual ditingkatkan tanpa memerlukan migrasi protokol penuh.",
+        "tr": "Concrete'nin modüler akıllı sözleşme mimarisi, endişeleri ayrı modüllere ayırır. Bu ayrım, tam protokol geçişi gerektirmeden bireysel bileşenlerin yükseltilmesine veya değiştirilmesine olanak tanır.",
+        "pcm": "Concrete modular smart contract architecture dey separate different functions into separate modules. This separation allow individual parts to be upgraded or changed without having to migrate the whole protocol."
+      }
+    },
+    {
+      "id": "l2_010",
+      "topic": "security-model",
+      "text": {
+        "en": "How does Concrete's security model protect depositors at the smart contract level?",
+        "zh": "Concrete的安全模型如何在智能合约层面保护存款人？",
+        "vi": "Mô hình bảo mật của Concrete bảo vệ người gửi tiền ở cấp độ smart contract như thế nào?",
+        "id": "Bagaimana model keamanan Concrete melindungi deposan di tingkat smart contract?",
+        "tr": "Concrete'nin güvenlik modeli, mevduat sahiplerini akıllı sözleşme düzeyinde nasıl korur?",
+        "pcm": "How Concrete security model dey protect depositors at smart contract level?"
+      },
+      "options": {
+        "en": [
+          "A) By keeping all contract code private and unaudited",
+          "B) Through independent security audits, modular isolation of risk, access controls, and transparent on-chain logic",
+          "C) By only accepting stablecoins and ignoring all other assets",
+          "D) By having one trusted administrator with full contract access"
+        ],
+        "zh": [
+          "A) 通过保持所有合约代码私密且未经审计",
+          "B) 通过独立安全审计、风险的模块隔离、访问控制和透明的链上逻辑",
+          "C) 通过只接受稳定币并忽略所有其他资产",
+          "D) 通过拥有一个对合约拥有完全访问权限的受信任管理员"
+        ],
+        "vi": [
+          "A) Bằng cách giữ tất cả mã contract riêng tư và chưa được kiểm tra",
+          "B) Thông qua kiểm tra bảo mật độc lập, cô lập module của rủi ro, kiểm soát truy cập và logic on-chain minh bạch",
+          "C) Bằng cách chỉ chấp nhận stablecoin và bỏ qua tất cả tài sản khác",
+          "D) Bằng cách có một quản trị viên đáng tin cậy với quyền truy cập đầy đủ"
+        ],
+        "id": [
+          "A) Dengan menjaga semua kode kontrak tetap privat dan tidak diaudit",
+          "B) Melalui audit keamanan independen, isolasi modular risiko, kontrol akses, dan logika on-chain yang transparan",
+          "C) Dengan hanya menerima stablecoin dan mengabaikan semua aset lain",
+          "D) Dengan memiliki satu administrator tepercaya dengan akses kontrak penuh"
+        ],
+        "tr": [
+          "A) Tüm sözleşme kodunu gizli ve denetimsiz tutarak",
+          "B) Bağımsız güvenlik denetimleri, riskin modüler izolasyonu, erişim kontrolleri ve şeffaf zincir üstü mantık aracılığıyla",
+          "C) Yalnızca stablecoin kabul ederek ve diğer tüm varlıkları görmezden gelerek",
+          "D) Tam sözleşme erişimine sahip güvenilir bir yöneticiye sahip olarak"
+        ],
+        "pcm": [
+          "A) By keeping all contract code secret and unaudited",
+          "B) Through independent security audits, modular risk isolation, access controls, and transparent on-chain logic",
+          "C) By only accepting stablecoins",
+          "D) By having one trusted admin with full contract access"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Concrete's security model is multi-layered: independent audits (like the Halborn audit) validate the codebase, modular architecture isolates risk so vulnerabilities don't cascade, access controls limit privileged actions, and transparent on-chain logic allows anyone to verify behavior.",
+        "zh": "Concrete的安全模型是多层次的：独立审计（如Halborn审计）验证代码库，模块化架构隔离风险避免级联，访问控制限制特权操作，透明的链上逻辑允许任何人验证行为。",
+        "vi": "Mô hình bảo mật của Concrete đa lớp: kiểm tra độc lập xác nhận codebase, kiến trúc module cô lập rủi ro, kiểm soát truy cập giới hạn các hành động đặc quyền, và logic on-chain minh bạch cho phép bất kỳ ai xác minh hành vi.",
+        "id": "Model keamanan Concrete berlapis: audit independen memvalidasi codebase, arsitektur modular mengisolasi risiko, kontrol akses membatasi tindakan istimewa, dan logika on-chain transparan memungkinkan siapa saja memverifikasi perilaku.",
+        "tr": "Concrete'nin güvenlik modeli çok katmanlıdır: bağımsız denetimler kod tabanını doğrular, modüler mimari riski izole eder, erişim kontrolleri ayrıcalıklı eylemleri sınırlar ve şeffaf zincir üstü mantık herkesin davranışı doğrulamasına olanak tanır.",
+        "pcm": "Concrete security model dey have multiple layers: independent audits like Halborn check the code, modular architecture isolate risk, access controls limit who fit do what, and transparent on-chain logic allow everyone to verify how everything work."
+      }
+    },
+    {
+      "id": "l2_011",
+      "topic": "governance-mechanics",
+      "text": {
+        "en": "What is a key characteristic of on-chain governance voting in DeFi protocols like Concrete?",
+        "zh": "在Concrete等DeFi协议中，链上治理投票的关键特征是什么？",
+        "vi": "Đặc điểm chính của bỏ phiếu quản trị on-chain trong các giao thức DeFi như Concrete là gì?",
+        "id": "Apa karakteristik utama voting tata kelola on-chain dalam protokol DeFi seperti Concrete?",
+        "tr": "Concrete gibi DeFi protokollerinde zincir üstü yönetişim oylamasının temel özelliği nedir?",
+        "pcm": "Wetin be key characteristic of on-chain governance voting for DeFi protocols like Concrete?"
+      },
+      "options": {
+        "en": [
+          "A) Votes are cast anonymously with no record kept",
+          "B) Votes are recorded transparently on the blockchain, enabling verifiable and tamper-proof participation in protocol decisions",
+          "C) Only the founding team's votes count, others are advisory",
+          "D) Governance decisions are made off-chain by a committee"
+        ],
+        "zh": [
+          "A) 投票匿名进行，不保留记录",
+          "B) 投票透明地记录在区块链上，使协议决策中的参与可验证且防篡改",
+          "C) 只有创始团队的投票算数，其他人的投票仅供参考",
+          "D) 治理决策由委员会在链下做出"
+        ],
+        "vi": [
+          "A) Phiếu bầu được bỏ ẩn danh không có hồ sơ",
+          "B) Phiếu bầu được ghi minh bạch trên blockchain, cho phép tham gia có thể xác minh và chống giả mạo trong các quyết định giao thức",
+          "C) Chỉ phiếu bầu của đội sáng lập mới quan trọng, những người khác chỉ mang tính tư vấn",
+          "D) Các quyết định quản trị được thực hiện off-chain bởi một ủy ban"
+        ],
+        "id": [
+          "A) Suara diberikan secara anonim tanpa catatan yang disimpan",
+          "B) Suara dicatat secara transparan di blockchain, memungkinkan partisipasi yang dapat diverifikasi dan tahan terhadap pemalsuan dalam keputusan protokol",
+          "C) Hanya suara tim pendiri yang dihitung, suara lain bersifat nasihat",
+          "D) Keputusan tata kelola dibuat off-chain oleh sebuah komite"
+        ],
+        "tr": [
+          "A) Oylar anonim olarak verilir ve kayıt tutulmaz",
+          "B) Oylar blockchain'de şeffaf olarak kaydedilir, protokol kararlarına doğrulanabilir ve kurcalamaya karşı dayanıklı katılım sağlar",
+          "C) Yalnızca kurucu ekibin oyları geçerlidir, diğerleri danışma niteliğindedir",
+          "D) Yönetişim kararları bir komite tarafından zincir dışında alınır"
+        ],
+        "pcm": [
+          "A) Votes dey cast anonymously with no record",
+          "B) Votes dey recorded transparently on blockchain, making participation verifiable and tamper-proof for protocol decisions",
+          "C) Only founding team votes count, others na just advice",
+          "D) Governance decisions dey made off-chain by committee"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "On-chain governance is a cornerstone of DeFi decentralization. When votes are recorded on-chain, they become permanently transparent, auditable, and tamper-proof — ensuring that no single party can manipulate the outcome and that all participants can verify the process.",
+        "zh": "链上治理是DeFi去中心化的基石。当投票记录在链上时，它们变得永久透明、可审计且防篡改——确保没有任何一方可以操纵结果，所有参与者都可以验证过程。",
+        "vi": "Quản trị on-chain là nền tảng của phi tập trung hóa DeFi. Khi phiếu bầu được ghi on-chain, chúng trở nên minh bạch vĩnh viễn, có thể kiểm tra và chống giả mạo.",
+        "id": "Tata kelola on-chain adalah landasan desentralisasi DeFi. Ketika suara dicatat on-chain, mereka menjadi transparan secara permanen, dapat diaudit, dan tahan terhadap pemalsuan.",
+        "tr": "Zincir üstü yönetişim, DeFi merkeziyetsizliğinin köşe taşıdır. Oylar zincir üstünde kaydedildiğinde, kalıcı olarak şeffaf, denetlenebilir ve kurcalamaya karşı dayanıklı hale gelir.",
+        "pcm": "On-chain governance na foundation of DeFi decentralization. When votes dey recorded on blockchain, dem become permanently transparent, auditable, and tamper-proof — so nobody fit manipulate the result."
+      }
+    },
+    {
+      "id": "l2_012",
+      "topic": "performance-fees",
+      "text": {
+        "en": "How do performance fees typically function in a DeFi vault protocol like Concrete?",
+        "zh": "在Concrete等DeFi金库协议中，绩效费用通常如何运作？",
+        "vi": "Phí hiệu suất thường hoạt động như thế nào trong giao thức vault DeFi như Concrete?",
+        "id": "Bagaimana biaya kinerja biasanya berfungsi dalam protokol vault DeFi seperti Concrete?",
+        "tr": "Performans ücretleri genellikle Concrete gibi bir DeFi vault protokolünde nasıl işler?",
+        "pcm": "How performance fees dey typically work for DeFi vault protocol like Concrete?"
+      },
+      "options": {
+        "en": [
+          "A) A flat annual fee charged on all deposits regardless of performance",
+          "B) A percentage taken from generated yield only when the vault produces positive returns, aligning protocol incentives with depositor outcomes",
+          "C) A fee charged every time a user accesses the dashboard",
+          "D) A fixed fee that is automatically burned to reduce token supply"
+        ],
+        "zh": [
+          "A) 无论业绩如何都对所有存款收取的固定年费",
+          "B) 仅当金库产生正回报时才从产生的收益中提取的百分比，使协议激励与存款人结果一致",
+          "C) 每次用户访问仪表板时收取的费用",
+          "D) 自动燃烧以减少代币供应的固定费用"
+        ],
+        "vi": [
+          "A) Phí hàng năm cố định được tính trên tất cả tiền gửi bất kể hiệu suất",
+          "B) Tỷ lệ phần trăm được lấy từ yield được tạo ra chỉ khi vault tạo ra lợi nhuận dương, điều chỉnh ưu đãi giao thức với kết quả của người gửi tiền",
+          "C) Phí được tính mỗi khi người dùng truy cập bảng điều khiển",
+          "D) Phí cố định tự động được đốt để giảm nguồn cung token"
+        ],
+        "id": [
+          "A) Biaya tahunan tetap yang dikenakan pada semua deposito terlepas dari kinerja",
+          "B) Persentase yang diambil dari yield yang dihasilkan hanya ketika vault menghasilkan pengembalian positif, menyelaraskan insentif protokol dengan hasil deposan",
+          "C) Biaya yang dikenakan setiap kali pengguna mengakses dasbor",
+          "D) Biaya tetap yang secara otomatis dibakar untuk mengurangi pasokan token"
+        ],
+        "tr": [
+          "A) Performanstan bağımsız olarak tüm mevduatlara uygulanan sabit yıllık ücret",
+          "B) Vault olumlu getiri sağladığında yalnızca oluşturulan getiriden alınan yüzde, protokol teşviklerini mevduat sahibi sonuçlarıyla hizalar",
+          "C) Kullanıcı her panoya eriştiğinde alınan ücret",
+          "D) Token arzını azaltmak için otomatik olarak yakılan sabit ücret"
+        ],
+        "pcm": [
+          "A) Fixed annual fee on all deposits no matter performance",
+          "B) Percentage taken from generated yield only when vault produce positive returns, aligning protocol incentives with depositor outcomes",
+          "C) Fee charged every time user access dashboard",
+          "D) Fixed fee wey automatically burn to reduce token supply"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Performance fees in vault protocols like Concrete are typically structured as a percentage of generated yield — taken only when positive returns are realized. This aligns the protocol's economic interests with depositors: the protocol only earns when depositors earn.",
+        "zh": "Concrete等金库协议中的绩效费用通常以产生收益的百分比为结构——仅在实现正回报时收取。这使协议的经济利益与存款人保持一致：只有当存款人赚取收益时，协议才能获得收益。",
+        "vi": "Phí hiệu suất trong các giao thức vault như Concrete thường được cấu trúc như một tỷ lệ phần trăm của yield được tạo ra — chỉ được lấy khi đạt được lợi nhuận dương. Điều này điều chỉnh lợi ích kinh tế của giao thức với người gửi tiền.",
+        "id": "Biaya kinerja dalam protokol vault seperti Concrete biasanya distrukturkan sebagai persentase dari yield yang dihasilkan — hanya diambil ketika pengembalian positif terealisasi. Ini menyelaraskan kepentingan ekonomi protokol dengan deposan.",
+        "tr": "Concrete gibi vault protokollerindeki performans ücretleri genellikle oluşturulan getirinin yüzdesi olarak yapılandırılır — yalnızca pozitif getiri elde edildiğinde alınır. Bu, protokolün ekonomik çıkarlarını mevduat sahipleriyle hizalar.",
+        "pcm": "Performance fees for vault protocols like Concrete dey structured as percentage of generated yield — only taken when vault make positive returns. This mean protocol only earn when depositors earn — both of them dey on same side."
+      }
+    },
+    {
+      "id": "l2_013",
+      "topic": "quant-depositor-benefit",
+      "text": {
+        "en": "How does quantitative modeling directly benefit a Concrete depositor?",
+        "zh": "量化建模如何直接惠及Concrete存款人？",
+        "vi": "Mô hình định lượng trực tiếp mang lại lợi ích như thế nào cho người gửi tiền Concrete?",
+        "id": "Bagaimana pemodelan kuantitatif langsung menguntungkan deposan Concrete?",
+        "tr": "Nicel modelleme, Concrete yatırımcısına doğrudan nasıl fayda sağlar?",
+        "pcm": "How quantitative modeling dey directly benefit Concrete depositor?"
+      },
+      "options": {
+        "en": [
+          "A) It increases gas fees to reward validators who secure the network",
+          "B) It systematically manages downside risk and optimizes capital allocation, producing better risk-adjusted outcomes than unmanaged exposure",
+          "C) It determines which NFTs are included in each vault's holdings",
+          "D) It allows depositors to manually select and override risk parameters"
+        ],
+        "zh": [
+          "A) 增加Gas费用以奖励保护网络的验证者",
+          "B) 系统性地管理下行风险并优化资本配置，产生比非管理敞口更好的风险调整后结果",
+          "C) 确定每个金库持仓中包含哪些NFT",
+          "D) 允许存款人手动选择和覆盖风险参数"
+        ],
+        "vi": [
+          "A) Nó tăng phí gas để thưởng cho các validator bảo mật mạng",
+          "B) Nó quản lý rủi ro giảm giá một cách có hệ thống và tối ưu hóa phân bổ vốn, tạo ra kết quả điều chỉnh rủi ro tốt hơn so với rủi ro không được quản lý",
+          "C) Nó xác định NFT nào được đưa vào tài sản của mỗi vault",
+          "D) Nó cho phép người gửi tiền chọn và ghi đè thủ công các tham số rủi ro"
+        ],
+        "id": [
+          "A) Ini meningkatkan biaya gas untuk memberi penghargaan kepada validator yang mengamankan jaringan",
+          "B) Ini secara sistematis mengelola risiko penurunan dan mengoptimalkan alokasi modal, menghasilkan hasil yang disesuaikan risiko lebih baik dari pada eksposur yang tidak dikelola",
+          "C) Ini menentukan NFT mana yang dimasukkan dalam kepemilikan setiap vault",
+          "D) Ini memungkinkan deposan untuk secara manual memilih dan mengganti parameter risiko"
+        ],
+        "tr": [
+          "A) Ağı güvence altına alan doğrulayıcıları ödüllendirmek için gas ücretlerini artırır",
+          "B) Sistematik biçimde düşüş riskini yönetir ve sermaye tahsisini optimize ederek, yönetilmeyen maruziyetten daha iyi risk ayarlı sonuçlar üretir",
+          "C) Her vault'un varlıklarına hangi NFT'lerin dahil edileceğini belirler",
+          "D) Mevduat sahiplerinin risk parametrelerini manuel olarak seçip geçersiz kılmasına olanak tanır"
+        ],
+        "pcm": [
+          "A) E dey increase gas fees to reward validators wey secure the network",
+          "B) E dey systematically manage downside risk and optimize capital allocation, producing better risk-adjusted outcomes than unmanaged exposure",
+          "C) E dey determine which NFTs dey included in each vault holdings",
+          "D) E allow depositors to manually select and override risk parameters"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "For a depositor, quantitative modeling means their capital is not simply chasing raw APY — it is being deployed within a framework that continuously measures and constrains risk. The practical outcome is more stable, risk-adjusted returns: fewer catastrophic drawdowns and better capital preservation during volatile market periods.",
+        "zh": "对于存款人来说，量化建模意味着他们的资本不是简单地追求原始年化收益率——而是在一个持续测量和约束风险的框架内部署。实际结果是更稳定的、风险调整后的回报：在波动市场期间减少灾难性回撤，更好地保护资本。",
+        "vi": "Đối với người gửi tiền, mô hình định lượng có nghĩa là vốn của họ không chỉ đơn giản là chạy theo APY thô — nó được triển khai trong một khung liên tục đo lường và hạn chế rủi ro. Kết quả thực tế là lợi nhuận được điều chỉnh rủi ro ổn định hơn.",
+        "id": "Bagi deposan, pemodelan kuantitatif berarti modal mereka tidak hanya mengejar APY mentah — melainkan dikerahkan dalam kerangka yang terus mengukur dan membatasi risiko. Hasilnya adalah pengembalian yang disesuaikan risiko yang lebih stabil.",
+        "tr": "Bir mevduat sahibi için nicel modelleme, sermayelerinin yalnızca ham APY peşinde koşmadığı, riski sürekli ölçen ve kısıtlayan bir çerçeve dahilinde dağıtıldığı anlamına gelir. Pratik sonuç, daha istikrarlı, risk ayarlı getirilerdir.",
+        "pcm": "For depositor, quantitative modeling mean say their money no just dey chase raw APY — e dey deployed within framework wey dey continuously measure and constrain risk. The practical result na more stable, risk-adjusted returns with fewer catastrophic losses."
+      }
+    },
+    {
+      "id": "l2_014",
+      "topic": "cross-chain-yield-universe",
+      "text": {
+        "en": "How does Concrete's cross-chain capability expand the yield universe available to depositors?",
+        "zh": "Concrete的跨链能力如何扩大存款人可获得的收益范围？",
+        "vi": "Khả năng cross-chain của Concrete mở rộng vũ trụ yield cho người gửi tiền như thế nào?",
+        "id": "Bagaimana kemampuan lintas-chain Concrete memperluas alam semesta yield yang tersedia bagi deposan?",
+        "tr": "Concrete'nin çapraz zincir yeteneği, mevduat sahiplerinin kullanabileceği getiri evrenini nasıl genişletir?",
+        "pcm": "How Concrete cross-chain capability dey expand the yield universe available to depositors?"
+      },
+      "options": {
+        "en": [
+          "A) It allows users to play blockchain games on multiple networks simultaneously",
+          "B) By accessing yield opportunities across multiple blockchain ecosystems simultaneously, the protocol can optimize for the best available risk-adjusted returns rather than being constrained to one chain's liquidity",
+          "C) It enables fee-free token swaps across all supported networks",
+          "D) It increases yield exclusively by arbitraging gas price differences between chains"
+        ],
+        "zh": [
+          "A) 允许用户同时在多个网络上玩区块链游戏",
+          "B) 通过同时访问多个区块链生态系统的收益机会，协议可以优化最佳可用风险调整后回报，而不受单一链流动性的限制",
+          "C) 实现所有支持网络的免费代币交换",
+          "D) 仅通过套利链间Gas价格差异来增加收益"
+        ],
+        "vi": [
+          "A) Nó cho phép người dùng chơi game blockchain trên nhiều mạng cùng lúc",
+          "B) Bằng cách đồng thời truy cập các cơ hội yield trên nhiều hệ sinh thái blockchain, giao thức có thể tối ưu hóa lợi nhuận điều chỉnh rủi ro tốt nhất mà không bị giới hạn ở thanh khoản của một chain",
+          "C) Nó cho phép hoán đổi token miễn phí trên tất cả các mạng được hỗ trợ",
+          "D) Nó tăng yield bằng cách chênh lệch giá gas giữa các chain"
+        ],
+        "id": [
+          "A) Ini memungkinkan pengguna bermain game blockchain di beberapa jaringan secara bersamaan",
+          "B) Dengan mengakses peluang yield di beberapa ekosistem blockchain secara bersamaan, protokol dapat mengoptimalkan pengembalian yang disesuaikan risiko terbaik tanpa dibatasi likuiditas satu chain",
+          "C) Ini memungkinkan pertukaran token bebas biaya di semua jaringan yang didukung",
+          "D) Ini meningkatkan yield secara eksklusif dengan arbitrase perbedaan harga gas antar chain"
+        ],
+        "tr": [
+          "A) Kullanıcıların aynı anda birden fazla ağda blockchain oyunları oynamasına olanak tanır",
+          "B) Birden fazla blockchain ekosistemindeki getiri fırsatlarına eş zamanlı erişerek, protokol tek bir zincirin likiditesiyle kısıtlanmak yerine mevcut en iyi risk ayarlı getiriler için optimize edebilir",
+          "C) Desteklenen tüm ağlarda ücretsiz token takasları sağlar",
+          "D) Yalnızca zincirler arasındaki gas fiyat farklarından arbitraj yaparak getiriyi artırır"
+        ],
+        "pcm": [
+          "A) E allow users to play blockchain games on multiple networks at same time",
+          "B) By accessing yield opportunities across multiple blockchain ecosystems at same time, the protocol fit optimize for best available risk-adjusted returns instead of being limited to one chain's liquidity",
+          "C) E enable free token swaps across all supported networks",
+          "D) E increase yield only by arbitraging gas price differences between chains"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "A single-chain protocol is limited to yield opportunities on that one chain — it cannot access better opportunities elsewhere. Concrete's cross-chain architecture means the protocol can compare and select from yield sources across multiple ecosystems, deploying capital where risk-adjusted returns are most favorable at any given time.",
+        "zh": "单链协议仅限于该链上的收益机会——它无法访问其他地方更好的机会。Concrete的跨链架构意味着协议可以比较并从多个生态系统的收益来源中选择，在任何给定时间将资本部署在风险调整后回报最有利的地方。",
+        "vi": "Một giao thức đơn chain bị giới hạn ở các cơ hội yield trên chain đó — nó không thể truy cập các cơ hội tốt hơn ở nơi khác. Kiến trúc cross-chain của Concrete có nghĩa là giao thức có thể so sánh và lựa chọn từ các nguồn yield trên nhiều hệ sinh thái.",
+        "id": "Protokol satu chain terbatas pada peluang yield di chain tersebut — tidak dapat mengakses peluang yang lebih baik di tempat lain. Arsitektur cross-chain Concrete berarti protokol dapat membandingkan dan memilih dari sumber yield di berbagai ekosistem.",
+        "tr": "Tek zincirli bir protokol yalnızca o zincirdeki getiri fırsatlarıyla sınırlıdır — başka yerdeki daha iyi fırsatlara erişemez. Concrete'nin çapraz zincir mimarisi, protokolün birden fazla ekosisteme yayılan getiri kaynaklarından karşılaştırıp seçebileceği anlamına gelir.",
+        "pcm": "Single-chain protocol dey limited to yield opportunities on that one chain — e no fit access better opportunities elsewhere. Concrete cross-chain architecture mean say the protocol fit compare and choose from yield sources across multiple ecosystems, deploying capital where risk-adjusted returns dey most favorable."
+      }
+    },
+    {
+      "id": "l2_015",
+      "topic": "risk-yield-relationship",
+      "text": {
+        "en": "How does Concrete's framework balance the relationship between risk and yield?",
+        "zh": "Concrete的框架如何平衡风险与收益之间的关系？",
+        "vi": "Khung của Concrete cân bằng mối quan hệ giữa rủi ro và yield như thế nào?",
+        "id": "Bagaimana kerangka Concrete menyeimbangkan hubungan antara risiko dan yield?",
+        "tr": "Concrete'nin çerçevesi risk ve getiri arasındaki ilişkiyi nasıl dengeler?",
+        "pcm": "How Concrete framework dey balance the relationship between risk and yield?"
+      },
+      "options": {
+        "en": [
+          "A) Maximum risk is always pursued because higher risk always means higher yield",
+          "B) Risk and yield are evaluated together through quantitative models that seek the best yield attainable within defined risk boundaries — not raw APY maximization",
+          "C) Risk management is applied only after a vault experiences a significant loss",
+          "D) Capital preservation always takes 100% priority, so all yield is sacrificed"
+        ],
+        "zh": [
+          "A) 始终追求最大风险，因为更高风险总是意味着更高收益",
+          "B) 风险和收益通过量化模型共同评估，寻求在定义的风险边界内可实现的最佳收益——而非原始年化收益率最大化",
+          "C) 风险管理仅在金库遭受重大损失后才适用",
+          "D) 资本保全始终是100%优先级，因此所有收益都被牺牲"
+        ],
+        "vi": [
+          "A) Rủi ro tối đa luôn được theo đuổi vì rủi ro cao hơn luôn có nghĩa là yield cao hơn",
+          "B) Rủi ro và yield được đánh giá cùng nhau thông qua các mô hình định lượng tìm kiếm yield tốt nhất có thể đạt được trong các ranh giới rủi ro được xác định — không phải tối đa hóa APY thô",
+          "C) Quản lý rủi ro chỉ được áp dụng sau khi vault gặp tổn thất đáng kể",
+          "D) Bảo toàn vốn luôn là ưu tiên 100%, vì vậy tất cả yield đều bị hy sinh"
+        ],
+        "id": [
+          "A) Risiko maksimum selalu dikejar karena risiko lebih tinggi selalu berarti yield lebih tinggi",
+          "B) Risiko dan yield dievaluasi bersama melalui model kuantitatif yang mencari yield terbaik yang dapat dicapai dalam batas risiko yang ditentukan — bukan maksimalisasi APY mentah",
+          "C) Manajemen risiko hanya diterapkan setelah vault mengalami kerugian signifikan",
+          "D) Pelestarian modal selalu menjadi prioritas 100%, sehingga semua yield dikorbankan"
+        ],
+        "tr": [
+          "A) Maksimum risk her zaman takip edilir çünkü yüksek risk her zaman yüksek getiri anlamına gelir",
+          "B) Risk ve getiri, tanımlı risk sınırları içinde elde edilebilecek en iyi getiriyi arayan nicel modeller aracılığıyla birlikte değerlendirilir — ham APY maksimizasyonu değil",
+          "C) Risk yönetimi yalnızca bir vault önemli bir kayıp yaşadıktan sonra uygulanır",
+          "D) Sermaye koruma her zaman %100 önceliğe sahiptir, bu nedenle tüm getiri feda edilir"
+        ],
+        "pcm": [
+          "A) Maximum risk dey always pursued because higher risk always mean higher yield",
+          "B) Risk and yield dey evaluated together through quantitative models wey seek best yield attainable within defined risk boundaries — not raw APY maximization",
+          "C) Risk management only apply after vault experience significant loss",
+          "D) Capital preservation always get 100% priority so all yield dey sacrificed"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Concrete's approach is risk-adjusted yield optimization — not raw yield maximization or pure capital preservation. The quantitative framework defines acceptable risk boundaries for each vault, then seeks the best available yield within those constraints. This means depositors get competitive returns without taking on unconstrained risk.",
+        "zh": "Concrete的方法是风险调整后收益优化——而非原始收益最大化或纯粹资本保全。量化框架为每个金库定义可接受的风险边界，然后在这些约束范围内寻求最佳可用收益。这意味着存款人在不承担无约束风险的情况下获得竞争性回报。",
+        "vi": "Cách tiếp cận của Concrete là tối ưu hóa yield được điều chỉnh rủi ro — không phải tối đa hóa yield thô hay bảo toàn vốn thuần túy. Khung định lượng xác định các ranh giới rủi ro chấp nhận được cho mỗi vault, sau đó tìm kiếm yield tốt nhất có sẵn trong những ràng buộc đó.",
+        "id": "Pendekatan Concrete adalah optimasi yield yang disesuaikan risiko — bukan maksimalisasi yield mentah atau pelestarian modal murni. Kerangka kuantitatif mendefinisikan batas risiko yang dapat diterima untuk setiap vault, kemudian mencari yield terbaik yang tersedia dalam batasan tersebut.",
+        "tr": "Concrete'nin yaklaşımı risk ayarlı getiri optimizasyonudur — ham getiri maksimizasyonu veya saf sermaye koruması değil. Nicel çerçeve, her vault için kabul edilebilir risk sınırlarını tanımlar, ardından bu kısıtlamalar dahilinde mevcut en iyi getiriyi arar.",
+        "pcm": "Concrete approach na risk-adjusted yield optimization — not raw yield maximization or pure capital preservation. The quantitative framework dey define acceptable risk boundaries for each vault, then e seek best available yield within those constraints. Depositors get competitive returns without unconstrained risk."
+      }
+    },
+    {
+      "id": "l2_016",
+      "topic": "modular-evolution",
+      "text": {
+        "en": "What does Concrete's modular architecture enable for long-term protocol evolution?",
+        "zh": "Concrete的模块化架构为长期协议演进实现了什么？",
+        "vi": "Kiến trúc module của Concrete cho phép điều gì trong quá trình phát triển giao thức dài hạn?",
+        "id": "Apa yang diaktifkan arsitektur modular Concrete untuk evolusi protokol jangka panjang?",
+        "tr": "Concrete'nin modüler mimarisi uzun vadeli protokol evrimi için neye olanak tanır?",
+        "pcm": "Wetin Concrete modular architecture dey enable for long-term protocol evolution?"
+      },
+      "options": {
+        "en": [
+          "A) The protocol is permanently frozen at launch with no ability to add features",
+          "B) New chains, strategies, risk models, and protocol integrations can be added over time without rebuilding the entire system or migrating all depositor funds",
+          "C) Only governance token holders can propose new chain integrations",
+          "D) Modular architecture means the protocol only uses open-source code"
+        ],
+        "zh": [
+          "A) 协议在启动时永久冻结，无法添加功能",
+          "B) 新的链、策略、风险模型和协议集成可以随时间添加，无需重建整个系统或迁移所有存款人资金",
+          "C) 只有治理代币持有者才能提议新的链集成",
+          "D) 模块化架构意味着协议仅使用开源代码"
+        ],
+        "vi": [
+          "A) Giao thức bị đóng băng vĩnh viễn khi ra mắt, không có khả năng thêm tính năng",
+          "B) Các chain mới, chiến lược, mô hình rủi ro và tích hợp giao thức có thể được thêm theo thời gian mà không cần xây dựng lại toàn bộ hệ thống hoặc di chuyển tất cả tiền của người gửi",
+          "C) Chỉ người nắm giữ token quản trị mới có thể đề xuất tích hợp chain mới",
+          "D) Kiến trúc module có nghĩa là giao thức chỉ sử dụng code nguồn mở"
+        ],
+        "id": [
+          "A) Protokol dibekukan secara permanen saat peluncuran tanpa kemampuan untuk menambahkan fitur",
+          "B) Chain baru, strategi, model risiko, dan integrasi protokol dapat ditambahkan dari waktu ke waktu tanpa membangun ulang seluruh sistem atau memigrasikan semua dana deposan",
+          "C) Hanya pemegang token tata kelola yang dapat mengusulkan integrasi chain baru",
+          "D) Arsitektur modular berarti protokol hanya menggunakan kode sumber terbuka"
+        ],
+        "tr": [
+          "A) Protokol başlangıçta kalıcı olarak dondurulur, özellik ekleme imkânı yoktur",
+          "B) Tüm sistemi yeniden oluşturmak veya tüm mevduat sahiplerinin fonlarını taşımak zorunda kalmaksızın zaman içinde yeni zincirler, stratejiler, risk modelleri ve protokol entegrasyonları eklenebilir",
+          "C) Yalnızca yönetişim token sahipleri yeni zincir entegrasyonları önerebilir",
+          "D) Modüler mimari, protokolün yalnızca açık kaynak kodu kullandığı anlamına gelir"
+        ],
+        "pcm": [
+          "A) Protocol dey permanently frozen at launch with no ability to add features",
+          "B) New chains, strategies, risk models, and protocol integrations fit be added over time without rebuilding entire system or moving all depositor funds",
+          "C) Only governance token holders fit propose new chain integrations",
+          "D) Modular architecture mean protocol only dey use open-source code"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Modularity is Concrete's answer to the rapidly evolving DeFi landscape. Because each component — risk model, execution module, chain adapter, protocol integration — is isolated and replaceable, the protocol can add support for new chains, integrate new yield sources, and upgrade risk models as DeFi matures. Depositors benefit from an ever-improving system without disruptive migrations.",
+        "zh": "模块化是Concrete对快速演变的DeFi环境的回应。由于每个组件——风险模型、执行模块、链适配器、协议集成——都是隔离且可替换的，协议可以添加对新链的支持、整合新收益来源，并随着DeFi的成熟升级风险模型。存款人从不断改进的系统中受益，无需破坏性迁移。",
+        "vi": "Tính module là câu trả lời của Concrete cho bối cảnh DeFi đang phát triển nhanh chóng. Vì mỗi thành phần bị cô lập và có thể thay thế, giao thức có thể thêm hỗ trợ cho các chain mới, tích hợp các nguồn yield mới và nâng cấp các mô hình rủi ro khi DeFi trưởng thành.",
+        "id": "Modularitas adalah jawaban Concrete terhadap lanskap DeFi yang berkembang pesat. Karena setiap komponen terisolasi dan dapat diganti, protokol dapat menambahkan dukungan untuk chain baru, mengintegrasikan sumber yield baru, dan meningkatkan model risiko seiring DeFi berkembang.",
+        "tr": "Modülerlik, Concrete'nin hızla gelişen DeFi ortamına verdiği yanıttır. Her bileşen izole ve değiştirilebilir olduğu için, protokol yeni zincirlere destek ekleyebilir, yeni getiri kaynaklarını entegre edebilir ve DeFi olgunlaştıkça risk modellerini yükseltebilir.",
+        "pcm": "Modularity na Concrete answer to the fast-evolving DeFi landscape. Because each component dey isolated and replaceable, the protocol fit add support for new chains, integrate new yield sources, and upgrade risk models as DeFi grow. Depositors benefit from ever-improving system without disruptive migrations."
+      }
+    },
+    {
+      "id": "l2_017",
+      "topic": "multi-source-management",
+      "text": {
+        "en": "How does Concrete manage simultaneous exposure to multiple yield sources across the protocol?",
+        "zh": "Concrete如何在整个协议中管理对多个收益来源的同时敞口？",
+        "vi": "Concrete quản lý rủi ro đồng thời đối với nhiều nguồn yield trên toàn giao thức như thế nào?",
+        "id": "Bagaimana Concrete mengelola paparan simultan ke beberapa sumber yield di seluruh protokol?",
+        "tr": "Concrete, protokol genelinde birden fazla getiri kaynağına eş zamanlı maruziyeti nasıl yönetir?",
+        "pcm": "How Concrete dey manage simultaneous exposure to multiple yield sources across the protocol?"
+      },
+      "options": {
+        "en": [
+          "A) By delegating management of each yield source to the external protocol independently",
+          "B) Through a unified risk-adjusted capital allocation framework that dynamically balances and monitors exposure across all active yield sources simultaneously",
+          "C) By investing equal amounts in all available protocols regardless of conditions or risk",
+          "D) By using only one yield source at a time to minimize operational complexity"
+        ],
+        "zh": [
+          "A) 将每个收益来源的管理独立委托给外部协议",
+          "B) 通过统一的风险调整资本配置框架，动态平衡和同时监控所有活跃收益来源的敞口",
+          "C) 无论条件或风险如何，均向所有可用协议投入等量资金",
+          "D) 一次只使用一个收益来源以最小化操作复杂性"
+        ],
+        "vi": [
+          "A) Bằng cách ủy thác quản lý mỗi nguồn yield cho giao thức bên ngoài một cách độc lập",
+          "B) Thông qua khung phân bổ vốn điều chỉnh rủi ro thống nhất, tự động cân bằng và giám sát đồng thời rủi ro đối với tất cả các nguồn yield đang hoạt động",
+          "C) Bằng cách đầu tư số tiền bằng nhau vào tất cả các giao thức có sẵn bất kể điều kiện hoặc rủi ro",
+          "D) Bằng cách chỉ sử dụng một nguồn yield tại một thời điểm để giảm thiểu phức tạp vận hành"
+        ],
+        "id": [
+          "A) Dengan mendelegasikan pengelolaan setiap sumber yield ke protokol eksternal secara independen",
+          "B) Melalui kerangka alokasi modal yang disesuaikan risiko terpadu yang secara dinamis menyeimbangkan dan memantau paparan ke semua sumber yield aktif secara bersamaan",
+          "C) Dengan menginvestasikan jumlah yang sama dalam semua protokol yang tersedia terlepas dari kondisi atau risiko",
+          "D) Dengan menggunakan hanya satu sumber yield pada satu waktu untuk meminimalkan kompleksitas operasional"
+        ],
+        "tr": [
+          "A) Her getiri kaynağının yönetimini bağımsız olarak harici protokole devrederek",
+          "B) Tüm aktif getiri kaynaklarına eş zamanlı olarak maruziyeti dinamik biçimde dengeleyen ve izleyen birleşik bir risk ayarlı sermaye tahsis çerçevesi aracılığıyla",
+          "C) Koşullardan veya riskten bağımsız olarak mevcut tüm protokollere eşit miktarlarda yatırım yaparak",
+          "D) Operasyonel karmaşıklığı en aza indirmek için aynı anda yalnızca bir getiri kaynağı kullanarak"
+        ],
+        "pcm": [
+          "A) By delegating management of each yield source to the external protocol independently",
+          "B) Through unified risk-adjusted capital allocation framework wey dynamically balance and monitor exposure across all active yield sources at same time",
+          "C) By investing equal amounts in all available protocols regardless of conditions or risk",
+          "D) By using only one yield source at a time to minimize operational complexity"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Managing multiple yield sources requires a unified control layer — not independent, siloed management per source. Concrete's quantitative framework acts as this control layer, continuously tracking total exposure, concentration risk, and individual source risk scores to dynamically rebalance across all active positions. This is what 'full-stack infrastructure' means in practice.",
+        "zh": "管理多个收益来源需要统一的控制层——而非每个来源独立的孤立管理。Concrete的量化框架充当这个控制层，持续跟踪总敞口、集中风险和各来源风险评分，以在所有活跃头寸间动态再平衡。这就是「全栈基础设施」在实践中的含义。",
+        "vi": "Quản lý nhiều nguồn yield đòi hỏi một lớp kiểm soát thống nhất — không phải quản lý độc lập, riêng lẻ cho từng nguồn. Khung định lượng của Concrete đóng vai trò là lớp kiểm soát này, liên tục theo dõi tổng rủi ro, rủi ro tập trung và điểm rủi ro nguồn riêng lẻ để tự động cân bằng lại trên tất cả các vị thế đang hoạt động.",
+        "id": "Mengelola beberapa sumber yield memerlukan lapisan kontrol terpadu — bukan manajemen independen per sumber. Kerangka kuantitatif Concrete bertindak sebagai lapisan kontrol ini, terus melacak total paparan, risiko konsentrasi, dan skor risiko sumber individual untuk secara dinamis menyeimbangkan kembali semua posisi aktif.",
+        "tr": "Birden fazla getiri kaynağını yönetmek, birleşik bir kontrol katmanı gerektirir. Concrete'nin nicel çerçevesi bu kontrol katmanı olarak hareket eder, tüm aktif pozisyonlarda dinamik olarak yeniden dengeleme yapmak için toplam maruziyeti, konsantrasyon riskini ve bireysel kaynak risk puanlarını sürekli takip eder.",
+        "pcm": "Managing multiple yield sources require unified control layer — not independent management per source. Concrete quantitative framework act as this control layer, continuously tracking total exposure, concentration risk, and individual source risk scores to dynamically rebalance across all active positions."
+      }
+    },
+    {
+      "id": "l2_018",
+      "topic": "institutional-value-proposition",
+      "text": {
+        "en": "What is the core institutional-grade value proposition Concrete offers to sophisticated large depositors?",
+        "zh": "Concrete为复杂的大型存款人提供的核心机构级价值主张是什么？",
+        "vi": "Giá trị cốt lõi cấp tổ chức mà Concrete cung cấp cho những người gửi tiền lớn, tinh tế là gì?",
+        "id": "Apa proposisi nilai inti tingkat institusi yang ditawarkan Concrete kepada deposan besar yang canggih?",
+        "tr": "Concrete'nin sofistike büyük mevduat sahiplerine sunduğu kurumsal düzeyde temel değer önerisi nedir?",
+        "pcm": "Wetin be the core institutional-grade value proposition Concrete dey offer to sophisticated large depositors?"
+      },
+      "options": {
+        "en": [
+          "A) The highest possible APY with no consideration for risk",
+          "B) Professional-grade infrastructure with systematic risk management, complete on-chain transparency, and sustainable yield — matching the rigor expected by institutional asset allocators",
+          "C) Anonymous participation with zero regulatory considerations",
+          "D) Guaranteed principal protection regardless of market conditions"
+        ],
+        "zh": [
+          "A) 不考虑风险的最高可能年化收益率",
+          "B) 专业级基础设施，具有系统化风险管理、完整链上透明度和可持续收益——符合机构资产配置者预期的严格标准",
+          "C) 零监管考虑的匿名参与",
+          "D) 无论市场条件如何都保证本金保护"
+        ],
+        "vi": [
+          "A) APY cao nhất có thể mà không xem xét đến rủi ro",
+          "B) Cơ sở hạ tầng cấp chuyên nghiệp với quản lý rủi ro có hệ thống, minh bạch hoàn toàn trên chuỗi và yield bền vững — phù hợp với sự nghiêm ngặt mà các nhà phân bổ tài sản tổ chức mong đợi",
+          "C) Tham gia ẩn danh không có cân nhắc quy định",
+          "D) Bảo vệ vốn gốc được đảm bảo bất kể điều kiện thị trường"
+        ],
+        "id": [
+          "A) APY setinggi mungkin tanpa pertimbangan risiko",
+          "B) Infrastruktur tingkat profesional dengan manajemen risiko sistematis, transparansi on-chain lengkap, dan yield berkelanjutan — sesuai dengan ketelitian yang diharapkan oleh alokator aset institusi",
+          "C) Partisipasi anonim dengan nol pertimbangan regulasi",
+          "D) Perlindungan pokok yang dijamin terlepas dari kondisi pasar"
+        ],
+        "tr": [
+          "A) Risk dikkate alınmaksızın mümkün olan en yüksek APY",
+          "B) Sistematik risk yönetimi, eksiksiz zincir üstü şeffaflık ve sürdürülebilir getiri ile profesyonel düzeyde altyapı — kurumsal varlık tahsisatçılarının beklediği titizliğe uyan",
+          "C) Sıfır düzenleyici değerlendirme ile anonim katılım",
+          "D) Piyasa koşullarından bağımsız olarak garantili anapara koruması"
+        ],
+        "pcm": [
+          "A) Highest possible APY with no consideration for risk",
+          "B) Professional-grade infrastructure with systematic risk management, complete on-chain transparency, and sustainable yield — matching the rigor wey institutional asset allocators dey expect",
+          "C) Anonymous participation with zero regulatory considerations",
+          "D) Guaranteed principal protection regardless of market conditions"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Institutional depositors — such as family offices, asset managers, and sophisticated funds — require more than just high APY. They need the same rigor they apply in traditional finance: systematic risk controls, audited infrastructure (like the Halborn audit), full transparency, and yield that comes from genuine economic activity. Concrete is purpose-built to meet these requirements in DeFi.",
+        "zh": "机构存款人——如家族理财室、资产管理公司和复杂基金——需要的不仅仅是高年化收益率。他们需要与传统金融中相同的严格标准：系统化风险控制、经审计的基础设施（如Halborn审计）、完全透明度和来自真实经济活动的收益。Concrete专门为满足DeFi中的这些要求而构建。",
+        "vi": "Người gửi tiền tổ chức — như văn phòng gia đình, công ty quản lý tài sản và các quỹ phức tạp — cần nhiều hơn chỉ APY cao. Họ cần sự nghiêm ngặt tương tự như trong tài chính truyền thống: kiểm soát rủi ro có hệ thống, cơ sở hạ tầng được kiểm tra (như kiểm tra Halborn), minh bạch hoàn toàn và yield từ hoạt động kinh tế thực sự.",
+        "id": "Deposan institusi — seperti kantor keluarga, manajer aset, dan dana canggih — membutuhkan lebih dari sekadar APY tinggi. Mereka membutuhkan ketelitian yang sama seperti dalam keuangan tradisional: kontrol risiko sistematis, infrastruktur yang diaudit (seperti audit Halborn), transparansi penuh, dan yield dari aktivitas ekonomi nyata.",
+        "tr": "Kurumsal mevduat sahipleri — aile ofisleri, varlık yöneticileri ve sofistike fonlar gibi — yüksek APY'nin ötesinde şeylere ihtiyaç duyar. Geleneksel finansta uyguladıkları aynı titizliği isterler: sistematik risk kontrolleri, denetlenmiş altyapı (Halborn denetimi gibi), tam şeffaflık ve gerçek ekonomik faaliyetten elde edilen getiri.",
+        "pcm": "Institutional depositors — like family offices, asset managers, and sophisticated funds — need more than just high APY. Dem need same rigor wey dem use for traditional finance: systematic risk controls, audited infrastructure (like Halborn audit), full transparency, and yield from genuine economic activity. Concrete na purpose-built to meet these requirements for DeFi."
+      }
+    },
+    {
+      "id": "l2_019",
+      "topic": "halborn-trust-framework",
+      "text": {
+        "en": "How does the Halborn audit contribute to Concrete's overall trust framework for depositors?",
+        "zh": "Halborn审计如何对Concrete存款人的整体信任框架做出贡献？",
+        "vi": "Kiểm tra Halborn đóng góp như thế nào vào khung tin cậy tổng thể của Concrete cho người gửi tiền?",
+        "id": "Bagaimana audit Halborn berkontribusi pada kerangka kepercayaan keseluruhan Concrete bagi deposan?",
+        "tr": "Halborn denetimi, Concrete'nin mevduat sahipleri için genel güven çerçevesine nasıl katkıda bulunur?",
+        "pcm": "How the Halborn audit dey contribute to Concrete overall trust framework for depositors?"
+      },
+      "options": {
+        "en": [
+          "A) It guarantees future yield rates and minimum APY performance",
+          "B) It provides independent, expert validation of smart contract security that depositors and institutions can reference as third-party evidence of the protocol's security posture",
+          "C) It replaces the need for any on-chain transparency since the audit covers everything",
+          "D) It is an internal review only relevant to the founding team and not publicly accessible"
+        ],
+        "zh": [
+          "A) 它保证未来的收益率和最低年化收益率表现",
+          "B) 它提供智能合约安全的独立专业验证，存款人和机构可以将其作为协议安全态势的第三方证据参考",
+          "C) 它替代了任何链上透明度的需求，因为审计涵盖了一切",
+          "D) 这是仅与创始团队相关的内部审查，不可公开访问"
+        ],
+        "vi": [
+          "A) Nó đảm bảo tỷ lệ yield trong tương lai và hiệu suất APY tối thiểu",
+          "B) Nó cung cấp xác nhận độc lập, chuyên nghiệp về bảo mật smart contract mà người gửi tiền và tổ chức có thể tham chiếu như bằng chứng bên thứ ba về tình trạng bảo mật của giao thức",
+          "C) Nó thay thế nhu cầu minh bạch on-chain vì kiểm tra bao gồm mọi thứ",
+          "D) Đây là đánh giá nội bộ chỉ liên quan đến đội sáng lập và không thể truy cập công khai"
+        ],
+        "id": [
+          "A) Ini menjamin tingkat yield masa depan dan kinerja APY minimum",
+          "B) Ini menyediakan validasi independen dan ahli tentang keamanan smart contract yang dapat direferensikan deposan dan institusi sebagai bukti pihak ketiga tentang postur keamanan protokol",
+          "C) Ini menggantikan kebutuhan transparansi on-chain karena audit mencakup semuanya",
+          "D) Ini adalah tinjauan internal yang hanya relevan bagi tim pendiri dan tidak dapat diakses publik"
+        ],
+        "tr": [
+          "A) Gelecekteki getiri oranlarını ve minimum APY performansını garanti eder",
+          "B) Mevduat sahiplerinin ve kurumların protokolün güvenlik duruşuna ilişkin üçüncü taraf kanıtı olarak başvurabileceği akıllı sözleşme güvenliğinin bağımsız, uzman doğrulamasını sağlar",
+          "C) Denetim her şeyi kapsadığı için zincir üstü şeffaflık ihtiyacının yerini alır",
+          "D) Yalnızca kurucu ekipla ilgili dahili bir inceleme olup kamuya açık değildir"
+        ],
+        "pcm": [
+          "A) E dey guarantee future yield rates and minimum APY performance",
+          "B) E dey provide independent expert validation of smart contract security wey depositors and institutions fit reference as third-party evidence of protocol security posture",
+          "C) E dey replace need for on-chain transparency since the audit covers everything",
+          "D) Na internal review only relevant to founding team and not publicly accessible"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "The Halborn audit (publicly available at https://www.halborn.com/audits/blueprint-finance) serves as independent, third-party validation that the smart contract codebase was professionally reviewed for vulnerabilities. For a depositor — especially an institutional one — this external validation is a critical trust signal: it means the protocol didn't just self-certify its security. It does not guarantee performance or eliminate all risk.",
+        "zh": "Halborn审计（可在 https://www.halborn.com/audits/blueprint-finance 公开获取）作为独立的第三方验证，证明智能合约代码库经过了专业漏洞审查。对于存款人——尤其是机构存款人——这种外部验证是一个关键的信任信号：这意味着协议不只是自我认证其安全性。它不保证性能或消除所有风险。",
+        "vi": "Kiểm tra Halborn (có thể truy cập công khai tại https://www.halborn.com/audits/blueprint-finance) đóng vai trò là xác nhận độc lập, bên thứ ba rằng codebase smart contract đã được xem xét chuyên nghiệp về các lỗ hổng. Đối với người gửi tiền — đặc biệt là tổ chức — xác nhận bên ngoài này là tín hiệu tin cậy quan trọng.",
+        "id": "Audit Halborn (tersedia secara publik di https://www.halborn.com/audits/blueprint-finance) berfungsi sebagai validasi independen pihak ketiga bahwa codebase smart contract telah ditinjau secara profesional untuk kerentanan. Bagi deposan — terutama institusi — validasi eksternal ini adalah sinyal kepercayaan yang penting.",
+        "tr": "Halborn denetimi (https://www.halborn.com/audits/blueprint-finance adresinde kamuya açık), akıllı sözleşme kod tabanının güvenlik açıkları açısından profesyonelce incelendiğini gösteren bağımsız, üçüncü taraf doğrulama olarak hizmet eder. Bir mevduat sahibi için — özellikle kurumsal biri için — bu dış doğrulama kritik bir güven sinyalidir.",
+        "pcm": "The Halborn audit (publicly available at https://www.halborn.com/audits/blueprint-finance) na independent third-party validation say the smart contract code was professionally reviewed for vulnerabilities. For depositor — especially institutional one — this external validation na critical trust signal: it mean the protocol no just self-certify its security. E no guarantee performance or eliminate all risk."
+      }
+    },
+    {
+      "id": "l2_020",
+      "topic": "blueprint-rebrand",
+      "text": {
+        "en": "What is the significance of Concrete having previously operated under the name 'Blueprint Finance'?",
+        "zh": "Concrete曾以「Blueprint Finance」名称运营的意义是什么？",
+        "vi": "Ý nghĩa của việc Concrete từng hoạt động dưới tên 'Blueprint Finance' là gì?",
+        "id": "Apa signifikansi Concrete yang sebelumnya beroperasi dengan nama 'Blueprint Finance'?",
+        "tr": "Concrete'nin daha önce 'Blueprint Finance' adı altında faaliyet göstermesinin önemi nedir?",
+        "pcm": "Wetin be the significance of Concrete having previously operated under the name 'Blueprint Finance'?"
+      },
+      "options": {
+        "en": [
+          "A) Blueprint Finance was a completely unrelated company that was later acquired by the Concrete team",
+          "B) Blueprint Finance was the original operating name of the same team and codebase — the Halborn security audit was conducted under this name, and the protocol rebranded to Concrete without a change in underlying technology",
+          "C) Blueprint Finance is a separate protocol that merged with Concrete, combining two different codebases",
+          "D) Blueprint Finance was the name of the early investor fund that provided initial capital"
+        ],
+        "zh": [
+          "A) Blueprint Finance是一家完全无关的公司，后来被Concrete团队收购",
+          "B) Blueprint Finance是同一团队和代码库的原始运营名称——Halborn安全审计是以这个名字进行的，协议在不改变底层技术的情况下更名为Concrete",
+          "C) Blueprint Finance是一个与Concrete合并的独立协议，结合了两个不同的代码库",
+          "D) Blueprint Finance是提供初始资本的早期投资基金的名称"
+        ],
+        "vi": [
+          "A) Blueprint Finance là một công ty hoàn toàn không liên quan sau đó được nhóm Concrete mua lại",
+          "B) Blueprint Finance là tên hoạt động ban đầu của cùng một nhóm và codebase — kiểm tra bảo mật Halborn được thực hiện dưới tên này, và giao thức đổi thương hiệu thành Concrete mà không thay đổi công nghệ cơ bản",
+          "C) Blueprint Finance là một giao thức riêng biệt đã sáp nhập với Concrete, kết hợp hai codebase khác nhau",
+          "D) Blueprint Finance là tên của quỹ đầu tư ban đầu cung cấp vốn ban đầu"
+        ],
+        "id": [
+          "A) Blueprint Finance adalah perusahaan yang sama sekali tidak terkait yang kemudian diakuisisi oleh tim Concrete",
+          "B) Blueprint Finance adalah nama operasional asli dari tim dan codebase yang sama — audit keamanan Halborn dilakukan di bawah nama ini, dan protokol berganti merek menjadi Concrete tanpa perubahan pada teknologi dasarnya",
+          "C) Blueprint Finance adalah protokol terpisah yang bergabung dengan Concrete, menggabungkan dua codebase yang berbeda",
+          "D) Blueprint Finance adalah nama dana investor awal yang menyediakan modal awal"
+        ],
+        "tr": [
+          "A) Blueprint Finance, daha sonra Concrete ekibi tarafından satın alınan tamamen ilgisiz bir şirketti",
+          "B) Blueprint Finance, aynı ekip ve kod tabanının orijinal işletme adıydı — Halborn güvenlik denetimi bu ad altında yapıldı ve protokol, temel teknolojide değişiklik olmaksızın Concrete olarak yeniden markalaştı",
+          "C) Blueprint Finance, iki farklı kod tabanını birleştirerek Concrete ile birleşen ayrı bir protokoldü",
+          "D) Blueprint Finance, başlangıç sermayesi sağlayan erken yatırım fonunun adıydı"
+        ],
+        "pcm": [
+          "A) Blueprint Finance na completely unrelated company wey Concrete team later acquire",
+          "B) Blueprint Finance na the original operating name of same team and codebase — Halborn security audit was conducted under this name, and the protocol rebrand to Concrete without changing the underlying technology",
+          "C) Blueprint Finance na separate protocol wey merge with Concrete, combining two different codebases",
+          "D) Blueprint Finance na the name of early investor fund wey provide initial capital"
+        ]
+      },
+      "correct": "B",
+      "explanation": {
+        "en": "Blueprint Finance and Concrete represent the same continuous project — same team, same codebase, same vision. The rebrand to Concrete was a naming update, not a technology change. This is why the Halborn audit report (at https://www.halborn.com/audits/blueprint-finance) remains fully relevant to Concrete today: it audited the same smart contract infrastructure that powers the current protocol.",
+        "zh": "Blueprint Finance和Concrete代表同一个持续项目——相同的团队、相同的代码库、相同的愿景。更名为Concrete是一次命名更新，而非技术变更。这就是为什么Halborn审计报告（在 https://www.halborn.com/audits/blueprint-finance）今天对Concrete仍然完全相关：它审计了驱动当前协议的相同智能合约基础设施。",
+        "vi": "Blueprint Finance và Concrete đại diện cho cùng một dự án liên tục — cùng nhóm, cùng codebase, cùng tầm nhìn. Việc đổi thương hiệu thành Concrete là cập nhật đặt tên, không phải thay đổi công nghệ. Đây là lý do tại sao báo cáo kiểm tra Halborn vẫn hoàn toàn liên quan đến Concrete ngày nay.",
+        "id": "Blueprint Finance dan Concrete mewakili proyek berkelanjutan yang sama — tim yang sama, codebase yang sama, visi yang sama. Rebranding ke Concrete adalah pembaruan penamaan, bukan perubahan teknologi. Inilah mengapa laporan audit Halborn tetap sepenuhnya relevan untuk Concrete hari ini.",
+        "tr": "Blueprint Finance ve Concrete aynı süregelen projeyi temsil eder — aynı ekip, aynı kod tabanı, aynı vizyon. Concrete olarak yeniden markalaşma, teknolojik bir değişiklik değil bir isimlendirme güncellemesiydi. Bu nedenle Halborn denetim raporu bugün Concrete için tamamen geçerliliğini korur.",
+        "pcm": "Blueprint Finance and Concrete na the same continuous project — same team, same codebase, same vision. The rebrand to Concrete na naming update, not technology change. This na why the Halborn audit report dey still fully relevant to Concrete today: e audited the same smart contract infrastructure wey dey power the current protocol."
+      }
+    }
+  ]
+}
