@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { useRouter, usePathname } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { ChevronDown } from 'lucide-react';
 import { locales, localeNames, localeFlags, type Locale } from '@/lib/i18n';
 
@@ -12,7 +12,6 @@ interface LangSwitcherProps {
 export default function LangSwitcher({ currentLocale }: LangSwitcherProps) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
-  const router = useRouter();
   const pathname = usePathname();
 
   useEffect(() => {
@@ -25,12 +24,11 @@ export default function LangSwitcher({ currentLocale }: LangSwitcherProps) {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  function switchLocale(locale: Locale) {
+  function switchLocale(newLocale: Locale) {
     setOpen(false);
-    // Replace current locale segment in path
     const segments = pathname.split('/');
-    segments[1] = locale;
-    router.push(segments.join('/'));
+    segments[1] = newLocale;
+    window.location.href = segments.join('/');
   }
 
   return (
