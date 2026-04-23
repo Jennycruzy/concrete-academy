@@ -150,6 +150,9 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Syne', sans-serif; font-weight: 700; }
 .chat-user-msg { background: rgba(0, 153, 204, 0.15); border: 1px solid rgba(0, 153, 204, 0.2); }
 .chat-bot-msg { background: var(--bg-elevated); border-left: 2px solid var(--accent-primary); }
 
+.quiz-back-link { display: inline-flex; align-items: center; gap: 6px; color: var(--text-secondary); text-decoration: none; font-size: 0.75rem; font-family: 'IBM Plex Mono', monospace; transition: color 0.2s ease; }
+.quiz-back-link:hover { color: var(--accent-primary); }
+
 @keyframes typing-dot {
   0%, 60%, 100% { opacity: 0.2; transform: translateY(0); }
   30% { opacity: 1; transform: translateY(-4px); }

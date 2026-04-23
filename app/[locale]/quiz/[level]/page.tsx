@@ -35,21 +35,7 @@ export default async function QuizLevelPage({ params }: PageProps) {
           gap: '12px',
         }}
       >
-        <Link
-          href={`/${locale}/quiz`}
-          style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '6px',
-            color: 'var(--text-secondary)',
-            textDecoration: 'none',
-            fontSize: '0.75rem',
-            fontFamily: "'IBM Plex Mono', monospace",
-            transition: 'color 0.2s ease',
-          }}
-          onMouseEnter={e => ((e.target as HTMLAnchorElement).style.color = 'var(--accent-primary)')}
-          onMouseLeave={e => ((e.target as HTMLAnchorElement).style.color = 'var(--text-secondary)')}
-        >
+        <Link href={`/${locale}/quiz`} className="quiz-back-link">
           <ArrowLeft size={14} /> Back to Quiz
         </Link>
 
