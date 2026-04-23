@@ -2,6 +2,9 @@ import { NextRequest, NextResponse } from 'next/server';
 import { queryOllama } from '@/lib/ollama';
 import type { ChatMessage } from '@/lib/ollama';
 
+// Allow up to 90 seconds for CPU-based LLM inference
+export const maxDuration = 90;
+
 // Rate limiting — simple in-memory store (use Redis in production at scale)
 const rateLimitMap = new Map<string, { count: number; resetAt: number }>();
 
@@ -68,7 +71,7 @@ export async function POST(req: NextRequest) {
   let safeHistory: ChatMessage[] = [];
   if (Array.isArray(history)) {
     safeHistory = history
-      .slice(-10) // Keep last 10 turns max
+      .slice(-4) // Keep last 4 turns only — reduces CPU inference time
       .filter(
         (m): m is ChatMessage =>
           m !== null &&

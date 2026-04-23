@@ -62,6 +62,7 @@ export async function queryOllama(
   const response = await fetch(`${OLLAMA_URL}/api/chat`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
+    signal: AbortSignal.timeout(90_000),
     body: JSON.stringify({
       model: MODEL,
       messages: [
@@ -73,7 +74,8 @@ export async function queryOllama(
       options: {
         temperature: 0.1,
         top_p: 0.9,
-        num_ctx: 4096,
+        num_ctx: 2048,
+        num_predict: 400,
       },
     }),
   });
