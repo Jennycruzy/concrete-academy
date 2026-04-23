@@ -27,11 +27,128 @@ export default function Footer({ locale }: FooterProps) {
       style={{
         borderTop: '1px solid var(--border)',
         background: 'var(--bg-secondary)',
-        padding: '48px 24px 32px',
+        padding: '0 24px 32px',
         marginTop: '80px',
       }}
     >
-      <div style={{ maxWidth: '1280px', margin: '0 auto' }}>
+      {/* Explore Concrete banner — Concrete brand style */}
+      <div
+        style={{
+          background: 'linear-gradient(135deg, #e8d98a 0%, #f0e6a0 40%, #d4c870 100%)',
+          padding: '52px 24px',
+          position: 'relative',
+          overflow: 'hidden',
+        }}
+      >
+        {/* Corner brackets — top left */}
+        <div style={{ position: 'absolute', top: '20px', left: '24px', color: '#0a0c0f', opacity: 0.35, fontFamily: 'monospace', fontSize: '1.1rem', lineHeight: 1, userSelect: 'none' }}>
+          {'┌─'}<br />{'│'}
+        </div>
+        {/* Corner brackets — top right */}
+        <div style={{ position: 'absolute', top: '20px', right: '24px', color: '#0a0c0f', opacity: 0.35, fontFamily: 'monospace', fontSize: '1.1rem', lineHeight: 1, userSelect: 'none', textAlign: 'right' }}>
+          {'─┐'}<br />{'│'}
+        </div>
+        {/* Corner brackets — bottom left */}
+        <div style={{ position: 'absolute', bottom: '20px', left: '24px', color: '#0a0c0f', opacity: 0.35, fontFamily: 'monospace', fontSize: '1.1rem', lineHeight: 1, userSelect: 'none' }}>
+          {'│'}<br />{'└─'}
+        </div>
+        {/* Corner brackets — bottom right */}
+        <div style={{ position: 'absolute', bottom: '20px', right: '24px', color: '#0a0c0f', opacity: 0.35, fontFamily: 'monospace', fontSize: '1.1rem', lineHeight: 1, userSelect: 'none', textAlign: 'right' }}>
+          {'│'}<br />{'─┘'}
+        </div>
+
+        <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
+          {/* Letterbox logo */}
+          <div
+            style={{
+              display: 'inline-flex',
+              gap: '3px',
+              marginBottom: '24px',
+              alignItems: 'center',
+            }}
+          >
+            {'CONCRETE'.split('').map((letter, i) => (
+              <div
+                key={i}
+                style={{
+                  width: '32px',
+                  height: '32px',
+                  border: '1.5px solid #0a0c0f',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontFamily: "'IBM Plex Mono', monospace",
+                  fontWeight: 700,
+                  fontSize: '0.75rem',
+                  color: '#0a0c0f',
+                  letterSpacing: 0,
+                }}
+              >
+                {letter}
+              </div>
+            ))}
+          </div>
+
+          <h2
+            style={{
+              fontFamily: "'Syne', sans-serif",
+              fontWeight: 800,
+              fontSize: 'clamp(1.4rem, 3vw, 2rem)',
+              color: '#0a0c0f',
+              marginBottom: '10px',
+              lineHeight: 1.2,
+            }}
+          >
+            Ready to put your knowledge to work?
+          </h2>
+          <p
+            style={{
+              color: 'rgba(10,12,15,0.65)',
+              fontSize: '0.82rem',
+              fontFamily: "'IBM Plex Mono', monospace",
+              marginBottom: '28px',
+              lineHeight: 1.7,
+            }}
+          >
+            Access institutional-grade yield vaults on the Concrete protocol.
+          </p>
+
+          <a
+            href="https://app.concrete.xyz/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '8px',
+              background: '#0a0c0f',
+              color: '#e8d98a',
+              fontFamily: "'Syne', sans-serif",
+              fontWeight: 700,
+              fontSize: '0.82rem',
+              letterSpacing: '0.08em',
+              textTransform: 'uppercase',
+              padding: '13px 28px',
+              borderRadius: '8px',
+              textDecoration: 'none',
+              transition: 'all 0.25s ease',
+            }}
+            onMouseEnter={e => {
+              (e.currentTarget as HTMLAnchorElement).style.background = '#1a1f28';
+              (e.currentTarget as HTMLAnchorElement).style.transform = 'translateY(-2px)';
+            }}
+            onMouseLeave={e => {
+              (e.currentTarget as HTMLAnchorElement).style.background = '#0a0c0f';
+              (e.currentTarget as HTMLAnchorElement).style.transform = 'translateY(0)';
+            }}
+          >
+            Explore Concrete
+            <ExternalLink size={14} />
+          </a>
+        </div>
+      </div>
+
+      <div style={{ maxWidth: '1280px', margin: '0 auto', paddingTop: '48px' }}>
         {/* Top row */}
         <div
           style={{
