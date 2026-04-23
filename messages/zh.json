@@ -3,7 +3,8 @@
     "learn": "学习",
     "quiz": "测验",
     "leaderboard": "排行榜",
-    "startLearning": "开始学习"
+    "startLearning": "开始学习",
+    "chat": "对话"
   },
   "hero": {
     "badge": "Concrete Academy — 官方教育平台",
@@ -132,5 +133,16 @@
     "loading": "加载中...",
     "error": "出现错误",
     "tryAgain": "重试"
+  },
+  "chatPage": {
+    "title": "Concrete",
+    "titleHighlight": "分析师",
+    "subtitle": "用您的语言询问任何关于Concrete协议的问题。基于官方文档提供支持。",
+    "clearChat": "清除",
+    "suggestedTitle": "试着问：",
+    "poweredBy": "基于官方Concrete文档 · 从不猜测",
+    "inputPlaceholder": "询问关于Concrete协议的问题...",
+    "thinking": "思考中...",
+    "welcome": "您好。我是Concrete分析师——您了解Concrete协议的向导。请用中文向我提问，我将用中文回答。"
   }
 }

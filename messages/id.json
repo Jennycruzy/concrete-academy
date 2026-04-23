@@ -1,59 +1,108 @@
 {
-  "nav": { "learn": "Belajar", "quiz": "Kuis", "leaderboard": "Papan Peringkat", "startLearning": "Mulai Belajar" },
+  "nav": {
+    "learn": "Belajar",
+    "quiz": "Kuis",
+    "leaderboard": "Papan Peringkat",
+    "startLearning": "Mulai Belajar",
+    "chat": "Chat"
+  },
   "hero": {
     "badge": "Concrete Academy — Platform Edukasi Resmi",
     "title": "Kuasai Infrastruktur Yield DeFi",
     "titleHighlight": "Paling Canggih",
     "subtitle": "Pelajari Concrete DeFi melalui konten terstruktur, uji pengetahuan dengan kuis berperingkat, dan dapatkan jawaban dari AI yang dilatih pada dokumentasi resmi.",
-    "ctaLearn": "Mulai Belajar", "ctaQuiz": "Ikuti Kuis",
-    "stat1": "6 Bahasa", "stat2": "2 Level Kuis", "stat3": "4 Tingkat Peringkat", "stat4": "Didukung Dokumen Concrete"
+    "ctaLearn": "Mulai Belajar",
+    "ctaQuiz": "Ikuti Kuis",
+    "stat1": "6 Bahasa",
+    "stat2": "2 Level Kuis",
+    "stat3": "4 Tingkat Peringkat",
+    "stat4": "Didukung Dokumen Concrete"
   },
   "features": {
-    "title": "Empat Pilar", "titleHighlight": "Protokol Concrete",
-    "modular": "Arsitektur Modular", "modularDesc": "Komponen yang dapat dikombinasikan dan diperbarui, dirancang untuk lanskap DeFi yang terus berkembang.",
-    "quant": "Pemodelan Kuantitatif", "quantDesc": "Penilaian risiko berbasis data dan alokasi modal yang didukung oleh kerangka matematika tingkat institusi.",
-    "risk": "Manajemen Risiko", "riskDesc": "Kontrol risiko sistematis yang tertanam langsung dalam strategi vault — bukan fitur tambahan.",
-    "crosschain": "Integrasi Lintas-Chain", "crosschainDesc": "Akses terpadu ke peluang yield di seluruh ekosistem blockchain utama, memaksimalkan efisiensi modal."
+    "title": "Empat Pilar",
+    "titleHighlight": "Protokol Concrete",
+    "modular": "Arsitektur Modular",
+    "modularDesc": "Komponen yang dapat dikombinasikan dan diperbarui, dirancang untuk lanskap DeFi yang terus berkembang.",
+    "quant": "Pemodelan Kuantitatif",
+    "quantDesc": "Penilaian risiko berbasis data dan alokasi modal yang didukung oleh kerangka matematika tingkat institusi.",
+    "risk": "Manajemen Risiko",
+    "riskDesc": "Kontrol risiko sistematis yang tertanam langsung dalam strategi vault — bukan fitur tambahan.",
+    "crosschain": "Integrasi Lintas-Chain",
+    "crosschainDesc": "Akses terpadu ke peluang yield di seluruh ekosistem blockchain utama, memaksimalkan efisiensi modal."
   },
   "learning": {
-    "title": "Jalur", "titleHighlight": "Pembelajaran Anda",
-    "step1Title": "Pelajari Protokol", "step1Desc": "Baca modul terstruktur yang mencakup arsitektur Concrete, vault, model risiko, dan lainnya.",
-    "step2Title": "Uji Pengetahuan Anda", "step2Desc": "Ikuti kuis berperingkat di dua level — dari fondasi konseptual hingga penguasaan mekanisme.",
-    "step3Title": "Raih Peringkat Anda", "step3Desc": "Skor 81%+ untuk mencapai peringkat MASTER. Naiki papan peringkat global.",
-    "viewModules": "Lihat Semua Modul", "takeQuiz": "Ikuti Kuis"
+    "title": "Jalur",
+    "titleHighlight": "Pembelajaran Anda",
+    "step1Title": "Pelajari Protokol",
+    "step1Desc": "Baca modul terstruktur yang mencakup arsitektur Concrete, vault, model risiko, dan lainnya.",
+    "step2Title": "Uji Pengetahuan Anda",
+    "step2Desc": "Ikuti kuis berperingkat di dua level — dari fondasi konseptual hingga penguasaan mekanisme.",
+    "step3Title": "Raih Peringkat Anda",
+    "step3Desc": "Skor 81%+ untuk mencapai peringkat MASTER. Naiki papan peringkat global.",
+    "viewModules": "Lihat Semua Modul",
+    "takeQuiz": "Ikuti Kuis"
   },
   "quiz": {
-    "title": "Pilih", "titleHighlight": "Tantangan Anda",
-    "level1": "Level 1", "level1Title": "Dasar-Dasar Concrete",
+    "title": "Pilih",
+    "titleHighlight": "Tantangan Anda",
+    "level1": "Level 1",
+    "level1Title": "Dasar-Dasar Concrete",
     "level1Desc": "15 pertanyaan konseptual tentang misi inti Concrete, vault, manajemen risiko, dan ekosistem.",
-    "level1Duration": "~10 menit", "level2": "Level 2", "level2Title": "Mekanisme Concrete",
+    "level1Duration": "~10 menit",
+    "level2": "Level 2",
+    "level2Title": "Mekanisme Concrete",
     "level2Desc": "12 pertanyaan lanjutan tentang eksekusi lintas-chain, model kuantitatif, dan arsitektur protokol.",
-    "level2Duration": "~12 menit", "recommended": "Mulai Di Sini", "advanced": "Lanjutan",
-    "startLevel1": "Mulai Level 1", "startLevel2": "Mulai Level 2"
+    "level2Duration": "~12 menit",
+    "recommended": "Mulai Di Sini",
+    "advanced": "Lanjutan",
+    "startLevel1": "Mulai Level 1",
+    "startLevel2": "Mulai Level 2"
   },
   "chatbot": {
     "bannerTitle": "Tanyakan Apa Saja kepada Analis Concrete",
     "bannerDesc": "AI kami dilatih secara eksklusif pada dokumentasi resmi Concrete. Dapatkan jawaban yang tepat dan otoritatif.",
-    "openChat": "Buka Chat", "placeholder": "Tanyakan tentang protokol Concrete...",
-    "sending": "Mengirim...", "typingIndicator": "Analis Concrete sedang berpikir...",
+    "openChat": "Buka Chat",
+    "placeholder": "Tanyakan tentang protokol Concrete...",
+    "sending": "Mengirim...",
+    "typingIndicator": "Analis Concrete sedang berpikir...",
     "welcomeMessage": "Halo. Saya Analis Concrete. Saya menjawab berdasarkan dokumentasi resmi Concrete. Apa yang ingin Anda pahami?"
   },
   "leaderboard": {
-    "title": "Papan Peringkat", "titleHighlight": "Global",
-    "level1Tab": "Level 1", "level2Tab": "Level 2",
-    "rank": "Peringkat", "username": "Nama Pengguna", "score": "Skor", "language": "Bahasa", "date": "Tanggal",
+    "title": "Papan Peringkat",
+    "titleHighlight": "Global",
+    "level1Tab": "Level 1",
+    "level2Tab": "Level 2",
+    "rank": "Peringkat",
+    "username": "Nama Pengguna",
+    "score": "Skor",
+    "language": "Bahasa",
+    "date": "Tanggal",
     "empty": "Belum ada skor. Jadilah yang pertama!"
   },
   "quizEngine": {
-    "question": "Pertanyaan", "of": "dari",
-    "submit": "Kirim Jawaban", "next": "Pertanyaan Berikutnya", "viewResults": "Lihat Hasil",
-    "correct": "Benar!", "incorrect": "Salah", "explanation": "Penjelasan",
-    "yourScore": "Skor Anda", "rank": "Peringkat Anda",
-    "submitScore": "Kirim ke Papan Peringkat", "username": "Masukkan nama pengguna",
-    "submitting": "Mengirim...", "submitted": "Skor Dikirim!",
-    "playAgain": "Main Lagi", "retake": "Ikuti Kuis Lagi"
+    "question": "Pertanyaan",
+    "of": "dari",
+    "submit": "Kirim Jawaban",
+    "next": "Pertanyaan Berikutnya",
+    "viewResults": "Lihat Hasil",
+    "correct": "Benar!",
+    "incorrect": "Salah",
+    "explanation": "Penjelasan",
+    "yourScore": "Skor Anda",
+    "rank": "Peringkat Anda",
+    "submitScore": "Kirim ke Papan Peringkat",
+    "username": "Masukkan nama pengguna",
+    "submitting": "Mengirim...",
+    "submitted": "Skor Dikirim!",
+    "playAgain": "Main Lagi",
+    "retake": "Ikuti Kuis Lagi"
   },
-  "ranks": { "newbie": "PEMULA", "navigator": "NAVIGATOR", "guru": "GURU", "master": "MASTER" },
+  "ranks": {
+    "newbie": "PEMULA",
+    "navigator": "NAVIGATOR",
+    "guru": "GURU",
+    "master": "MASTER"
+  },
   "masterTeaser": {
     "title": "Level Baru Akan Datang...",
     "subtitle": "Anda telah menguasai apa yang ada hari ini. Tapi protokol Concrete terus berkembang.",
@@ -63,12 +112,37 @@
   "footer": {
     "tagline": "Ubah setiap pelajar DeFi menjadi Concrete Master.",
     "disclaimer": "Concrete Academy — Platform edukasi. Bukan saran keuangan.",
-    "links": { "docs": "Dokumentasi", "app": "Buka App", "blog": "Blog", "audit": "Audit Keamanan", "twitter": "Twitter/X", "points": "Kampanye Poin" }
+    "links": {
+      "docs": "Dokumentasi",
+      "app": "Buka App",
+      "blog": "Blog",
+      "audit": "Audit Keamanan",
+      "twitter": "Twitter/X",
+      "points": "Kampanye Poin"
+    }
   },
   "learn": {
-    "title": "Modul", "titleHighlight": "Pembelajaran",
+    "title": "Modul",
+    "titleHighlight": "Pembelajaran",
     "subtitle": "Konten terstruktur yang bersumber langsung dari dokumentasi resmi Concrete.",
-    "readMore": "Baca Modul", "readTime": "menit baca", "backToModules": "Kembali ke Modul"
+    "readMore": "Baca Modul",
+    "readTime": "menit baca",
+    "backToModules": "Kembali ke Modul"
   },
-  "common": { "loading": "Memuat...", "error": "Terjadi kesalahan", "tryAgain": "Coba Lagi" }
+  "common": {
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "tryAgain": "Coba Lagi"
+  },
+  "chatPage": {
+    "title": "Analis",
+    "titleHighlight": "Concrete",
+    "subtitle": "Tanyakan apa saja tentang protokol Concrete — dalam bahasa Anda.",
+    "clearChat": "Hapus",
+    "suggestedTitle": "Coba tanyakan:",
+    "poweredBy": "Berbasis dokumentasi resmi · Tidak berspekulasi",
+    "inputPlaceholder": "Tanyakan tentang protokol Concrete...",
+    "thinking": "Sedang berpikir...",
+    "welcome": "Halo. Saya adalah Analis Concrete — panduan Anda untuk protokol Concrete. Silakan bertanya dalam Bahasa Indonesia."
+  }
 }

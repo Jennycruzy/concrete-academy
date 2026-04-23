@@ -1,59 +1,108 @@
 {
-  "nav": { "learn": "Học", "quiz": "Kiểm tra", "leaderboard": "Bảng xếp hạng", "startLearning": "Bắt đầu học" },
+  "nav": {
+    "learn": "Học",
+    "quiz": "Kiểm tra",
+    "leaderboard": "Bảng xếp hạng",
+    "startLearning": "Bắt đầu học",
+    "chat": "Trò chuyện"
+  },
   "hero": {
     "badge": "Concrete Academy — Nền tảng giáo dục chính thức",
     "title": "Làm chủ cơ sở hạ tầng yield",
     "titleHighlight": "phức tạp nhất của DeFi",
     "subtitle": "Học Concrete DeFi qua nội dung có cấu trúc, kiểm tra kiến thức với quiz xếp hạng, và nhận câu trả lời từ AI được đào tạo trên tài liệu chính thức.",
-    "ctaLearn": "Bắt đầu học", "ctaQuiz": "Làm bài kiểm tra",
-    "stat1": "6 ngôn ngữ", "stat2": "2 cấp độ quiz", "stat3": "4 hạng", "stat4": "Dựa trên tài liệu Concrete"
+    "ctaLearn": "Bắt đầu học",
+    "ctaQuiz": "Làm bài kiểm tra",
+    "stat1": "6 ngôn ngữ",
+    "stat2": "2 cấp độ quiz",
+    "stat3": "4 hạng",
+    "stat4": "Dựa trên tài liệu Concrete"
   },
   "features": {
-    "title": "Bốn trụ cột của", "titleHighlight": "giao thức Concrete",
-    "modular": "Kiến trúc Module", "modularDesc": "Các thành phần có thể kết hợp và nâng cấp được thiết kế cho bối cảnh DeFi liên tục phát triển.",
-    "quant": "Mô hình Định lượng", "quantDesc": "Đánh giá rủi ro và phân bổ vốn dựa trên dữ liệu được hỗ trợ bởi các khung toán học cấp tổ chức.",
-    "risk": "Quản lý Rủi ro", "riskDesc": "Kiểm soát rủi ro có hệ thống được nhúng trực tiếp vào chiến lược vault — không phải tính năng bổ sung.",
-    "crosschain": "Tích hợp Cross-Chain", "crosschainDesc": "Truy cập thống nhất vào cơ hội yield trên các hệ sinh thái blockchain lớn, tối đa hóa hiệu quả vốn."
+    "title": "Bốn trụ cột của",
+    "titleHighlight": "giao thức Concrete",
+    "modular": "Kiến trúc Module",
+    "modularDesc": "Các thành phần có thể kết hợp và nâng cấp được thiết kế cho bối cảnh DeFi liên tục phát triển.",
+    "quant": "Mô hình Định lượng",
+    "quantDesc": "Đánh giá rủi ro và phân bổ vốn dựa trên dữ liệu được hỗ trợ bởi các khung toán học cấp tổ chức.",
+    "risk": "Quản lý Rủi ro",
+    "riskDesc": "Kiểm soát rủi ro có hệ thống được nhúng trực tiếp vào chiến lược vault — không phải tính năng bổ sung.",
+    "crosschain": "Tích hợp Cross-Chain",
+    "crosschainDesc": "Truy cập thống nhất vào cơ hội yield trên các hệ sinh thái blockchain lớn, tối đa hóa hiệu quả vốn."
   },
   "learning": {
-    "title": "Lộ trình", "titleHighlight": "học tập",
-    "step1Title": "Nghiên cứu giao thức", "step1Desc": "Đọc các module có cấu trúc về kiến trúc, vault, mô hình rủi ro của Concrete.",
-    "step2Title": "Kiểm tra kiến thức", "step2Desc": "Làm quiz xếp hạng qua hai cấp độ — từ nền tảng khái niệm đến thành thạo cơ chế.",
-    "step3Title": "Đạt hạng của bạn", "step3Desc": "Đạt 81%+ để đạt hạng MASTER. Leo bảng xếp hạng toàn cầu.",
-    "viewModules": "Xem tất cả module", "takeQuiz": "Làm bài kiểm tra"
+    "title": "Lộ trình",
+    "titleHighlight": "học tập",
+    "step1Title": "Nghiên cứu giao thức",
+    "step1Desc": "Đọc các module có cấu trúc về kiến trúc, vault, mô hình rủi ro của Concrete.",
+    "step2Title": "Kiểm tra kiến thức",
+    "step2Desc": "Làm quiz xếp hạng qua hai cấp độ — từ nền tảng khái niệm đến thành thạo cơ chế.",
+    "step3Title": "Đạt hạng của bạn",
+    "step3Desc": "Đạt 81%+ để đạt hạng MASTER. Leo bảng xếp hạng toàn cầu.",
+    "viewModules": "Xem tất cả module",
+    "takeQuiz": "Làm bài kiểm tra"
   },
   "quiz": {
-    "title": "Chọn thử thách", "titleHighlight": "của bạn",
-    "level1": "Cấp 1", "level1Title": "Nền tảng Concrete",
+    "title": "Chọn thử thách",
+    "titleHighlight": "của bạn",
+    "level1": "Cấp 1",
+    "level1Title": "Nền tảng Concrete",
     "level1Desc": "15 câu hỏi khái niệm về sứ mệnh, vault, quản lý rủi ro của Concrete.",
-    "level1Duration": "~10 phút", "level2": "Cấp 2", "level2Title": "Cơ chế Concrete",
+    "level1Duration": "~10 phút",
+    "level2": "Cấp 2",
+    "level2Title": "Cơ chế Concrete",
     "level2Desc": "12 câu hỏi nâng cao về thực thi cross-chain, mô hình định lượng.",
-    "level2Duration": "~12 phút", "recommended": "Bắt đầu đây", "advanced": "Nâng cao",
-    "startLevel1": "Bắt đầu Cấp 1", "startLevel2": "Bắt đầu Cấp 2"
+    "level2Duration": "~12 phút",
+    "recommended": "Bắt đầu đây",
+    "advanced": "Nâng cao",
+    "startLevel1": "Bắt đầu Cấp 1",
+    "startLevel2": "Bắt đầu Cấp 2"
   },
   "chatbot": {
     "bannerTitle": "Hỏi Nhà phân tích Concrete bất cứ điều gì",
     "bannerDesc": "AI của chúng tôi được đào tạo độc quyền trên tài liệu chính thức Concrete.",
-    "openChat": "Mở chat", "placeholder": "Hỏi về giao thức Concrete...",
-    "sending": "Đang gửi...", "typingIndicator": "Nhà phân tích Concrete đang suy nghĩ...",
+    "openChat": "Mở chat",
+    "placeholder": "Hỏi về giao thức Concrete...",
+    "sending": "Đang gửi...",
+    "typingIndicator": "Nhà phân tích Concrete đang suy nghĩ...",
     "welcomeMessage": "Xin chào. Tôi là Nhà phân tích Concrete. Tôi trả lời dựa trên tài liệu chính thức Concrete. Bạn muốn tìm hiểu điều gì?"
   },
   "leaderboard": {
-    "title": "Bảng xếp hạng", "titleHighlight": "Toàn cầu",
-    "level1Tab": "Cấp 1", "level2Tab": "Cấp 2",
-    "rank": "Hạng", "username": "Tên người dùng", "score": "Điểm", "language": "Ngôn ngữ", "date": "Ngày",
+    "title": "Bảng xếp hạng",
+    "titleHighlight": "Toàn cầu",
+    "level1Tab": "Cấp 1",
+    "level2Tab": "Cấp 2",
+    "rank": "Hạng",
+    "username": "Tên người dùng",
+    "score": "Điểm",
+    "language": "Ngôn ngữ",
+    "date": "Ngày",
     "empty": "Chưa có điểm. Hãy là người đầu tiên!"
   },
   "quizEngine": {
-    "question": "Câu hỏi", "of": "trong số",
-    "submit": "Gửi câu trả lời", "next": "Câu tiếp theo", "viewResults": "Xem kết quả",
-    "correct": "Đúng!", "incorrect": "Sai", "explanation": "Giải thích",
-    "yourScore": "Điểm của bạn", "rank": "Hạng của bạn",
-    "submitScore": "Gửi lên bảng xếp hạng", "username": "Nhập tên người dùng",
-    "submitting": "Đang gửi...", "submitted": "Đã gửi điểm!",
-    "playAgain": "Chơi lại", "retake": "Làm lại quiz"
+    "question": "Câu hỏi",
+    "of": "trong số",
+    "submit": "Gửi câu trả lời",
+    "next": "Câu tiếp theo",
+    "viewResults": "Xem kết quả",
+    "correct": "Đúng!",
+    "incorrect": "Sai",
+    "explanation": "Giải thích",
+    "yourScore": "Điểm của bạn",
+    "rank": "Hạng của bạn",
+    "submitScore": "Gửi lên bảng xếp hạng",
+    "username": "Nhập tên người dùng",
+    "submitting": "Đang gửi...",
+    "submitted": "Đã gửi điểm!",
+    "playAgain": "Chơi lại",
+    "retake": "Làm lại quiz"
   },
-  "ranks": { "newbie": "NEWBIE", "navigator": "NAVIGATOR", "guru": "GURU", "master": "MASTER" },
+  "ranks": {
+    "newbie": "NEWBIE",
+    "navigator": "NAVIGATOR",
+    "guru": "GURU",
+    "master": "MASTER"
+  },
   "masterTeaser": {
     "title": "Một cấp độ mới sắp đến...",
     "subtitle": "Bạn đã thành thạo những gì tồn tại hôm nay. Nhưng giao thức Concrete vẫn đang phát triển.",
@@ -63,12 +112,37 @@
   "footer": {
     "tagline": "Biến mọi người học DeFi thành Concrete Master.",
     "disclaimer": "Concrete Academy — Nền tảng giáo dục. Không phải tư vấn tài chính.",
-    "links": { "docs": "Tài liệu", "app": "Mở App", "blog": "Blog", "audit": "Kiểm tra Bảo mật", "twitter": "Twitter/X", "points": "Chiến dịch Điểm" }
+    "links": {
+      "docs": "Tài liệu",
+      "app": "Mở App",
+      "blog": "Blog",
+      "audit": "Kiểm tra Bảo mật",
+      "twitter": "Twitter/X",
+      "points": "Chiến dịch Điểm"
+    }
   },
   "learn": {
-    "title": "Module", "titleHighlight": "Học tập",
+    "title": "Module",
+    "titleHighlight": "Học tập",
     "subtitle": "Nội dung có cấu trúc trực tiếp từ tài liệu chính thức Concrete.",
-    "readMore": "Đọc Module", "readTime": "phút đọc", "backToModules": "Quay lại Module"
+    "readMore": "Đọc Module",
+    "readTime": "phút đọc",
+    "backToModules": "Quay lại Module"
   },
-  "common": { "loading": "Đang tải...", "error": "Đã xảy ra lỗi", "tryAgain": "Thử lại" }
+  "common": {
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "tryAgain": "Thử lại"
+  },
+  "chatPage": {
+    "title": "Chuyên gia",
+    "titleHighlight": "Concrete",
+    "subtitle": "Hỏi bất cứ điều gì về giao thức Concrete — bằng ngôn ngữ của bạn.",
+    "clearChat": "Xóa",
+    "suggestedTitle": "Thử hỏi:",
+    "poweredBy": "Dựa trên tài liệu chính thức · Không suy đoán",
+    "inputPlaceholder": "Hỏi về giao thức Concrete...",
+    "thinking": "Đang suy nghĩ...",
+    "welcome": "Xin chào. Tôi là Chuyên gia Concrete — người hướng dẫn của bạn về giao thức Concrete. Hãy hỏi tôi bằng tiếng Việt."
+  }
 }

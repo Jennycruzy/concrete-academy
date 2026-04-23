@@ -3,7 +3,8 @@
     "learn": "Learn",
     "quiz": "Quiz",
     "leaderboard": "Leaderboard",
-    "startLearning": "Start Learning"
+    "startLearning": "Start Learning",
+    "chat": "Chat"
   },
   "hero": {
     "badge": "Concrete Academy — Official Education Platform",
@@ -132,5 +133,16 @@
     "loading": "Loading...",
     "error": "Something went wrong",
     "tryAgain": "Try Again"
+  },
+  "chatPage": {
+    "title": "The Concrete",
+    "titleHighlight": "Analyst",
+    "subtitle": "Ask anything about Concrete protocol — in your language. Powered by official documentation.",
+    "clearChat": "Clear",
+    "suggestedTitle": "Try asking:",
+    "poweredBy": "Grounded in official Concrete docs · Never speculates",
+    "inputPlaceholder": "Ask about Concrete protocol...",
+    "thinking": "Thinking...",
+    "welcome": "Hello. I am The Concrete Analyst — your guide to the Concrete protocol. Ask me anything about vaults, yield strategies, cross-chain, security, or the points campaign. I respond in your language."
   }
 }

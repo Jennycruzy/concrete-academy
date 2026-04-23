@@ -1,59 +1,108 @@
 {
-  "nav": { "learn": "Öğren", "quiz": "Quiz", "leaderboard": "Liderlik Tablosu", "startLearning": "Öğrenmeye Başla" },
+  "nav": {
+    "learn": "Öğren",
+    "quiz": "Quiz",
+    "leaderboard": "Liderlik Tablosu",
+    "startLearning": "Öğrenmeye Başla",
+    "chat": "Sohbet"
+  },
   "hero": {
     "badge": "Concrete Academy — Resmi Eğitim Platformu",
     "title": "DeFi'nin En Gelişmiş",
     "titleHighlight": "Getiri Altyapısını Ustalaş",
     "subtitle": "Yapılandırılmış içerik aracılığıyla Concrete DeFi'yi öğrenin, sıralı testlerle bilginizi sınayın ve resmi belgelerle eğitilmiş yapay zekadan yanıtlar alın.",
-    "ctaLearn": "Öğrenmeye Başla", "ctaQuiz": "Teste Gir",
-    "stat1": "6 Dil", "stat2": "2 Test Seviyesi", "stat3": "4 Sıralama Katmanı", "stat4": "Concrete Belgeleriyle Desteklendi"
+    "ctaLearn": "Öğrenmeye Başla",
+    "ctaQuiz": "Teste Gir",
+    "stat1": "6 Dil",
+    "stat2": "2 Test Seviyesi",
+    "stat3": "4 Sıralama Katmanı",
+    "stat4": "Concrete Belgeleriyle Desteklendi"
   },
   "features": {
-    "title": "Concrete Protokolünün", "titleHighlight": "Dört Sütunu",
-    "modular": "Modüler Mimari", "modularDesc": "Sürekli değişen DeFi ortamı için tasarlanmış birleştirilebilir, yükseltilebilir bileşenler.",
-    "quant": "Nicel Modelleme", "quantDesc": "Protokol düzeyinde uygulanan kurumsal düzeyde matematiksel çerçevelerle desteklenen veri odaklı risk değerlendirmesi.",
-    "risk": "Risk Yönetimi", "riskDesc": "Vault stratejilerine doğrudan yerleştirilmiş sistematik risk kontrolleri — sonradan eklenen değil.",
-    "crosschain": "Çapraz Zincir Entegrasyonu", "crosschainDesc": "Büyük blockchain ekosistemlerinde getiri fırsatlarına birleşik erişim, sermaye verimliliğini maksimize eder."
+    "title": "Concrete Protokolünün",
+    "titleHighlight": "Dört Sütunu",
+    "modular": "Modüler Mimari",
+    "modularDesc": "Sürekli değişen DeFi ortamı için tasarlanmış birleştirilebilir, yükseltilebilir bileşenler.",
+    "quant": "Nicel Modelleme",
+    "quantDesc": "Protokol düzeyinde uygulanan kurumsal düzeyde matematiksel çerçevelerle desteklenen veri odaklı risk değerlendirmesi.",
+    "risk": "Risk Yönetimi",
+    "riskDesc": "Vault stratejilerine doğrudan yerleştirilmiş sistematik risk kontrolleri — sonradan eklenen değil.",
+    "crosschain": "Çapraz Zincir Entegrasyonu",
+    "crosschainDesc": "Büyük blockchain ekosistemlerinde getiri fırsatlarına birleşik erişim, sermaye verimliliğini maksimize eder."
   },
   "learning": {
-    "title": "Öğrenme", "titleHighlight": "Yolunuz",
-    "step1Title": "Protokolü İnceleyin", "step1Desc": "Concrete'nin mimarisini, vault'larını, risk modellerini kapsayan yapılandırılmış modülleri okuyun.",
-    "step2Title": "Bilginizi Test Edin", "step2Desc": "İki seviyede sıralı testler yapın — kavramsal temellerden mekanizma ustalığına.",
-    "step3Title": "Sıralamanızı Kazanın", "step3Desc": "MASTER sıralamasına ulaşmak için 81%+ skor alın. Küresel liderlik tablosuna tırmanın.",
-    "viewModules": "Tüm Modülleri Görüntüle", "takeQuiz": "Teste Gir"
+    "title": "Öğrenme",
+    "titleHighlight": "Yolunuz",
+    "step1Title": "Protokolü İnceleyin",
+    "step1Desc": "Concrete'nin mimarisini, vault'larını, risk modellerini kapsayan yapılandırılmış modülleri okuyun.",
+    "step2Title": "Bilginizi Test Edin",
+    "step2Desc": "İki seviyede sıralı testler yapın — kavramsal temellerden mekanizma ustalığına.",
+    "step3Title": "Sıralamanızı Kazanın",
+    "step3Desc": "MASTER sıralamasına ulaşmak için 81%+ skor alın. Küresel liderlik tablosuna tırmanın.",
+    "viewModules": "Tüm Modülleri Görüntüle",
+    "takeQuiz": "Teste Gir"
   },
   "quiz": {
-    "title": "Zorluğunuzu", "titleHighlight": "Seçin",
-    "level1": "Seviye 1", "level1Title": "Concrete Temelleri",
+    "title": "Zorluğunuzu",
+    "titleHighlight": "Seçin",
+    "level1": "Seviye 1",
+    "level1Title": "Concrete Temelleri",
     "level1Desc": "Concrete'nin temel misyonunu, vault'larını, risk yönetimini kapsayan 15 kavramsal soru.",
-    "level1Duration": "~10 dak", "level2": "Seviye 2", "level2Title": "Concrete Mekanizmaları",
+    "level1Duration": "~10 dak",
+    "level2": "Seviye 2",
+    "level2Title": "Concrete Mekanizmaları",
     "level2Desc": "Çapraz zincir yürütümü, nicel modeller ve protokol mimarisi hakkında 12 ileri düzey soru.",
-    "level2Duration": "~12 dak", "recommended": "Buradan Başlayın", "advanced": "İleri Düzey",
-    "startLevel1": "Seviye 1'i Başlat", "startLevel2": "Seviye 2'yi Başlat"
+    "level2Duration": "~12 dak",
+    "recommended": "Buradan Başlayın",
+    "advanced": "İleri Düzey",
+    "startLevel1": "Seviye 1'i Başlat",
+    "startLevel2": "Seviye 2'yi Başlat"
   },
   "chatbot": {
     "bannerTitle": "Concrete Analistine Her Şeyi Sorun",
     "bannerDesc": "Yapay zekamız yalnızca resmi Concrete belgelerinde eğitilmiştir. Dilinizde kesin, yetkili yanıtlar alın.",
-    "openChat": "Sohbeti Aç", "placeholder": "Concrete protokolü hakkında sorun...",
-    "sending": "Gönderiliyor...", "typingIndicator": "Concrete Analisti düşünüyor...",
+    "openChat": "Sohbeti Aç",
+    "placeholder": "Concrete protokolü hakkında sorun...",
+    "sending": "Gönderiliyor...",
+    "typingIndicator": "Concrete Analisti düşünüyor...",
     "welcomeMessage": "Merhaba. Ben Concrete Analisti — Concrete protokolünüzün kurumsal düzeyde rehberiyim. Yalnızca resmi belgelerden yanıt veririm. Ne öğrenmek istersiniz?"
   },
   "leaderboard": {
-    "title": "Küresel", "titleHighlight": "Liderlik Tablosu",
-    "level1Tab": "Seviye 1", "level2Tab": "Seviye 2",
-    "rank": "Sıra", "username": "Kullanıcı Adı", "score": "Puan", "language": "Dil", "date": "Tarih",
+    "title": "Küresel",
+    "titleHighlight": "Liderlik Tablosu",
+    "level1Tab": "Seviye 1",
+    "level2Tab": "Seviye 2",
+    "rank": "Sıra",
+    "username": "Kullanıcı Adı",
+    "score": "Puan",
+    "language": "Dil",
+    "date": "Tarih",
     "empty": "Henüz puan yok. İlk siz olun!"
   },
   "quizEngine": {
-    "question": "Soru", "of": "/",
-    "submit": "Cevabı Gönder", "next": "Sonraki Soru", "viewResults": "Sonuçları Görüntüle",
-    "correct": "Doğru!", "incorrect": "Yanlış", "explanation": "Açıklama",
-    "yourScore": "Puanınız", "rank": "Sıralamanız",
-    "submitScore": "Liderlik Tablosuna Gönder", "username": "Kullanıcı adı girin",
-    "submitting": "Gönderiliyor...", "submitted": "Puan Gönderildi!",
-    "playAgain": "Tekrar Oyna", "retake": "Testi Tekrar Al"
+    "question": "Soru",
+    "of": "/",
+    "submit": "Cevabı Gönder",
+    "next": "Sonraki Soru",
+    "viewResults": "Sonuçları Görüntüle",
+    "correct": "Doğru!",
+    "incorrect": "Yanlış",
+    "explanation": "Açıklama",
+    "yourScore": "Puanınız",
+    "rank": "Sıralamanız",
+    "submitScore": "Liderlik Tablosuna Gönder",
+    "username": "Kullanıcı adı girin",
+    "submitting": "Gönderiliyor...",
+    "submitted": "Puan Gönderildi!",
+    "playAgain": "Tekrar Oyna",
+    "retake": "Testi Tekrar Al"
   },
-  "ranks": { "newbie": "YENİ BAŞLAYAN", "navigator": "NAVİGATÖR", "guru": "GURU", "master": "USTA" },
+  "ranks": {
+    "newbie": "YENİ BAŞLAYAN",
+    "navigator": "NAVİGATÖR",
+    "guru": "GURU",
+    "master": "USTA"
+  },
   "masterTeaser": {
     "title": "Yeni Bir Seviye Geliyor...",
     "subtitle": "Bugün var olanı ustalık kazandınız. Ama Concrete Protokolü büyüyor.",
@@ -63,12 +112,37 @@
   "footer": {
     "tagline": "Her DeFi öğrencisini Concrete Master'a dönüştürün.",
     "disclaimer": "Concrete Academy — Eğitim platformu. Finansal tavsiye değildir.",
-    "links": { "docs": "Belgeler", "app": "Uygulamayı Aç", "blog": "Blog", "audit": "Güvenlik Denetimi", "twitter": "Twitter/X", "points": "Puan Kampanyası" }
+    "links": {
+      "docs": "Belgeler",
+      "app": "Uygulamayı Aç",
+      "blog": "Blog",
+      "audit": "Güvenlik Denetimi",
+      "twitter": "Twitter/X",
+      "points": "Puan Kampanyası"
+    }
   },
   "learn": {
-    "title": "Öğrenme", "titleHighlight": "Modülleri",
+    "title": "Öğrenme",
+    "titleHighlight": "Modülleri",
     "subtitle": "Doğrudan resmi Concrete belgelerinden kaynaklanan yapılandırılmış içerik.",
-    "readMore": "Modülü Oku", "readTime": "dak okuma", "backToModules": "Modüllere Geri Dön"
+    "readMore": "Modülü Oku",
+    "readTime": "dak okuma",
+    "backToModules": "Modüllere Geri Dön"
   },
-  "common": { "loading": "Yükleniyor...", "error": "Bir şeyler ters gitti", "tryAgain": "Tekrar Dene" }
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir şeyler ters gitti",
+    "tryAgain": "Tekrar Dene"
+  },
+  "chatPage": {
+    "title": "Concrete",
+    "titleHighlight": "Analisti",
+    "subtitle": "Concrete protokolü hakkında her şeyi kendi dilinizde sorun.",
+    "clearChat": "Temizle",
+    "suggestedTitle": "Sormayı deneyin:",
+    "poweredBy": "Resmi Concrete belgelerine dayalı · Asla spekülasyon yapmaz",
+    "inputPlaceholder": "Concrete protokolü hakkında sorun...",
+    "thinking": "Düşünüyor...",
+    "welcome": "Merhaba. Ben Concrete Analisti — Concrete protokolünüzün rehberiyim. Türkçe olarak soru sorabilirsiniz."
+  }
 }

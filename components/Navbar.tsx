@@ -25,6 +25,7 @@ export default function Navbar({ locale }: NavbarProps) {
   const navLinks = [
     { href: `/${locale}/learn`, label: t('learn') },
     { href: `/${locale}/quiz`, label: t('quiz') },
+    { href: `/${locale}/chat`, label: t('chat') },
     { href: `/${locale}/leaderboard`, label: t('leaderboard') },
   ];
 
