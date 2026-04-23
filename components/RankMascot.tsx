@@ -101,8 +101,10 @@ export default function RankMascot({ score, animate = true }: RankMascotProps) {
           />
         )}
 
-        {/* Mascot visual — emoji/letter placeholder until real image is provided */}
-        <motion.div
+        {/* Mascot image */}
+        <motion.img
+          src="/mascot/moai.png"
+          alt={`Moai ${config.label}`}
           className={config.cssClass}
           animate={
             rank === 'newbie'
@@ -114,38 +116,9 @@ export default function RankMascot({ score, animate = true }: RankMascotProps) {
           style={{
             width: '100%',
             height: '100%',
-            borderRadius: '50%',
-            background:
-              isMaster
-                ? 'radial-gradient(circle at 35% 35%, #2a3340, #171c22)'
-                : 'radial-gradient(circle at 35% 35%, var(--bg-elevated), var(--bg-secondary))',
-            border: `2px solid ${config.color}`,
-            boxShadow: config.glow,
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            justifyContent: 'center',
-            fontSize: '60px',
-            position: 'relative',
-            overflow: 'hidden',
+            objectFit: 'contain',
           }}
-        >
-          {/* Use actual image if it exists, otherwise show emoji */}
-          <span style={{ userSelect: 'none' }}>🗿</span>
-
-          {/* Rank label overlay at bottom */}
-          <div
-            style={{
-              position: 'absolute',
-              bottom: 0,
-              left: 0,
-              right: 0,
-              background: `linear-gradient(to top, ${config.color}30, transparent)`,
-              padding: '8px 0',
-              textAlign: 'center',
-            }}
-          />
-        </motion.div>
+        />
       </motion.div>
 
       {/* Rank badge */}
