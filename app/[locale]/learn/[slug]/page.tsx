@@ -43,8 +43,6 @@ export default async function ModuleReadPage({ params }: PageProps) {
     (mod.content as ModuleContent)['en'] ||
     [];
 
-  const isEnglishFallback = locale !== 'en' && !(mod.content as ModuleContent)[locale];
-
   return (
     <>
       <div style={{ paddingTop: '80px', minHeight: '100vh' }}>
@@ -95,27 +93,9 @@ export default async function ModuleReadPage({ params }: PageProps) {
               }}
             >
               <Clock size={12} />
-              {mod.readingTime} min read
+              {mod.readingTime} {t('readTime')}
             </div>
           </div>
-
-          {/* English-only notice for non-English locales */}
-          {isEnglishFallback && (
-            <div
-              style={{
-                padding: '10px 16px',
-                background: 'rgba(245,166,35,0.06)',
-                border: '1px solid rgba(245,166,35,0.2)',
-                borderRadius: '8px',
-                marginBottom: '32px',
-                fontSize: '0.72rem',
-                fontFamily: "'IBM Plex Mono', monospace",
-                color: 'var(--accent-amber)',
-              }}
-            >
-              Content currently available in English only.
-            </div>
-          )}
 
           {/* Divider */}
           <div
