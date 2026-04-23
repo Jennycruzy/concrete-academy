@@ -221,6 +221,7 @@ export default function FullChatSection({
         <div
           style={{
             flex: 1,
+            minHeight: 0,
             overflowY: 'auto',
             padding: '24px 20px',
             display: 'flex',
@@ -316,7 +317,7 @@ export default function FullChatSection({
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
-              style={{ padding: '0 20px 12px', flexShrink: 0 }}
+              style={{ padding: '0 20px 12px', flexShrink: 0, overflow: 'hidden' }}
             >
               <div style={{ fontSize: '0.65rem', fontFamily: "'IBM Plex Mono', monospace", color: 'var(--text-muted)', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: '8px' }}>
                 {suggestedTitle}

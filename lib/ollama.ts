@@ -102,7 +102,7 @@ export async function queryOllama(
         temperature: 0.1,
         top_p: 0.9,
         num_ctx: 2048,
-        num_predict: 400,
+        num_predict: 180,
       },
     }),
   });
