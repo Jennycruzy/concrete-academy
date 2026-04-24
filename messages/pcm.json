@@ -7,16 +7,16 @@
     "chat": "Chat"
   },
   "hero": {
-    "badge": "Concrete Academy — Official Education Platform",
+    "badge": "Concrete Academy — Na Official Education Platform We Be",
     "title": "Master Di Best DeFi",
     "titleHighlight": "Yield System Wey Exist",
     "subtitle": "Learn Concrete DeFi through organized content, test your knowledge with ranked quiz, and get answers from AI wey dem train on official Concrete docs.",
     "ctaLearn": "Start Learn",
     "ctaQuiz": "Take Quiz",
-    "stat1": "6 Languages",
-    "stat2": "2 Quiz Levels",
-    "stat3": "4 Rank Tiers",
-    "stat4": "Powered by Concrete Docs"
+    "stat1": "6 Language",
+    "stat2": "2 Quiz Level",
+    "stat3": "4 Rank Tier",
+    "stat4": "Na Concrete Docs Power Am"
   },
   "features": {
     "title": "Four Pillars of",
@@ -65,7 +65,7 @@
     "placeholder": "Ask about Concrete protocol...",
     "sending": "Sending...",
     "typingIndicator": "Concrete Analyst dey think...",
-    "welcomeMessage": "How do. I be Concrete Analyst — your guide for learning Concrete protocol. I only answer from official Concrete docs. Wetin you want understand?"
+    "welcomeMessage": "How you dey. I be Concrete Analyst — your guide for learning Concrete protocol. I only answer from official Concrete docs. Wetin you want understand?"
   },
   "leaderboard": {
     "title": "Global",
