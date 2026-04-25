@@ -24,6 +24,7 @@ const rankConfig = {
     glow: 'none',
     label: 'NEWBIE',
     cssClass: 'mascot-newbie',
+    image: '/mascot/mascot-newbie.png',
     motionRotate: -8,
     motionY: 10,
   },
@@ -33,6 +34,7 @@ const rankConfig = {
     glow: '0 0 20px rgba(245,166,35,0.2)',
     label: 'NAVIGATOR',
     cssClass: 'mascot-navigator',
+    image: '/mascot/mascot-navigator.png',
     motionRotate: -3,
     motionY: 0,
   },
@@ -42,6 +44,7 @@ const rankConfig = {
     glow: '0 0 25px rgba(245,166,35,0.35)',
     label: 'GURU',
     cssClass: 'mascot-guru',
+    image: '/mascot/moai.png',
     motionRotate: 0,
     motionY: 0,
   },
@@ -51,6 +54,7 @@ const rankConfig = {
     glow: '0 0 40px rgba(0,212,170,0.5)',
     label: 'MASTER',
     cssClass: 'mascot-master',
+    image: '/mascot/moai.png',
     motionRotate: 0,
     motionY: 0,
   },
@@ -103,7 +107,7 @@ export default function RankMascot({ score, animate = true }: RankMascotProps) {
 
         {/* Mascot image */}
         <motion.img
-          src="/mascot/moai.png"
+          src={config.image}
           alt={`Moai ${config.label}`}
           className={config.cssClass}
           animate={
