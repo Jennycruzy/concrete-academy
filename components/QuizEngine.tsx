@@ -33,7 +33,36 @@ interface QuizEngineProps {
   locale: Locale;
 }
 
-const OPTION_LETTERS = ['A', 'B', 'C', 'D'];
+const OPTION_LETTERS = ['A', 'B', 'C', 'D', 'E'];
+
+function shuffleQuestion(question: Question): Question {
+  const baseOpts = question.options['en'] || [];
+  const count = baseOpts.length;
+
+  // Fisher-Yates shuffle of indices
+  const indices = Array.from({ length: count }, (_, i) => i);
+  for (let i = indices.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [indices[i], indices[j]] = [indices[j], indices[i]];
+  }
+
+  // Apply same shuffle order to every locale, stripping the embedded letter prefix
+  const newOptions: Option = {};
+  for (const loc of Object.keys(question.options)) {
+    const localOpts = question.options[loc];
+    newOptions[loc] = indices.map(i => localOpts[i].replace(/^[A-Ea-e]\)\s*/, ''));
+  }
+
+  // Remap correct letter to new position
+  const oldCorrectIndex = OPTION_LETTERS.indexOf(question.correct.toUpperCase());
+  const newCorrectIndex = indices.indexOf(oldCorrectIndex);
+
+  return {
+    ...question,
+    options: newOptions,
+    correct: OPTION_LETTERS[newCorrectIndex],
+  };
+}
 
 export default function QuizEngine({ data, locale }: QuizEngineProps) {
   const t = useTranslations('quizEngine');
@@ -46,7 +75,7 @@ export default function QuizEngine({ data, locale }: QuizEngineProps) {
   const [scoreSubmitted, setScoreSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [questions, setQuestions] = useState<Question[]>(() =>
-    [...data.questions].sort(() => Math.random() - 0.5).slice(0, 10)
+    [...data.questions].sort(() => Math.random() - 0.5).slice(0, 10).map(shuffleQuestion)
   );
   const current = questions[currentIndex];
   const progress = (currentIndex / 10) * 100;
@@ -106,7 +135,7 @@ export default function QuizEngine({ data, locale }: QuizEngineProps) {
   };
 
   const handleRetake = () => {
-    setQuestions([...data.questions].sort(() => Math.random() - 0.5).slice(0, 10));
+    setQuestions([...data.questions].sort(() => Math.random() - 0.5).slice(0, 10).map(shuffleQuestion));
     setCurrentIndex(0);
     setSelected(null);
     setSubmitted(false);
