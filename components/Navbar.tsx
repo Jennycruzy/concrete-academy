@@ -81,7 +81,7 @@ export default function Navbar({ locale }: NavbarProps) {
               fontFamily: "'Syne', sans-serif",
             }}
           >
-            CA
+            C
           </div>
           <span
             style={{

@@ -28,14 +28,14 @@ function HexIcon({ size = 28 }: { size?: number }) {
       <polygon
         points="14,2 25,8 25,20 14,26 3,20 3,8"
         fill="none"
-        stroke="#00d4aa"
+        stroke="#d4956a"
         strokeWidth="1.5"
       />
       <polygon
         points="14,6 22,10.5 22,17.5 14,22 6,17.5 6,10.5"
-        fill="rgba(0,212,170,0.12)"
+        fill="rgba(212,149,106,0.12)"
       />
-      <circle cx="14" cy="14" r="3" fill="#00d4aa" />
+      <circle cx="14" cy="14" r="3" fill="#d4956a" />
     </svg>
   );
 }
@@ -48,6 +48,7 @@ export default function ChatBot({ locale }: ChatBotProps) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [initialized, setInitialized] = useState(false);
+  const [showBubble, setShowBubble] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
 
@@ -121,41 +122,136 @@ export default function ChatBot({ locale }: ChatBotProps) {
 
   return (
     <>
-      {/* Floating trigger button */}
-      <motion.button
-        onClick={() => setOpen(true)}
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
-        aria-label="Open chat with The Concrete Analyst"
-        style={{
-          position: 'fixed',
-          bottom: '28px',
-          right: '28px',
-          zIndex: 200,
-          width: '56px',
-          height: '56px',
-          borderRadius: '50%',
-          background: 'var(--accent-primary)',
-          border: 'none',
-          cursor: 'pointer',
-          display: open ? 'none' : 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          boxShadow: '0 0 20px rgba(0,212,170,0.4), 0 4px 24px rgba(0,0,0,0.4)',
-          transition: 'box-shadow 0.3s ease',
-          color: '#0a0c0f',
-        }}
-        onMouseEnter={e =>
-          ((e.currentTarget as HTMLButtonElement).style.boxShadow =
-            '0 0 35px rgba(0,212,170,0.6), 0 4px 24px rgba(0,0,0,0.4)')
-        }
-        onMouseLeave={e =>
-          ((e.currentTarget as HTMLButtonElement).style.boxShadow =
-            '0 0 20px rgba(0,212,170,0.4), 0 4px 24px rgba(0,0,0,0.4)')
-        }
-      >
-        <MessageSquare size={22} />
-      </motion.button>
+      {/* Floating trigger — Moai mascot above chat button */}
+      {!open && (
+        <div
+          style={{
+            position: 'fixed',
+            bottom: '20px',
+            right: '24px',
+            zIndex: 200,
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            gap: '8px',
+          }}
+        >
+          {/* Moai avatar with hover speech bubble */}
+          <div
+            style={{ position: 'relative', display: 'flex', justifyContent: 'center' }}
+            onMouseEnter={() => setShowBubble(true)}
+            onMouseLeave={() => setShowBubble(false)}
+          >
+            {/* Speech bubble */}
+            <AnimatePresence>
+              {showBubble && (
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.85, y: 6 }}
+                  animate={{ opacity: 1, scale: 1, y: 0 }}
+                  exit={{ opacity: 0, scale: 0.85, y: 6 }}
+                  transition={{ type: 'spring', stiffness: 320, damping: 28 }}
+                  style={{
+                    position: 'absolute',
+                    bottom: 'calc(100% + 10px)',
+                    right: '0',
+                    background: 'var(--bg-elevated)',
+                    border: '1px solid var(--border)',
+                    borderRadius: '14px 14px 4px 14px',
+                    padding: '9px 14px',
+                    whiteSpace: 'nowrap',
+                    boxShadow: '0 6px 24px rgba(0,0,0,0.12)',
+                    pointerEvents: 'none',
+                  }}
+                >
+                  <span style={{
+                    fontFamily: "'IBM Plex Mono', monospace",
+                    fontSize: '0.72rem',
+                    color: 'var(--text-primary)',
+                    letterSpacing: '0.01em',
+                  }}>
+                    Hi, I&apos;m Moai how may I help you?
+                  </span>
+                  {/* Bubble tail */}
+                  <div style={{
+                    position: 'absolute',
+                    bottom: '-6px',
+                    right: '18px',
+                    width: '10px',
+                    height: '10px',
+                    background: 'var(--bg-elevated)',
+                    border: '1px solid var(--border)',
+                    borderTop: 'none',
+                    borderLeft: 'none',
+                    transform: 'rotate(45deg)',
+                  }} />
+                </motion.div>
+              )}
+            </AnimatePresence>
+
+            {/* Moai image */}
+            <motion.div
+              onClick={() => setOpen(true)}
+              whileHover={{ scale: 1.08, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+              style={{
+                width: '64px',
+                height: '64px',
+                borderRadius: '50%',
+                overflow: 'hidden',
+                cursor: 'pointer',
+                border: '2.5px solid var(--border-bright)',
+                boxShadow: '0 4px 18px rgba(0,0,0,0.14)',
+                flexShrink: 0,
+              }}
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/mascot/moai.jpg"
+                alt="Moai assistant"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  objectPosition: '50% 12%',
+                  display: 'block',
+                }}
+              />
+            </motion.div>
+          </div>
+
+          {/* Chat button */}
+          <motion.button
+            onClick={() => setOpen(true)}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            aria-label="Open chat with The Concrete Analyst"
+            style={{
+              width: '52px',
+              height: '52px',
+              borderRadius: '50%',
+              background: 'var(--accent-primary)',
+              border: 'none',
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              boxShadow: '0 0 18px rgba(212,149,106,0.45), 0 4px 20px rgba(0,0,0,0.18)',
+              transition: 'box-shadow 0.3s ease',
+              color: '#ffffff',
+            }}
+            onMouseEnter={e =>
+              ((e.currentTarget as HTMLButtonElement).style.boxShadow =
+                '0 0 30px rgba(212,149,106,0.65), 0 4px 20px rgba(0,0,0,0.2)')
+            }
+            onMouseLeave={e =>
+              ((e.currentTarget as HTMLButtonElement).style.boxShadow =
+                '0 0 18px rgba(212,149,106,0.45), 0 4px 20px rgba(0,0,0,0.18)')
+            }
+          >
+            <MessageSquare size={20} />
+          </motion.button>
+        </div>
+      )}
 
       {/* Chat panel */}
       <AnimatePresence>
@@ -178,7 +274,7 @@ export default function ChatBot({ locale }: ChatBotProps) {
               border: '1px solid var(--border)',
               borderRadius: '20px',
               overflow: 'hidden',
-              boxShadow: '0 20px 60px rgba(0,0,0,0.5), var(--glow-teal)',
+              boxShadow: '0 20px 60px rgba(0,0,0,0.15), var(--glow-peach)',
             }}
           >
             {/* Header */}
@@ -407,7 +503,7 @@ export default function ChatBot({ locale }: ChatBotProps) {
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    color: input.trim() && !loading ? '#0a0c0f' : 'var(--text-muted)',
+                    color: input.trim() && !loading ? '#ffffff' : 'var(--text-muted)',
                     transition: 'all 0.2s ease',
                     flexShrink: 0,
                   }}
