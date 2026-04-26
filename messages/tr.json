@@ -65,7 +65,8 @@
     "placeholder": "Concrete protokolü hakkında sorun...",
     "sending": "Gönderiliyor...",
     "typingIndicator": "Concrete Analisti düşünüyor...",
-    "welcomeMessage": "Merhaba. Ben Concrete Analisti — Concrete protokolünüzün kurumsal düzeyde rehberiyim. Yalnızca resmi belgelerden yanıt veririm. Ne öğrenmek istersiniz?"
+    "welcomeMessage": "Merhaba. Ben Concrete Analisti — Concrete protokolünüzün kurumsal düzeyde rehberiyim. Yalnızca resmi belgelerden yanıt veririm. Ne öğrenmek istersiniz?",
+    "moaiGreeting": "Merhaba, ben Moai, nasıl yardımcı olabilirim?"
   },
   "leaderboard": {
     "title": "Küresel",

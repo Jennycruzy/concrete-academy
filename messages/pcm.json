@@ -65,7 +65,8 @@
     "placeholder": "Ask about Concrete protocol...",
     "sending": "Sending...",
     "typingIndicator": "Concrete Analyst dey think...",
-    "welcomeMessage": "How you dey. I be Concrete Analyst — your guide for learning Concrete protocol. I only answer from official Concrete docs. Wetin you want understand?"
+    "welcomeMessage": "How you dey. I be Concrete Analyst — your guide for learning Concrete protocol. I only answer from official Concrete docs. Wetin you want understand?",
+    "moaiGreeting": "How far! Na Moai be my name, how I fit help you?"
   },
   "leaderboard": {
     "title": "Global",

@@ -65,7 +65,8 @@
     "placeholder": "Ask about Concrete protocol...",
     "sending": "Sending...",
     "typingIndicator": "The Concrete Analyst is thinking...",
-    "welcomeMessage": "Hello. I am The Concrete Analyst — your institutional-grade guide to the Concrete protocol. I answer exclusively from official Concrete documentation. What would you like to understand?"
+    "welcomeMessage": "Hello. I am The Concrete Analyst — your institutional-grade guide to the Concrete protocol. I answer exclusively from official Concrete documentation. What would you like to understand?",
+    "moaiGreeting": "Hi, I'm Moai how may I help you?"
   },
   "leaderboard": {
     "title": "Global",

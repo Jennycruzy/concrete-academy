@@ -169,7 +169,7 @@ export default function ChatBot({ locale }: ChatBotProps) {
                     color: 'var(--text-primary)',
                     letterSpacing: '0.01em',
                   }}>
-                    Hi, I&apos;m Moai how may I help you?
+                    {t('moaiGreeting')}
                   </span>
                   {/* Bubble tail */}
                   <div style={{

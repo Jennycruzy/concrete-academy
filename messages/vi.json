@@ -65,7 +65,8 @@
     "placeholder": "Hỏi về giao thức Concrete...",
     "sending": "Đang gửi...",
     "typingIndicator": "Nhà phân tích Concrete đang suy nghĩ...",
-    "welcomeMessage": "Xin chào. Tôi là Nhà phân tích Concrete. Tôi trả lời dựa trên tài liệu chính thức Concrete. Bạn muốn tìm hiểu điều gì?"
+    "welcomeMessage": "Xin chào. Tôi là Nhà phân tích Concrete. Tôi trả lời dựa trên tài liệu chính thức Concrete. Bạn muốn tìm hiểu điều gì?",
+    "moaiGreeting": "Xin chào, tôi là Moai, tôi có thể giúp gì cho bạn?"
   },
   "leaderboard": {
     "title": "Bảng xếp hạng",

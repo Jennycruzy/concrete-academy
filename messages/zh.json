@@ -65,7 +65,8 @@
     "placeholder": "询问关于Concrete协议的问题...",
     "sending": "发送中...",
     "typingIndicator": "Concrete分析师正在思考...",
-    "welcomeMessage": "您好。我是Concrete分析师——您了解Concrete协议的机构级向导。我专门基于官方Concrete文档回答问题。您想了解什么？"
+    "welcomeMessage": "您好。我是Concrete分析师——您了解Concrete协议的机构级向导。我专门基于官方Concrete文档回答问题。您想了解什么？",
+    "moaiGreeting": "你好，我是Moai，有什么可以帮你的吗？"
   },
   "leaderboard": {
     "title": "全球",

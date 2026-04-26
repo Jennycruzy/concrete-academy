@@ -65,7 +65,8 @@
     "placeholder": "Tanyakan tentang protokol Concrete...",
     "sending": "Mengirim...",
     "typingIndicator": "Analis Concrete sedang berpikir...",
-    "welcomeMessage": "Halo. Saya Analis Concrete. Saya menjawab berdasarkan dokumentasi resmi Concrete. Apa yang ingin Anda pahami?"
+    "welcomeMessage": "Halo. Saya Analis Concrete. Saya menjawab berdasarkan dokumentasi resmi Concrete. Apa yang ingin Anda pahami?",
+    "moaiGreeting": "Hei, saya Moai, bagaimana saya bisa membantu Anda?"
   },
   "leaderboard": {
     "title": "Papan Peringkat",

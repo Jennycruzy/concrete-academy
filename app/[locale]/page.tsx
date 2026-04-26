@@ -7,7 +7,6 @@ import Footer from '@/components/Footer';
 import FeaturesSection from '@/components/FeaturesSection';
 import LearningPath from '@/components/LearningPath';
 import QuizCTA from '@/components/QuizCTA';
-import ChatbotBanner from '@/components/ChatbotBanner';
 
 interface PageProps {
   params: Promise<{ locale: string }>;
@@ -38,7 +37,6 @@ export default async function HomePage({ params }: PageProps) {
       <FeaturesSection locale={locale as Locale} />
       <LearningPath locale={locale as Locale} />
       <QuizCTA locale={locale as Locale} />
-      <ChatbotBanner locale={locale as Locale} />
       <Footer locale={locale as Locale} />
     </>
   );
